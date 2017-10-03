@@ -42,6 +42,10 @@ banner: http://cdn2.hubspot.net/hub/53/file-23115630-jpg/blog/images/blogging_im
 
 어쩔수 없이 포스트의 파일명을 전부 영어로 변경하는 수 밖에 없었다.
 
+![before](/images/hexo/filename-before.png)
+![after](/images/hexo/filename-after.png)
+
+
 -> *헥소에서 URL은 파일명을 따라가고 제목은 title을 따라간다.*
 
 기분도 전환할 겸 테마도 새로 바꾸었으니 새로운 마음으로 포스트를 시작해야겠다 :)
