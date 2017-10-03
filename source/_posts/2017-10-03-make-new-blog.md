@@ -4,6 +4,9 @@ date: 2017-10-03 23:39:41
 tags: hexo
 thumbnail: http://cdn2.hubspot.net/hub/53/file-23115630-jpg/blog/images/blogging_image.jpg
 banner: http://cdn2.hubspot.net/hub/53/file-23115630-jpg/blog/images/blogging_image.jpg
+categories:
+- life
+- blog
 ---
 
 **hexo deploy**에 문제가 있었다.
