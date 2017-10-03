@@ -3,6 +3,7 @@ title: 순수 함수
 date: 2017-10-03 22:46:56
 tags: programming
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/220px-Function_machine2.svg.png
+banner: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/220px-Function_machine2.svg.png
 categories:
 - programming
 - software

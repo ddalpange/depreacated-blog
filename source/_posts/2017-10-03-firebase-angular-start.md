@@ -3,6 +3,7 @@ title: angular firebase2 quick start
 date: 2017-10-03 22:45:44
 tags: [javascript, angular]
 thumbnail: http://www.techjini.com/wp-content/uploads/2017/04/A2.jpg
+banner: http://www.techjini.com/wp-content/uploads/2017/04/A2.jpg
 categories:
 - javascript
 - angular

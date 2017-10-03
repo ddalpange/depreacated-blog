@@ -3,6 +3,7 @@ title: 가장 얇은 지갑 만들기
 date: 2017-10-03 22:47:24
 tags: [javascript, algorithm]
 thumbnail: http://cfile212.uf.daum.net/image/2126BB4F53BCF73D197D26
+banner: http://cfile212.uf.daum.net/image/2126BB4F53BCF73D197D26
 categories:
 - programming
 - algorithm

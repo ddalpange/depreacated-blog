@@ -3,6 +3,7 @@ title: firebase 배포
 date: 2017-10-03 22:45:54
 tags: [javascript, angular, firebase, ionic]
 thumbnail: https://firebase.google.com/images/homepage/news/500_blog_firebase_2x.png?hl=ko
+banner: https://firebase.google.com/images/homepage/news/500_blog_firebase_2x.png?hl=ko
 categories:
 - firebase
 - services

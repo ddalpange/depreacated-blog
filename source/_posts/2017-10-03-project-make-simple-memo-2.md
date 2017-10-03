@@ -3,6 +3,7 @@ title: 간단한 메모장 만들기 2
 date: 2017-10-03 22:48:55
 tags: [javascript, angular, ionic]
 thumbnail: https://cdn-images-1.medium.com/max/1000/1*dlN-vF1YJ7ZpOrx8rOGBEQ.jpeg
+banner: https://cdn-images-1.medium.com/max/1000/1*dlN-vF1YJ7ZpOrx8rOGBEQ.jpeg
 categories:
 - projects
 - simpleMemo
