@@ -2,8 +2,8 @@
 title: 간단한 메모장 만들기 4
 date: 2017-10-03 22:49:00
 tags: [javascript, angular, ionic]
-thumbnail: https://cdn-images-1.medium.com/max/1000/1*dlN-vF1YJ7ZpOrx8rOGBEQ.jpeg
-banner: https://cdn-images-1.medium.com/max/1000/1*dlN-vF1YJ7ZpOrx8rOGBEQ.jpeg
+thumbnail: /images/memo/memoBanner.png
+banner: /images/memo/memoBanner.png
 categories:
 - projects
 - simpleMemo
@@ -591,6 +591,11 @@ export class MemoListPage {
 
 로그인, 로그아웃, 회원가입 총 3가지 기능을 완성하였습니다.
 
-이제 파이어베이스의 데이터베이스를 이용해 데이터를 관리해볼게요!
+다음 포스트 에서는 파이어베이스의 리얼타임 데이터베이스를 이용해 데이터를 관리해볼게요!
 
 
+---
+
+참고 링크
+- [해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simpleMemo)
+- [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)

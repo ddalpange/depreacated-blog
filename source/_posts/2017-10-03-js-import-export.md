@@ -1,7 +1,7 @@
 ---
 title: 임포트와 익스포트
 date: 2017-10-03 22:46:44
-tags: [javascript]
+tags: [javascript, module]
 thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 categories:

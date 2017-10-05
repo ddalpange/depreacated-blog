@@ -2,8 +2,8 @@
 title: 간단한 메모장 만들기 1
 date: 2017-10-03 22:48:48
 tags: [angular, firebase]
-thumbnail: https://cdn-images-1.medium.com/max/1000/1*dlN-vF1YJ7ZpOrx8rOGBEQ.jpeg
-banner: https://cdn-images-1.medium.com/max/1000/1*dlN-vF1YJ7ZpOrx8rOGBEQ.jpeg
+thumbnail: /images/memo/memoBanner.png
+banner: /images/memo/memoBanner.png
 categories:
 - projects
 - simpleMemo
@@ -15,7 +15,7 @@ categories:
 
 **사용기술**
 * 파이어베이스
-* 위지윅 에디터
+* ~~위지윅 에디터~~
 * Angular2
 * Ionic Framework
 
@@ -96,8 +96,8 @@ ionic serve
 
 ![최초 실행 모습](/images/memo1.png)
 
-완성~!
+---
 
-
-[해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simpleMemo)
-[해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
+참고 링크
+- [해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simpleMemo)
+- [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
