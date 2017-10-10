@@ -1,7 +1,7 @@
 ---
 title: 헥소 블로그 삽질
 date: 2017-10-03 23:39:41
-tags: [hexo, hexo deploy, encoding. url encoding]
+tags: [hexo, hexo deploy, encoding, url encoding]
 thumbnail: http://cdn2.hubspot.net/hub/53/file-23115630-jpg/blog/images/blogging_image.jpg
 banner: http://cdn2.hubspot.net/hub/53/file-23115630-jpg/blog/images/blogging_image.jpg
 categories:
