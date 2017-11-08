@@ -9,7 +9,12 @@ thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 ---
 
-이직을 위해 보았던 기술면접에서 틀렸던 문제들을 정리해본다.
+# 자바스크립트 코딩테스트 정리
+
+## 목차
+* [자바스크립트 sort 메소드](#자바스크립트-sort-메소드)
+* [자바스크립트 async 테스트](#자바스크립트-async-테스트)
+* [변수 호이스팅](#변수-호이스팅)
 
 ## 자바스크립트 sort 메소드
 
