@@ -4,15 +4,19 @@ categories:
   - linux
 date: 2017-12-22 23:53:22
 tags: [linux]
-thumbnail: 
-banner: 
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png
+banner: https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png
 ---
 
 # wget
 
-## help
+## 설명
 
-```sh
+CUI환경에서 파일을 다운받을때 사용한다.
+
+## 도움말
+
+```shell
 $ wget -help
 
 GNU Wget 1.17.1, a non-interactive network retriever.
@@ -209,7 +213,7 @@ Mail bug reports and suggestions to <bug-wget@gnu.org>
 
 ## 활용 예
 
-영상 다운로드서버에 올라가있는 영상들을 체크하기위해 한번씩 체크해줄 필요가 있었다.
+영상 다운로드서버에 올라가있는 영상들이 정상적인지를 체크하기위해 한번씩 다운로드해준다.
 
 list.txt
 
@@ -223,4 +227,5 @@ list.txt
 ```sh
 $ wget -i list.txt
 ```
+
 list에 써져있는 파일들을 차례대로 다운로드한다.
