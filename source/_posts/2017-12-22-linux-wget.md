@@ -215,7 +215,8 @@ Mail bug reports and suggestions to <bug-wget@gnu.org>
 
 영상 다운로드서버에 올라가있는 영상들이 정상적인지를 체크하기위해 한번씩 다운로드해준다.
 
-list.txt
+*list.txt*
+
 ```
  http://111.111.11.1/assets/prod/1629/ORIGINAL/1629_1504176178478.ts
  http://111.111.11.1/assets/prod/1630/ORIGINAL/1630_1504176206826.ts
@@ -224,12 +225,16 @@ list.txt
 ```
 
 ```sh
-$ wget -i list.txt
+$ wget -i list.txt -o log --no-verbose
 ```
 
 list에 써져있는 파일들을 차례대로 다운로드한 후 로그를 남긴다(성공여부만 필요)
 
-log
+-i 인풋
+-o 아웃풋
+--no-verbose 다 남길 필요없다.
+
+*log*
 ```
 2017-12-22 17:17:53 URL:http://111.111.11.1/assets/prod/1629/ORIGINAL/1629_1504176178478.ts [16958540/16958540] -> "1629_1504176178478.ts.2" [1]
 2017-12-22 17:17:56 URL:http://111.111.11.1/assets/prod/1630/ORIGINAL/1630_1504176206826.ts [32955836/32955836] -> "1630_1504176206826.ts.2" [1]
