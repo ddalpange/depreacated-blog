@@ -1,5 +1,5 @@
 ---
-title: 자바스크립트 면접 문제들
+title: 자바스크립트 코딩 인터뷰 정리
 categories:
   - javascript
   - pureJavascript
@@ -8,8 +8,6 @@ tags: [javascript, pureJavascript, interview]
 thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 ---
-
-# 자바스크립트 코딩테스트 정리
 
 ## 목차
 * [자바스크립트 sort 메소드](#자바스크립트-sort-메소드)

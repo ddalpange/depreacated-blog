@@ -1,5 +1,5 @@
 ---
-title: 리눅스 wget
+title: 리눅스 wget 명령어
 categories:
   - linux
 date: 2017-12-22 23:53:22
@@ -8,13 +8,13 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png
 banner: https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png
 ---
 
-# wget
-
 ## 설명
 
 CUI환경에서 파일을 다운받을때 사용한다.
 
 ## 도움말
+
+<!-- more -->
 
 ```shell
 $ wget -help

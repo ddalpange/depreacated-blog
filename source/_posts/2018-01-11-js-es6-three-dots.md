@@ -6,19 +6,19 @@ categories:
   - es2015
 date: 2018-01-11 14:21:32
 thumbnail: https://pbs.twimg.com/profile_images/821080734102220800/PANTqUmu.jpg
-banner: https://pbs.twimg.com/profile_images/821080734102220800/PANTqUmu.jpg
 ---
 
-# javasciprt 3 dots extension
-
-자바스크립트는 자바나 다른 정적 언어에 비해 정의되거나 정해진게 많지 않아 어려운 반면이 없지않아 있습니다. 
+자바스크립트는 자바나 다른 정적 언어에 비해 정의되거나 정해진게 많지 않아 어려운 반면이 없지않아 있습니다.
 
 각자 프로그래밍에 대한 생각이 다르다 보니 코딩 스타일도 다르기 때문인데요.
 
 다른 사람들의 소스코드를 읽을때마다 가끔씩 괴랄한 문법이 튀어나오는데 당황하지말고 정리해봅시다.
 
 리액트를 쓰시다 보면 아래와 같이 수상한(?) 문법을 보셨을때가 있었을 겁니다.
-```jsx harmony
+
+<!-- more -->
+
+```jsx
 import React from 'react';
 
 export class BlueButton extends React.component {
@@ -36,11 +36,7 @@ export class BlueButton extends React.component {
 	
 }
 ```
-
-(리액트를 0.13버전만 해봐서 default Props 선언방식이 괴랄할수 있습니다 ..)
-
 사실 위의 *...*표기법은 ES6에서 제안된 문법인데요. Rest Operator와 Spread Operator로 나뉩니다. 한번 알아보도록 하죠
-
  
 ## Rest Operator
 
@@ -133,7 +129,7 @@ console.log(depth.value, depth.oneDepth.value);
 ## 정리
 이제 예제를 다 이해 하셨으면 처음의 문제로 돌아가보죠.
 
-```jsx harmony
+```jsx
 import React from 'react';
 
 export class BlueButton extends React.component {

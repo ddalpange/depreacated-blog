@@ -1,7 +1,7 @@
 ---
 title: 간단한 메모장 만들기 6
 date: 2017-10-03 22:49:05
-ttags: [javascript, angular, ionic]
+tags: [javascript, angular, ionic]
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
 categories:
@@ -169,5 +169,5 @@ export class MemoListPage {
 ---
 
 참고 링크
-- [해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simpleMemo)
+- [해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simple-memo)
 - [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
