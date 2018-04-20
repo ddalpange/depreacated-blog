@@ -1,5 +1,5 @@
 ---
-title: manage-node-version
+title: NodeJS 버전관리
 tags: [nodejs, nvm, n, Current]
 categories:
   - nodejs
@@ -18,9 +18,11 @@ STABLE은 **9.9.0**이니 말 다했다.
 
 ![넌 집에 못가!](/images/common/node-gyp-error.png)
 
-그러므로 Node의 버전을 올릴때, 또는 오래된 노드 프로젝트와 새로 만든 노드 프로젝트를 유연하게 빌드 할수 있을려면
+그러므로 Node의 버전을 올릴때 또는 오래된 노드 프로젝트와 새로 만든 노드 프로젝트를 유연하게 빌드 할수 있을려면
 
 노드 버전을 명령어를 통해 바꿀 수 있어야한다.
+
+<!--  more -->
 
 이와 같은 라이브러리론 [N](https://github.com/tj/n)과 [NVM](https://github.com/creationix/nvm)이 있다.
 
