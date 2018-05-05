@@ -83,6 +83,9 @@ deploy:
   branch: master
   message: deploy!!
 
+admin:
+  deployCommand: './hexo-deploy.sh'
+
 nofollow:
     enable: true
     exclude:

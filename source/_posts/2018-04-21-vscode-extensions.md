@@ -22,11 +22,11 @@ angular를 개발하면서 필요하다 느꼈던 extension을 공유합니다.
 Angular팀에서 내놓은 공식 익스텐션입니다.
 `@angular/language-service`를 같이 깔아야 한다는데 안깔았었네요.
 역시 설명을 잘 읽어봐야 합니다.
-
+<!-- more -->
 3. Auto Rename Tag
 html에서 여는 태그를 변경할때 자동으로 닫는 태그를 변경해줍니다.
 비슷한 용도로 Auto Close Tag가 있는데 Generic을 선언해줄때도 태그로 인식해서 닫아버려요
-`Observable<any></any>` 이런식으로 말이죠. 사실 ***emmet***을 주로 이용하기때문에 필요 없습니다.
+`Observable<any></any>` 이런식으로 말이죠. 사실 *emmet*을 주로 이용하기때문에 필요 없습니다.
 
 4. Beautify
 필수 패키지입니다.
@@ -76,4 +76,10 @@ vscode의 명령팔레트에서 npm 명령어를 사용할 수 있습니다.
 from 쓸때 경로에 대한 intellisense를 알려줘요
 
 18. TODO Highright
-이거 없으면 주석이 하얀색이에요.
+이거 없으면 주석이 하얀색이에요 보기싫습니다.
+
+19. Auto Import
+typescript를 사용할때 각종 package를 자동으로 import해줍니다.
+비슷한 패키지로 typescript hero가 있는데 이 패키지는 absolute import를 지원하지 않습니다.
+
+rxjs를 사용할 때에는 오퍼레이터나 메소드에 대한 인텔리센스를 전혀 제공하지 못하는데 해결방법을 찾아야할듯 싶습니다.
