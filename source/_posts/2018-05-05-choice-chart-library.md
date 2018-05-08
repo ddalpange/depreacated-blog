@@ -1,17 +1,16 @@
----
 title: 자바스크립트 차트 라이브러리
-tags: [javascript, chart]
+tags:
+  - javascript
+  - chart
 categories:
   - javascript
-date: 2018-05-05 08:30:03
-thumbnail:
-banner:
+thumbnail: images/chart-logo.jpg
+banner: images/chart-logo.jpg
+date: 2018-05-05 08:30:00
 ---
-
 Knowru 회사에서 나의 주요업무는 데이터 시각화다.
 여러 차트 라이브러리를 사용해보며 부딪히고 깨진 경험을 공유해보고자 한다.
 
-<!-- more -->
 ## [ChartJS](https://www.chartjs.org/)
 깃허브에서 가장 많은 스타를 받은 차트 라이브러리이다.
 사용법이 굉장히 직관적이고 문서화도 잘되어있는 편이다.
@@ -20,6 +19,9 @@ Canvas를 이용하여 그리기 때문에 반응형 레이아웃도 문제없�
 
 무엇보다 사용자가 많기 때문에 스택 오버플로에서 왠만하면 다 해결할 수 있다.
 현재 Knowru 서비스에서 사용중이다.
+
+<!-- more -->
+
 
 ## [D3.js](https://d3js.org/)
 D3또한 굉장히 유명한 데이터 시각화 라이브러리이다.

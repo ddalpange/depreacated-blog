@@ -7,3 +7,6 @@ editor:
   lineNumbers: true
   inputStyle: contenteditable
   spellcheck: true
+
+metadata:
+  postImage: images/default-logo.png

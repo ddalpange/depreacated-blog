@@ -1,1 +1,2 @@
-hexo d -g
+#!/usr/bin/env sh
+hexo deploy -g
