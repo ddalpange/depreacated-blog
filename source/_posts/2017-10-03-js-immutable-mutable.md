@@ -5,6 +5,7 @@ tags: [javascript]
 categories:
 - javascript
 - pureJavascript
+toc: true
 ---
 
 

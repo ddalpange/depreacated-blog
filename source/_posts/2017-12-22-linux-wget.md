@@ -6,6 +6,7 @@ date: 2017-12-22 23:53:22
 tags: [linux]
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png
 banner: https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png
+toc: true
 ---
 
 ## 설명

@@ -7,12 +7,9 @@ date: 2017-10-26 23:53:22
 tags: [javascript, pureJavascript, interview]
 thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
----
+toc: true
 
-## 목차
-* [자바스크립트 sort 메소드](#자바스크립트-sort-메소드)
-* [자바스크립트 async 테스트](#자바스크립트-async-테스트)
-* [변수 호이스팅](#변수-호이스팅)
+---
 
 ## 자바스크립트 sort 메소드
 

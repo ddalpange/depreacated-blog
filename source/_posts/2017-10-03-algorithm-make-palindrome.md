@@ -7,6 +7,7 @@ banner: https://media2.fdncms.com/portmerc/imager/u/large/18918590/logo.jpg
 categories:
 - programming
 - algorithm
+toc: true
 ---
 
 ## 회문 만들기.

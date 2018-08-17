@@ -7,6 +7,8 @@ banner: /images/memo/memoBanner.png
 categories:
 - projects
 - simpleMemo
+toc: true
+
 ---
 
 이번시간에는 파이어베이스를 이용한 로그인 연동, 회원가입, 로그아웃을 해보겠습니다.

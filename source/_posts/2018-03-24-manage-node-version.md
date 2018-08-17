@@ -6,6 +6,7 @@ categories:
 date: 2018-03-24 18:39:55
 thumbnail: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
 banner: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
+toc: true
 ---
 
 [NodeJS의 버전 업데이트](https://nodejs.org/en/download/releases/)는 약 3일 정도에 마이너 버전이 하나씩 올라갈 정도로 매우 매우 빠르다.

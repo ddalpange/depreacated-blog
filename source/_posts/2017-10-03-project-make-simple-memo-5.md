@@ -7,6 +7,8 @@ banner: /images/memo/memoBanner.png
 categories:
 - projects
 - simpleMemo
+toc: true
+
 ---
 
 이번 시간에는 메모리스트를 파이어베이스의 데이터베이스를 사용하여 CRUD를 해볼게요.

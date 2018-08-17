@@ -7,6 +7,7 @@ banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 categories:
 - javascript
 - pureJavascript
+toc: true
 ---
 
 ### 시작하기 전에

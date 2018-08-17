@@ -7,6 +7,7 @@ banner: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machi
 categories:
 - programming
 - software
+toc: true
 ---
 
 # 순수함수란 ?

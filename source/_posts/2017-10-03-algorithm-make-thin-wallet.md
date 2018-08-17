@@ -7,6 +7,7 @@ banner: http://cfile212.uf.daum.net/image/2126BB4F53BCF73D197D26
 categories:
 - programming
 - algorithm
+toc: true
 ---
 
 

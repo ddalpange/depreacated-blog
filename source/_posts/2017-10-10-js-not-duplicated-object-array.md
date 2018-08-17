@@ -7,13 +7,8 @@ banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 categories:
 - javascript
 - pureJavascript
+toc: true
 ---
-
-## 목차
-- [서론](#서론)
-- [언더스코어의 uniq 메소드](#언더스코어의-uniq-메소드를-이용하는-방법)
-- [ES6 문법 사용](#ES6-문법-사용)
-- [ES5 문법 사용](#ES5-문법-사용)
 
 ## 서론
 

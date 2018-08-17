@@ -7,6 +7,7 @@ banner: http://www.techjini.com/wp-content/uploads/2017/04/A2.jpg
 categories:
 - javascript
 - angular
+toc: true
 ---
 
 

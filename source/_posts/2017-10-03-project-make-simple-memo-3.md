@@ -7,6 +7,8 @@ banner: /images/memo/memoBanner.png
 categories:
 - projects
 - simpleMemo
+toc: true
+
 ---
 
 # 간단한 메모장을 만듭시다 !

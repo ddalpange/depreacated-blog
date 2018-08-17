@@ -7,6 +7,8 @@ banner: /images/memo/memoBanner.png
 categories:
 - projects
 - simpleMemo
+toc: true
+
 ---
 
 이번시간에는 아이오닉에서 제공해주는 무한 스크롤(infinite scroll)을 적용해볼거에요!!
