@@ -21,7 +21,7 @@ customize:
         author_title: Frontend Developer
         location: Seoul, Asia
         follow: https://github.com/ddalpange
-    highlight: github
+    highlight: agate
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: favicon.ico # path to favicon
