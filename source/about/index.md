@@ -1,20 +1,12 @@
-title: About
+title: About Me
 date: 2017-07-26 23:25:27
-
 photos:
-- https://ddalpange.github.io/images/portfolio/travelhow-web/1.png
-- https://ddalpange.github.io/images/portfolio/travelhow-web/2.png
-- https://ddalpange.github.io/images/portfolio/travelhow-mobile/1.png
-- https://ddalpange.github.io/images/portfolio/travelhow-mobile/2.png
-- https://ddalpange.github.io/images/portfolio/travelhow-mobile/3.png
-- https://ddalpange.github.io/images/portfolio/travelhow-mobile/4.png
-- https://ddalpange.github.io/images/portfolio/travelhow-mobile/5.png
-- https://ddalpange.github.io/images/portfolio/knowru/1.png
-- https://ddalpange.github.io/images/portfolio/knowru/2.png
+- https://ddalpange.github.io/images/portfolio/knowru/1.jpg
+- https://ddalpange.github.io/images/portfolio/knowru/2.jpg
 - https://ddalpange.github.io/images/portfolio/knowru/3.png
 - https://ddalpange.github.io/images/portfolio/knowru/4.png
 - https://ddalpange.github.io/images/portfolio/knowru/6.png
-- https://ddalpange.github.io/images/portfolio/knowru/7.png
+- https://ddalpange.github.io/images/portfolio/knowru/7.jpg
 - https://ddalpange.github.io/images/portfolio/knowru/8.png
 - https://ddalpange.github.io/images/portfolio/knowru/9.png
 - https://ddalpange.github.io/images/portfolio/knowru/10.png
@@ -24,6 +16,14 @@ photos:
 - https://ddalpange.github.io/images/portfolio/oowa/2.png
 - https://ddalpange.github.io/images/portfolio/oowa/3.png
 - https://ddalpange.github.io/images/portfolio/oowa/4.png
+- https://ddalpange.github.io/images/portfolio/travelhow-web/1.png
+- https://ddalpange.github.io/images/portfolio/travelhow-web/2.png
+- https://ddalpange.github.io/images/portfolio/travelhow-mobile/1.png
+- https://ddalpange.github.io/images/portfolio/travelhow-mobile/2.png
+- https://ddalpange.github.io/images/portfolio/travelhow-mobile/3.png
+- https://ddalpange.github.io/images/portfolio/travelhow-mobile/4.png
+- https://ddalpange.github.io/images/portfolio/travelhow-mobile/5.png
+
 ---
 
 ## 김요한 (Yohan Kim)
@@ -51,9 +51,6 @@ photos:
 > 트래블하우 PC 플랫폼입니다. 항공 예약 프로세스 전격 개편을 진행하였습니다. 
 **React**, **Reflux**
 
-![https://ddalpange.github.io/images/portfolio/travelhow-web/1.png](https://ddalpange.github.io/images/portfolio/travelhow-web/1.png)
-![https://ddalpange.github.io/images/portfolio/travelhow-web/2.png](https://ddalpange.github.io/images/portfolio/travelhow-web/2.png)
-
 ### [Mobile Travelhow](https://m.travelhow.com)
 > 트래블하우 Mobile 플랫폼입니다. 유지보수를 총괄하였으며, 주로 호텔 리팩토링과 신한 제휴서비스를 담당하였습니다.
 **React**, **Reflux**, **PostCSS**, **Cordova Webview**
@@ -62,12 +59,6 @@ photos:
 > 트래블하우 Mobile2 (수정 후) 플랫폼입니다. Mobile플랫폼의 유지보수보다 신규개발이 빠르다고 판단하여 새로 진행한 프로젝트입니다. 액티비티 서비스 신규개발을 전담하였습니다
 **Ionic**, **Angular**, **RxJS**
 
-![https://ddalpange.github.io/images/portfolio/travelhow-mobile/1.png](https://ddalpange.github.io/images/portfolio/travelhow-mobile/1.png)
-![https://ddalpange.github.io/images/portfolio/travelhow-mobile/2.png](https://ddalpange.github.io/images/portfolio/travelhow-mobile/2.png)
-![https://ddalpange.github.io/images/portfolio/travelhow-mobile/3.png](https://ddalpange.github.io/images/portfolio/travelhow-mobile/3.png)
-![https://ddalpange.github.io/images/portfolio/travelhow-mobile/4.png](https://ddalpange.github.io/images/portfolio/travelhow-mobile/4.png)
-![https://ddalpange.github.io/images/portfolio/travelhow-mobile/5.png](https://ddalpange.github.io/images/portfolio/travelhow-mobile/5.png)
-
 ### [Biz Travelhow](https://biz.travelhow.biz)
 > 트래블하우 비즈니스 플랫폼입니다. 항공 카테고리를 전담하여 신규 개발하였습니다.
 **Angular**, **RxJS**
@@ -75,31 +66,8 @@ photos:
 ### [Knowru](https://www.knowru.com)
 > 데이터 시각화, 머신러닝 호스팅
 
-<div class="justified-gallery>
-
-![https://ddalpange.github.io/images/portfolio/knowru/1.png](https://ddalpange.github.io/images/portfolio/knowru/1.jpg)
-![https://ddalpange.github.io/images/portfolio/knowru/2.png](https://ddalpange.github.io/images/portfolio/knowru/2.jpg)
-![https://ddalpange.github.io/images/portfolio/knowru/3.png](https://ddalpange.github.io/images/portfolio/knowru/3.png)
-![https://ddalpange.github.io/images/portfolio/knowru/4.png](https://ddalpange.github.io/images/portfolio/knowru/4.png)
-![https://ddalpange.github.io/images/portfolio/knowru/5.png](https://ddalpange.github.io/images/portfolio/knowru/5.png)
-![https://ddalpange.github.io/images/portfolio/knowru/6.png](https://ddalpange.github.io/images/portfolio/knowru/6.png)
-![https://ddalpange.github.io/images/portfolio/knowru/7.png](https://ddalpange.github.io/images/portfolio/knowru/7.jpg)
-![https://ddalpange.github.io/images/portfolio/knowru/8.png](https://ddalpange.github.io/images/portfolio/knowru/8.png)
-![https://ddalpange.github.io/images/portfolio/knowru/9.png](https://ddalpange.github.io/images/portfolio/knowru/9.png)
-![https://ddalpange.github.io/images/portfolio/knowru/10.png](https://ddalpange.github.io/images/portfolio/knowru/10.png)
-![https://ddalpange.github.io/images/portfolio/knowru/11.png](https://ddalpange.github.io/images/portfolio/knowru/11.png)
-![https://ddalpange.github.io/images/portfolio/knowru/12.png](https://ddalpange.github.io/images/portfolio/knowru/12.png)
-
-</div>
-
-
 ### [Oowa](https://oowa.io)
 > IOT, People Counting
-
-![https://ddalpange.github.io/images/portfolio/oowa/1.png](https://ddalpange.github.io/images/portfolio/oowa/1.png)
-![https://ddalpange.github.io/images/portfolio/oowa/2.png](https://ddalpange.github.io/images/portfolio/oowa/2.png)
-![https://ddalpange.github.io/images/portfolio/oowa/3.png](https://ddalpange.github.io/images/portfolio/oowa/3.png)
-![https://ddalpange.github.io/images/portfolio/oowa/4.png](https://ddalpange.github.io/images/portfolio/oowa/4.png)
 
 ---
 
