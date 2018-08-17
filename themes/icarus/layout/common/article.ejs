@@ -28,9 +28,6 @@
                 <strong class="toc-title"><%= __('article.catalogue') %></strong>
                     <%- toc(post.content) %>
                 </div>
-                <p class="article-more-link">
-                    <a href="<%- url_for(post.path) %>#more"><%= __('article.more') %></a>
-                </p>
             <% } %>
             <%- post.content %>
         <% } %>
