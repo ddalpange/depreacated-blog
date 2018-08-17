@@ -1,41 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdd137eb-c321-4f78-9bf4-9b9e7b9571b3" name="Default" comment="update theme version">
+    <list default="true" id="bdd137eb-c321-4f78-9bf4-9b9e7b9571b3" name="Default" comment="감자탕 먹고싶다">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-algorithm-make-palindrome.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-algorithm-make-palindrome.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-algorithm-make-thin-wallet.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-algorithm-make-thin-wallet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-firebase-angular-start.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-firebase-angular-start.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-firebase-deploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-firebase-deploy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-firebase.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-firebase.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-ionic-postcss-error.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-ionic-postcss-error.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-immutable-mutable.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-immutable-mutable.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-import-export.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-import-export.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-pureFunc.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-pureFunc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-js-study-6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-03-project-make-simple-memo-6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-10-js-clone-object.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-10-js-clone-object.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-10-js-not-duplicated-object-array.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-10-js-not-duplicated-object-array.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-10-26-js-interview-example.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-10-26-js-interview-example.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2017-12-22-linux-wget.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2017-12-22-linux-wget.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2018-01-11-js-es6-three-dots.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-01-11-js-es6-three-dots.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2018-02-26-project-make-simpe-memo-finall.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-02-26-project-make-simpe-memo-finall.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2018-03-24-manage-node-version.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-03-24-manage-node-version.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2018-04-21-vscode-extensions.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-04-21-vscode-extensions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2018-05-05-choice-chart-library.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-05-05-choice-chart-library.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/icarus/languages/ko.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/languages/ko.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/portfolio/travelhow-mobile/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/portfolio/travelhow-mobile/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/portfolio/travelhow-mobile/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/portfolio/travelhow-mobile/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/portfolio/travelhow-mobile/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/portfolio/travelhow(web)/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/portfolio/travelhow-web/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/portfolio/travelhow(web)/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/portfolio/travelhow-web/2.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,52 +32,78 @@
           <entry key="gitignore" value="1" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="3" />
-          <entry key="js" value="1" />
+          <entry key="js" value="3" />
           <entry key="json" value="3" />
           <entry key="lock" value="1" />
-          <entry key="md" value="46" />
-          <entry key="png" value="24" />
-          <entry key="styl" value="3" />
-          <entry key="yml" value="7" />
+          <entry key="md" value="49" />
+          <entry key="png" value="25" />
+          <entry key="styl" value="5" />
+          <entry key="xml" value="1" />
+          <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="EJS" value="2" />
-          <entry key="Image" value="28" />
+          <entry key="Image" value="29" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="46" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Markdown" value="49" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Stylus" value="3" />
-          <entry key="YAML" value="7" />
+          <entry key="Stylus" value="5" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="9" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="327" />
-          <entry key="txt" value="42" />
-          <entry key="yml" value="3" />
+          <entry key="md" value="461" />
+          <entry key="txt" value="52" />
+          <entry key="yml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="327" />
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="YAML" value="3" />
+          <entry key="Markdown" value="461" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="276">
+                <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/about/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="382">
-                <caret line="85" column="3" lean-forward="true" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+              <first_editor relative-caret-position="419">
+                <caret line="81" column="118" selection-start-line="81" selection-start-column="118" selection-end-line="81" selection-end-column="118" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2018-05-05-choice-chart-library.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="322">
+                <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -127,7 +128,6 @@
       <find>괴랄</find>
       <find>dark</find>
       <find>harmony</find>
-      <find>high</find>
       <find>nofoll</find>
       <find>&lt;%- autoCanonical(config, page) %&gt;</find>
       <find>User-agent</find>
@@ -138,11 +138,18 @@
       <find>카탈로그</find>
       <find>language</find>
       <find>travelhow(knowru)</find>
+      <find>highlight</find>
+      <find>high</find>
+      <find>main.js</find>
+      <find>travelhow(web)</find>
+      <find>travelhow(mobile)</find>
     </findStrings>
     <replaceStrings>
       <replace>[해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simple-memo)</replace>
       <replace>###</replace>
       <replace>knowru</replace>
+      <replace>travelhow-web</replace>
+      <replace>travelhow-mobile</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/source</dir>
@@ -161,10 +168,8 @@
       <list>
         <option value="$PROJECT_DIR$/source/naverab3a5236c6e7b34dc3c2d9e270deaebd.html" />
         <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/themes/icarus/_config.yml" />
         <option value="$PROJECT_DIR$/source/404.md" />
         <option value="$PROJECT_DIR$/source/_posts/2018-02-26-final.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/2018-04-21-vscode-extensions.md" />
         <option value="$PROJECT_DIR$/source/_posts/2018-03-24-manage-node-version.md" />
         <option value="$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md" />
@@ -198,6 +203,8 @@
         <option value="$PROJECT_DIR$/source/_posts/2017-10-03-algorithm-make-palindrome.md" />
         <option value="$PROJECT_DIR$/themes/icarus/languages/ko.yml" />
         <option value="$PROJECT_DIR$/source/_posts/2017-10-26-js-interview-example.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/icarus/_config.yml" />
         <option value="$PROJECT_DIR$/source/about/index.md" />
       </list>
     </option>
@@ -273,15 +280,7 @@
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="oowa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="travelhow(mobile)" type="462c0819:PsiDirectoryNode" />
+              <item name="knowru" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -429,7 +428,7 @@
       <workItem from="1519012733985" duration="298000" />
       <workItem from="1519627007645" duration="1523000" />
       <workItem from="1522490085136" duration="273000" />
-      <workItem from="1534468808725" duration="4391000" />
+      <workItem from="1534468808725" duration="5959000" />
     </task>
     <task id="LOCAL-00001" summary="쌈닷">
       <created>1515652210850</created>
@@ -452,11 +451,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534479383689</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="감자탕 먹고싶다">
+      <created>1534480539979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534480539979</updated>
+    </task>
+    <task id="LOCAL-00005" summary="감자탕 먹고싶다">
+      <created>1534480915974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534480915974</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20369000" />
+    <option name="totallyTimeSpent" value="21937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +484,7 @@
     <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20873787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12823625" />
       <window_info id="Structure" order="1" weight="0.24981412" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -489,7 +502,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41489363" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.17705168" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -552,25 +565,11 @@
     <MESSAGE value="쌈닷" />
     <MESSAGE value="초콜릿 먹고싶다" />
     <MESSAGE value="update theme version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update theme version" />
+    <MESSAGE value="감자탕 먹고싶다" />
+    <option name="LAST_COMMIT_MESSAGE" value="감자탕 먹고싶다" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/portfolio/travelhow(web)/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/portfolio/travelhow(web)/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/portfolio/travelhow(mobile)/3.png">
+    <entry file="file://$PROJECT_DIR$/source/images/portfolio/travelhow-mobile/3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/_partial/archive.styl">
@@ -580,9 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/_extend.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/images/snail.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -591,13 +587,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/share/index.ejs">
       <provider selected="true" editor-type-id="text-editor" />
@@ -629,31 +618,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="233">
-            <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2018-05-14-im-open-source-contibutor.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="115">
             <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2018-05-05-choice-chart-library.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="322">
-            <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -897,13 +866,6 @@
     <entry file="file://$PROJECT_DIR$/_admin-config.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2017-10-03-js-study-5.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -971,11 +933,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/portfolio/oowa/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="39" column="4" selection-start-line="39" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/_extend.styl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/_variables.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1267" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/source/js/insight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/source/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2018-05-05-choice-chart-library.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="276">
+            <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/about/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="382">
-            <caret line="85" column="3" lean-forward="true" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+          <first_editor relative-caret-position="419">
+            <caret line="81" column="118" selection-start-line="81" selection-start-column="118" selection-end-line="81" selection-end-column="118" />
           </first_editor>
           <second_editor />
         </state>
