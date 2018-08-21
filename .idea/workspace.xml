@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd137eb-c321-4f78-9bf4-9b9e7b9571b3" name="Default" comment="sdfdf">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/new-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/new-blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +19,13 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ejs" value="2" />
+          <entry key="ejs" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="3" />
@@ -32,12 +36,12 @@
           <entry key="png" value="25" />
           <entry key="styl" value="5" />
           <entry key="xml" value="1" />
-          <entry key="yml" value="10" />
+          <entry key="yml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="EJS" value="2" />
+          <entry key="EJS" value="4" />
           <entry key="Image" value="29" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="3" />
@@ -45,12 +49,13 @@
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Stylus" value="5" />
           <entry key="XML" value="1" />
-          <entry key="YAML" value="10" />
+          <entry key="YAML" value="11" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="ejs" value="84" />
           <entry key="md" value="957" />
           <entry key="txt" value="57" />
           <entry key="yml" value="18" />
@@ -58,6 +63,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="EJS" value="84" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="956" />
           <entry key="PLAIN_TEXT" value="57" />
@@ -80,11 +86,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="484">
+              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1748">
+              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/head.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -93,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/source/about/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1065">
+              <first_editor relative-caret-position="2438">
                 <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
               </first_editor>
               <second_editor />
@@ -146,6 +179,9 @@
       <find>main.js</find>
       <find>travelhow(web)</find>
       <find>travelhow(mobile)</find>
+      <find>rss</find>
+      <find>fab</find>
+      <find>fontawesome</find>
     </findStrings>
     <replaceStrings>
       <replace>[해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simple-memo)</replace>
@@ -211,6 +247,8 @@
         <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/2018-08-20-string-tips.md" />
+        <option value="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" />
+        <option value="$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs" />
       </list>
     </option>
   </component>
@@ -241,6 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,18 +317,92 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome5" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome5" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="fa-brands.css" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="_config&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/_config.yml&#10;config&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/_config.yml&#10;variables&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/source/css/_variables.styl&#10;varia&#9;null&#9;null&#10;and&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/source/css/_highlight/androidstudio.styl&#10;layout&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/layout&#10;about&#9;FILE&#9;file:///Users/yohan-kim/new-blog/source/about&#10;snai&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/snail.png&#10;favi&#9;FILE&#9;file:///Users/yohan-kim/new-blog/source/favicon.ico&#10;_hi&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/source/css/_highlight&#10;avatar.jpeg&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/avatar.jpeg&#10;logo&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/logo.png&#10;code&#9;FILE&#9;file:///Users/yohan-kim/new-blog/.idea/codeStyles" />
+    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/_config.yml&#10;fontaw&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/source/libs/font-awesome/fonts/fontawesome-webfont.eot&#10;_config&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/_config.yml&#10;variables&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/source/css/_variables.styl&#10;varia&#9;null&#9;null&#10;and&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/source/css/_highlight/androidstudio.styl&#10;layout&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/layout&#10;about&#9;FILE&#9;file:///Users/yohan-kim/new-blog/source/about&#10;snai&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/snail.png&#10;favi&#9;FILE&#9;file:///Users/yohan-kim/new-blog/source/favicon.ico&#10;_hi&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/source/css/_highlight&#10;avatar.jpeg&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/avatar.jpeg&#10;logo&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/logo.png&#10;code&#9;FILE&#9;file:///Users/yohan-kim/new-blog/.idea/codeStyles" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -427,6 +540,7 @@
       <workItem from="1522490085136" duration="273000" />
       <workItem from="1534468808725" duration="6356000" />
       <workItem from="1534744688705" duration="3023000" />
+      <workItem from="1534813470345" duration="2303000" />
     </task>
     <task id="LOCAL-00001" summary="쌈닷">
       <created>1515652210850</created>
@@ -488,7 +602,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25357000" />
+    <option name="totallyTimeSpent" value="27660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,10 +614,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
+    <frame x="64" y="-11" width="2497" height="1452" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14320388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21521036" />
       <window_info id="Structure" order="1" weight="0.24981412" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -521,7 +635,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28647417" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20820668" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -589,16 +703,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="sdfdf" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/_partial/archive.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/images/snail.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/images/avatar.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -787,9 +891,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="230">
             <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -850,11 +951,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="207">
             <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-              <element signature="e#0#60#0" expanded="true" />
-              <element signature="e#0#50#0" expanded="true" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -964,13 +1060,6 @@
         <state relative-caret-position="-1267" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/source/js/insight.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1863" />
@@ -980,6 +1069,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2018-08-20-string-tips.md" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="276">
+            <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/about/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2438">
+            <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -993,40 +1103,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/about/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1065">
-            <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="276">
-            <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2018-08-20-string-tips.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="484">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
         </state>
       </provider>
     </entry>

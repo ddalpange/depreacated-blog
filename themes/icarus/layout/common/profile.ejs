@@ -27,7 +27,7 @@
                     <% for(var i in theme.customize.social_links) { %>
                     <td>
                         <a href="<%- url_for(theme.customize.social_links[i]) %>" target="_blank" title="<%= i %>" <%= tooltipClass %>>
-                            <i class="fab fa-<%= i %>"></i>
+                            <i class="<%= (i == 'rss' ? 'fa' : 'fab') %> fa-<%= i %>"></i>
                         </a>
                     </td>
                     <% } %>
