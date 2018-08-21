@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdd137eb-c321-4f78-9bf4-9b9e7b9571b3" name="Default" comment="sdfdf">
-      <change beforePath="$PROJECT_DIR$/.idea/new-blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/new-blog.iml" afterDir="false" />
+    <list default="true" id="bdd137eb-c321-4f78-9bf4-9b9e7b9571b3" name="Default" comment="fix icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
           <entry key="js" value="3" />
           <entry key="json" value="3" />
           <entry key="lock" value="1" />
-          <entry key="md" value="50" />
+          <entry key="md" value="54" />
           <entry key="png" value="25" />
           <entry key="styl" value="5" />
           <entry key="xml" value="1" />
@@ -45,7 +43,7 @@
           <entry key="Image" value="29" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="3" />
-          <entry key="Markdown" value="50" />
+          <entry key="Markdown" value="54" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Stylus" value="5" />
           <entry key="XML" value="1" />
@@ -55,18 +53,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="ejs" value="84" />
-          <entry key="md" value="957" />
-          <entry key="txt" value="57" />
+          <entry key="ejs" value="99" />
+          <entry key="md" value="2900" />
+          <entry key="txt" value="68" />
           <entry key="yml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="EJS" value="84" />
+          <entry key="EJS" value="99" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="956" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="Markdown" value="2899" />
+          <entry key="PLAIN_TEXT" value="68" />
           <entry key="YAML" value="18" />
         </counts>
       </usages-collector>
@@ -74,72 +72,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/2018-07-21-my-first-project.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="276">
-                <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/head.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/about/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2438">
-                <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/2018-05-05-choice-chart-library.md">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2018-08-21-rxjs-whatisrxjs.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="322">
-                <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+                <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -244,11 +182,12 @@
         <option value="$PROJECT_DIR$/themes/icarus/languages/ko.yml" />
         <option value="$PROJECT_DIR$/source/_posts/2017-10-26-js-interview-example.md" />
         <option value="$PROJECT_DIR$/themes/icarus/_config.yml" />
-        <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/2018-08-20-string-tips.md" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs" />
+        <option value="$PROJECT_DIR$/source/about/index.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2018-08-21-rxjs-whatisrxjs.md" />
       </list>
     </option>
   </component>
@@ -296,101 +235,13 @@
               <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="_discarded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome5" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddalpange-github-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddalpange-github-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icarus" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome5" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="fa-brands.css" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -402,7 +253,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/_config.yml&#10;fontaw&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/source/libs/font-awesome/fonts/fontawesome-webfont.eot&#10;_config&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/_config.yml&#10;variables&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/source/css/_variables.styl&#10;varia&#9;null&#9;null&#10;and&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/source/css/_highlight/androidstudio.styl&#10;layout&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/layout&#10;about&#9;FILE&#9;file:///Users/yohan-kim/new-blog/source/about&#10;snai&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/snail.png&#10;favi&#9;FILE&#9;file:///Users/yohan-kim/new-blog/source/favicon.ico&#10;_hi&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/source/css/_highlight&#10;avatar.jpeg&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/avatar.jpeg&#10;logo&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/logo.png&#10;code&#9;FILE&#9;file:///Users/yohan-kim/new-blog/.idea/codeStyles" />
+    <property name="SearchEverywhereHistoryKey" value="whatis&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/source/_posts/2018-08-21-rxjs-whatisrxjs.md&#10;config&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/_config.yml&#10;fontaw&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/source/libs/font-awesome/fonts/fontawesome-webfont.eot&#10;_config&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/_config.yml&#10;variables&#9;FILE&#9;file:///home/yohan/Documents/ddalpange-github-blog/themes/icarus/source/css/_variables.styl&#10;varia&#9;null&#9;null&#10;and&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/source/css/_highlight/androidstudio.styl&#10;layout&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/layout&#10;about&#9;FILE&#9;file:///Users/yohan-kim/new-blog/source/about&#10;snai&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/snail.png&#10;favi&#9;FILE&#9;file:///Users/yohan-kim/new-blog/source/favicon.ico&#10;_hi&#9;FILE&#9;file:///Users/yohan-kim/new-blog/themes/icarus/source/css/_highlight&#10;avatar.jpeg&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/avatar.jpeg&#10;logo&#9;FILE&#9;file:///Users/yohan-kim/new-blog/public/css/images/logo.png&#10;code&#9;FILE&#9;file:///Users/yohan-kim/new-blog/.idea/codeStyles" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -540,7 +391,7 @@
       <workItem from="1522490085136" duration="273000" />
       <workItem from="1534468808725" duration="6356000" />
       <workItem from="1534744688705" duration="3023000" />
-      <workItem from="1534813470345" duration="2303000" />
+      <workItem from="1534813470345" duration="5918000" />
     </task>
     <task id="LOCAL-00001" summary="쌈닷">
       <created>1515652210850</created>
@@ -598,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534748686857</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix icon">
+      <created>1534827566338</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534827566340</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27660000" />
+    <option name="totallyTimeSpent" value="31275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,10 +472,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="2497" height="1452" extended-state="6" />
+    <frame x="80" y="-5" width="1841" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21521036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11178414" />
       <window_info id="Structure" order="1" weight="0.24981412" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -635,7 +493,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20820668" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28842106" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -700,25 +558,10 @@
     <MESSAGE value="update theme version" />
     <MESSAGE value="감자탕 먹고싶다" />
     <MESSAGE value="sdfdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="sdfdf" />
+    <MESSAGE value="fix icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix icon" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/icarus/source/css/images/avatar.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/share/index.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/share/default.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2018-03-24-manage-node-version.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1083,16 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/about/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2438">
-            <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2018-05-05-choice-chart-library.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1103,31 +936,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/head.ejs">
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="598">
+          <caret line="26" column="88" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/source/about/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/head.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="668">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1748">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/profile.ejs">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="484">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_discarded/2018-05-05-hexo-admin-test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_discarded/2018-05-05-markdown-syntax-example.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-4358" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_discarded/헥소-어드민-테스트.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2018-08-21-rxjs-whatisrxjs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

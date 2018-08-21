@@ -104,7 +104,7 @@ toc: true
 2. Angular
 3. RxJS
 4. NodeJS
-5. Git
+5. Git                  
 6. Flux
 7. Bash
 8. Data Visualization
