@@ -24,5 +24,8 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.2.0",
     "write-good": "^0.11.3"
+  },
+  "devDependencies": {
+    "hexo-renderer-sass": "^0.3.2"
   }
 }
