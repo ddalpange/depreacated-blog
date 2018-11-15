@@ -8,14 +8,11 @@ thumbnail:
 banner:
 ---
 
-# RxJS
+## RxJS
 
 `Observable`을 사용하여 비동기 및 이벤트 기반의 프로그램을 작성하기 위한 라이브러리이다.
-
 동기, 비동기에 구분없이 일관된 코드를 작성할 수 있다는 점이 인상적인 라이브러리이다.
-
 `RxJS`는 *Iterator Pattern*과 *Observer Pattern*을 결합하여 이벤트들을 관리하기 위한 효울적인 방법을 제공한다.
-
 비동기 이벤트를 해결하는 RxJS의 주요 개념은 다음와 같다.
 
 <!-- more -->
@@ -28,9 +25,9 @@ banner:
 5. `Subject`: `Observer`이자 `Observable`이다. 다수의 `Observable`에 브로드캐스팅 할 수 있는 유일한 방법이다.
 6. `Scheduler`: `setTimeout`, `requestAnimationFrame`과 같은 비동기 함수의 동시성을 제어할 수 있다.
 
-## 예제
+### 예제
 
-### 버튼의 이벤트 리스너
+#### 버튼의 이벤트 리스너
 
 일반적으로 이벤트 리스너를 만드는 코드는 다음과 같다.
 
@@ -50,7 +47,7 @@ fromEvent(button, 'click')
 ```
 
 
-### 순수성
+#### 순수성
 
 RxJS는 순수함수를 제공하기 때문에 넘어오는 값은 모두 독립적(불변)이다.
 불변이라는것은 에러가 날 확률이 적어진다는 것과 같다.
@@ -80,7 +77,7 @@ fromEvent(button, 'click').pipe(
 `scan`은 배열의 `reduce`와 유사하게 동작한다.
 
 
-### 흐름
+#### 흐름
 
 RxJS는 다양한 오퍼레이터를 통해 이벤트흐름을 제어할 수 있다.
 
@@ -115,7 +112,7 @@ fromEvent(button, 'click').pipe(
 
 `throttleTime` 외에도 `delay`, `debounceTime`, `take`, `takeUntil`, `distinct`, `distinctUntilChanged` 등 엄청나게 많은 오퍼레이터를 제공한다
 
-### 유연한 값
+#### 유연한 값
 
 구독이 일어나기 전 오퍼레이터들을 이용하여 값들을 미리 변환시킬 수 있다.
 

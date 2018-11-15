@@ -6,33 +6,25 @@ categories:
 date: 2018-11-15 15:34:40
 thumbnail:
 banner:
----
+---${}
 
 
-# Ubuntu 18.04 개발환경, 한글 세팅하기
+## Ubuntu 18.04 개발환경, 한글 세팅하기
 
-## 사전준비
+### 사전준비
 
 <!-- more -->
 
 1. 패키지 설치하기
 
 	```bash
-
 	sudo apt-get install uim
-
 	sudo apt-get install gnome-tweak-tool
-
 	sudo apt-get install chrome-gnome-shell
-
 	sudo apt-get install zsh
-
 	sudo apt-get install curl
-
 	sh -c "$(curl -fsSL [https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh](https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh))"
-
 	chsh -s /usr/bin/zsh
-
 	```
 
 2. [Gnome Shell Intergration](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep?hl=en) 설치하기
@@ -47,7 +39,7 @@ banner:
 
 
 
-## 한글 설정하기
+### 한글 설정하기
 
 
 
@@ -101,7 +93,7 @@ banner:
 
 
 
-## 테마 세팅하기
+### 테마 세팅하기
 
 
 

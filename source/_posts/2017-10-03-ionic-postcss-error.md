@@ -10,7 +10,7 @@ categories:
 toc: true
 ---
 
-# 아이오닉 포스트 CSS 에러 잡기
+## 아이오닉 포스트 CSS 에러 잡기
 
 [메모만들기 2](https://ddalpange.github.io/2017/07/11/%EA%B0%84%EB%8B%A8%ED%95%9C-%EB%A9%94%EB%AA%A8%EC%9E%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0-2/) 포스트가 잘 되는지 확인할려고 처음부터 다시 하던 도중, ionic의 기본 css가 적용되지 않는 문제가 발생하였다.
 

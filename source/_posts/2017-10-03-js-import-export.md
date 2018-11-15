@@ -11,12 +11,12 @@ toc: true
 ---
 
 
-## Import, Export
+### Import, Export
 
 기존 프로젝트 유지보수를 진행하다 보면 "AS20342"과 같은 특정한 코드값들이 있다. 그러한 코드값들은 전부 공통으로 모아 상수로 빼는게 상책인데, import, export를 어떻게 해야할지 감이 오질 않았다. 아래 내용은 공통함수를 뺄때까지의 과정이다.
 
 
-### 1. Obejct형태로 Export한다.
+#### 1. Obejct형태로 Export한다.
 
 ```javascript
 const obj = {
@@ -32,7 +32,7 @@ export default obj;
 
 -> 나쁘지 않은 방법이다. 하지만 오브젝트를 const로 선언한다면 오브젝트의 프로퍼티 값은 const가 아니기 때문에 obj.name  = "puppy"와 같이 값 자체를 바꿀 수 있다. 엄밀히 따지자면 상수가 아닌 셈이다. (Object.freeze()라는 것을 사용하면 될 수도 ??)
 
-### 2. Class 형태로 Export한다.
+#### 2. Class 형태로 Export한다.
 
 ```javascript
 class test {
@@ -51,7 +51,7 @@ class test {
 
 -> 이상하다. 그저 변수 하나를 뺴기 위하여 클래스를 선언한다는 것은 값어치가 없는 일이다.
 
-### 3. const 선언을 할 떄 마다 export를 붙여준다.
+#### 3. const 선언을 할 떄 마다 export를 붙여준다.
 
 ```javascript
 export const a = "1";

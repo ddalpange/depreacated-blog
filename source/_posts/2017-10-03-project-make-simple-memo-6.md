@@ -13,7 +13,7 @@ toc: true
 
 이번시간에는 아이오닉에서 제공해주는 무한 스크롤(infinite scroll)을 적용해볼거에요!!
 
-## 테스트 환경 작성
+### 테스트 환경 작성
 
 테스트케이스 작성을 위해서 아래 코드를 **메모리스트** 페이지의 **ngOnInit** 생명주기 메서드의 아래의 코드를 작성한 후 새로고침해주세요.
 
@@ -28,9 +28,9 @@ toc: true
 
 <!-- more -->
 
-## 코드 작성
+### 코드 작성
 
-### HTML
+#### HTML
 **src/pages/memo-list/memo-list/html**
 ```html
 <ion-header>
@@ -84,7 +84,7 @@ toc: true
 
 **ionInfinite**에 주목하세요. ion-infinite-scroll 태그가 화면상에 보일경우 등록해놓은 **doInfinite** 함수를 호출합니다.
 
-### Code
+#### Code
 **src/pages/memo-list/memo-list/ts**
 ```typescript
 import { AuthManagerProvider } from './../../providers/auth-manager/auth-manager';

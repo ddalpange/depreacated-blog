@@ -59,100 +59,54 @@ banner:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-python.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-jsx.min.js"></script>
 <script>
-
 try {
-
   var article = $(".tt_article_useless_p_margin");
-
   article[0].className += " markdown-body";
-
   var childs = article.children();
-
   var results = [];
 
-
   for(var i = 0; i < childs.length; i++) {
-
     var child = childs[i];
 
-
-
     if (child.tagName === "P") {
-
       if (child.children[0] && child.children[0].tagName === "BR") {
-
         results.push("");
 
-
-
       } else {
-
         results.push(child.innerText)
 
-
-
       }
-
     } else {
-
       results.push(child);
 
-
-
     }
-
-
 
     child.remove();
 
-
-
   }
-
-
 
   var string = "";
 
-
-
   for (var i = 0; i < results.length; i++) {
-
     var result = results[i];
 
-
-
     if (typeof result === "string") {
-
       string += result + "\n";
 
-
-
     }  else {
-
       article.append(marked(string));
-
       string = "";
-
       article.append(result);
 
-
-
     }
-
   }
-
-
 
   if (string) {
-
     article.append(marked(string));
-
   }
-
 } catch (e) {
   console.error(e);
 }
-
 </script>
 
 ```

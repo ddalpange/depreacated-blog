@@ -11,11 +11,11 @@ toc: true
 ---
 
 
-## 앵귤러, 파이어베이스
+### 앵귤러, 파이어베이스
 
-### 앵귤러.
+#### 앵귤러.
 
-#### 1. 환경 세팅
+##### 1. 환경 세팅
 
 ```makefile
 npm install -g @angular/cli
@@ -23,7 +23,7 @@ npm install -g @angular/cli
 
 >명령을 실행하기 전에, ***node -v***, ***npm -v*** 명령어로 노드는 6.9.x 버전인지, npm은 3.x.x 버전인지 확인하세요. 구버전은 에러를 일으킬 수 있습니다.
 
-#### 2. 만드세요.
+##### 2. 만드세요.
 
 ```makefile
 ng new angular-firebase
@@ -31,7 +31,7 @@ ng new angular-firebase
 
 >참을성을 가지세요. 대부분의 시간은 npm package들을 인스톨 하는데에 쓰입니다.
 
-#### 3. 실행하세요.
+##### 3. 실행하세요.
 
 ```makefile
 cd  angular-firebase
@@ -41,9 +41,9 @@ ng serve --open
 
 >***ng serve***는 서버를 올리기 위한 명령어입니다. 당신들의 파일을 주시하며, 변경이 있을때마다 앱을 다시 빌드합니다. ***--open (또는 -o)*** 옵션은 자동으로 당신의 브라우저로 켜주는 명령어입니다. (http://localhost:4200/)
 
-#### 4. 파일구조 한번 보죠
+##### 4. 파일구조 한번 보죠
 
-##### Src Folder
+###### Src Folder
 
 *src* 폴더 안에 모든 Angular의 컴포넌트, 탬플릿, Css, 이미지 그리고 당신의 앱을 만들기 위해 필요한 것이 들어갑니다. 그 외 다른 바깥쪽 폴더들은 당신의 앱을 빌드하기 위해 필요한 것들이 들어있습니다.
 
@@ -86,7 +86,7 @@ test.ts | This is the main entry point for your unit tests. It has some custom c
 tsconfig.app.json, tsconfig.spec.json | TypeScript compiler configuration for the Angular app (tsconfig.app.json) and for the unit tests (tsconfig.spec.json).
 
 
-##### The Root Folder
+###### The Root Folder
 
 The src/ folder is just one of the items inside the project's root folder. Other files help you build, test, maintain, document, and deploy the app. These files go in the root folder next to src/.
 
@@ -124,22 +124,22 @@ README.md |	Basic documentation for your project, pre-filled with CLI command in
 tsconfig.json | TypeScript compiler configuration for your IDE to pick up and give you helpful tooling.
 tslint.json | Linting configuration for TSLint together with Codelyzer, used when running ng lint. Linting helps keep your code style consistent.
 
-### 파이어베이스
+#### 파이어베이스
 
-#### 1. 까세요.
+##### 1. 까세요.
 
 ```
 npm install angularfire2 firebase --save
 ```
 https://github.com/angular/angularfire2
 
-#### 2. 프로젝트 만드세요.
+##### 2. 프로젝트 만드세요.
 
 https://console.firebase.google.com/project/angular-test-146ca/database/data/items?hl=ko
 
 웹앱으로 시작하기 버튼 누르면 나오는 설정코드 복사해주세요.
 
-#### 파이어베이스 세팅해주세요.
+##### 파이어베이스 세팅해주세요.
 
 enviroment.prod.ts
 
@@ -165,7 +165,7 @@ export const environment = {
 ```
 
 
-#### 모듈 추가해주시구요
+##### 모듈 추가해주시구요
 
 app.module.ts
 ```typescript
@@ -197,7 +197,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 export class AppModule { }
 ```
 
-#### 테스트하기전에 먼저
+##### 테스트하기전에 먼저
 
 파이어베이스 프로젝트 -> 리얼타임데이터베이스 -> 규칙 가서
 
@@ -212,7 +212,7 @@ export class AppModule { }
 
 이렇게 바꿔야합니다. 따로 인증을 받았지 않았기 때문에 에러납니다.
 
-#### 테스트 해봅시다.
+##### 테스트 해봅시다.
 
 template
 

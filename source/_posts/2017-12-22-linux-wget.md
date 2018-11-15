@@ -9,11 +9,11 @@ banner: https://upload.wikimedia.org/wikipedia/commons/6/60/Wget_1.13.4.png
 toc: true
 ---
 
-## 설명
+### 설명
 
 CUI환경에서 파일을 다운받을때 사용한다.
 
-## 도움말
+### 도움말
 
 <!-- more -->
 
@@ -212,7 +212,7 @@ Recursive accept/reject:
 Mail bug reports and suggestions to <bug-wget@gnu.org>
 ```
 
-## 활용 예
+### 활용 예
 
 영상 다운로드서버에 올라가있는 영상들이 정상적인지를 체크하기위해 한번씩 다운로드해준다.
 

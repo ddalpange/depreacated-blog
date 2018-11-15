@@ -11,7 +11,7 @@ toc: true
 
 ---
 
-## 자바스크립트 sort 메소드
+### 자바스크립트 sort 메소드
 
 ```js
 let array = [20, 1, 3];
@@ -33,7 +33,7 @@ array = array.sort((a, b) => {
 console.log(array);
 ```
 
-## 자바스크립트 async 테스트
+### 자바스크립트 async 테스트
 ```js
 console.log(0);
 setTimeout(() => { console.log(1)}, 100);
@@ -43,7 +43,7 @@ console.log(3);
 답은 **0, 2, 3, 1**이 아니라 **0, 3, 2, 1**의 순서로 찍힌다.
 자바스크립트는 기본적으로 **비동기**로 작성이 되는데 setTimeout의 시간을 0으로 준다 하더라도 처리하는 시간이 발생하여 코드 아랫 라인이 같이 실행되기 때문이다.
 
-## 변수 호이스팅
+### 변수 호이스팅
 ```js
 var a = 1;
 function abc() {

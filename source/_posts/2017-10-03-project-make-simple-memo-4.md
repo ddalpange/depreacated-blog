@@ -41,7 +41,7 @@ config 변수 부분을 복사해주세요 딴건 필요없답니다.
 
 <!-- more -->
 
-## 아이오닉 프로젝트에 추가하기
+### 아이오닉 프로젝트에 추가하기
 
 Ionic에서 지원하는 파이어베이스 패키지들을 인스톨하여주세요.
 
@@ -102,7 +102,7 @@ export class AppModule { }
 
 ```
 
-## 로그인 서비스 활성화시키기
+### 로그인 서비스 활성화시키기
 
 파이어베이스에 들어가신 후
 
@@ -113,7 +113,7 @@ export class AppModule { }
 ![인증서비스](/images/memo/auth-open.png)
 
 
-## 인증 서비스파일 만들기.
+### 인증 서비스파일 만들기.
 
 ```bash
 $ ionic g provider auth-manager
@@ -185,7 +185,7 @@ export class AuthManagerProvider {
 }
 ```
 
-## 로그인상태 여부에따라 최초 로딩페이지 바꿔주기
+### 로그인상태 여부에따라 최초 로딩페이지 바꿔주기
 
 **src/app/app/component.ts**
 ```typescript
@@ -229,7 +229,7 @@ export class MyApp {
 
 이제 **로그인**, **회원가입**, **로그아웃만 구현하면 됩니다.**
 
-## 회원가입 페이지
+### 회원가입 페이지
 
 **src/pages/sign-up/sign-up.module.ts**
 
@@ -354,7 +354,7 @@ export class SignUpPage {
 </ion-content>
 ```
 
-## 로그인 페이지
+### 로그인 페이지
 
 **src/pages/sign-in/sign-in.module.ts**
 
@@ -479,7 +479,7 @@ export class SignInPage {
 </ion-content>
 ```
 
-## 로그아웃 기능(리스트 페이지)
+### 로그아웃 기능(리스트 페이지)
 
 **src/pages/memo-list/memo-list.module.ts**
 

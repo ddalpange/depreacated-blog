@@ -40,7 +40,7 @@ export class BlueButton extends React.component {
 ```
 사실 위의 *...*표기법은 ES6에서 제안된 문법인데요. Rest Operator와 Spread Operator로 나뉩니다. 한번 알아보도록 하죠
  
-## Rest Operator
+### Rest Operator
 
 Rest Operator를 알아보기 전에 리터럴 문법을 먼저 알아볼 필요가 있습니다.
 
@@ -76,7 +76,7 @@ console.log(c, b, arrayRest); // 1, 2
 
 오브젝트라면 열거할수 있는 나머지 프로퍼티들을 묶어 오브젝트로 반환합니다.
 
-## Spread Operator
+### Spread Operator
 
 Rest Opertor와 반대되는 의미라고 해석하면 될것같습니다.
 
@@ -128,7 +128,7 @@ console.log(depth.value, depth.oneDepth.value);
 딥카피인지 스왈로카피일지, 아니면 단순 참조일지는 한번 실행해보세요 !
 
 
-## 정리
+### 정리
 이제 예제를 다 이해 하셨으면 처음의 문제로 돌아가보죠.
 
 ```jsx

@@ -11,7 +11,7 @@ toc: true
 
 ---
 
-# 간단한 메모장을 만듭시다.
+## 간단한 메모장을 만듭시다.
 
 > 파이어베이스, 아이오닉을 이용하여 간단한 하이브리드 어플리케이션을 만들어봅시다. 파이어베이스의 database, hosting(deploy), auth 등의 서비스와 ionic에서 지원하는 컴포넌트를 적극적으로 사용하여 만들겁니다. Angular의 기본 이론보다, Ionic과 Firebase의 기능에 대해서 중점을 두시면 될 듯합니다.
 
@@ -23,7 +23,7 @@ toc: true
 
 포스트 1에서는 간단한 설치와, 로컬서버로 앱을 시작해보는 정도로 끝내겠습니다.
 
-## Node.js
+### Node.js
 
 https://nodejs.org/en/
 
@@ -32,7 +32,7 @@ LTS(Long-term support)버전을 받아주세요.
 NodeJS?
 > Node.js®는 Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임입니다. Node.js는 이벤트 기반, 논 블로킹 I/O 모델을 사용해 가볍고 효율적입니다. Node.js의 패키지 생태계인 npm은 세계에서 가장 큰 오픈 소스 라이브러리 생태계이기도 합니다.
 
-## editor
+### editor
 
 https://code.visualstudio.com/
 
@@ -47,7 +47,7 @@ typescript를 사용할 때 자동으로 임포트를 해주는 패키지입니�
 
 > visual studio code는 atom과 함께 핫한 오픈소스 에디터중의 하나입니다. 많은 장점이 있지만, 그중에서 최고는 진짜 정말 빠릅니다.
 
-## npm packages...
+### npm packages...
 
 ```bash
 npm install -g ionic cordova
@@ -58,7 +58,7 @@ ionic과 cordova 를 global 환경에 인스톨하여주세요. 좀 오래 걸�
 
 <!-- more -->
 
-## create Project
+### create Project
 
 프로젝트를 생성할 폴더에서 shell 또는 cmd를 키신 후 다음의 명령어를 입력합니다.
 ```bash

@@ -10,7 +10,7 @@ categories:
 toc: true
 ---
 
-## 서론
+### 서론
 
 프론트엔드쪽 일을 하다보면 대부분 오브젝트 및 오브젝트 배열(데이터 흐름)을 핸들링 하는 일과 돔에 대한 퍼포먼스를 개선하는 일로 나뉜다.
 
@@ -19,7 +19,7 @@ toc: true
 데이터를 핸들링하는 일을 개선하다보면 필히 오브젝트 배열의 특정 키값을 기준으로 중복을 제거해야할 일이 생기는데 그에 대한 방법을 포스팅해본다.
 
 
-## 언더스코어의 uniq 메소드를 이용하는 방법
+### 언더스코어의 uniq 메소드를 이용하는 방법
 ```js
 var data = [{'name': 'Amir', 'surname': 'Rahnama'}, {'name': 'Amir', 'surname': 'Stevens'}];
 var non_duplidated_data = _.uniq(data, 'name'); 
@@ -29,7 +29,7 @@ var non_duplidated_data = _.uniq(data, 'name');
 
 개인적으로 언더스코어 라이브러리를 사용해 본적이 없고, 구현하는데 시간이 많이 걸리는 코드가 아닌 이상 라이브러리를 사용하지 않는 편이기 때문에 사용한 적이 없는 방법이다.
 
-## ES6 문법 사용
+### ES6 문법 사용
 ```js
 function getUniqueObjectArray(array, key) {
   return array.filter((item, i) => {
@@ -44,7 +44,7 @@ function getUniqueObjectArray(array, key) {
 
 프로젝트의 환경에 따라 위의 코드를 적용할지 말지 결정해야한다.
 
-## ES5 문법 사용
+### ES5 문법 사용
 ```js
 function getUniqueObjectArray(array, key) {
   var tempArray = [];
@@ -65,7 +65,7 @@ function getUniqueObjectArray(array, key) {
 가장 단순한 방법이다. 양이 제법 길긴 하지만 해당 펑션을 처음 보더라도 코드의 가독성이 어렵지 않은 편이기에 충분히 이해할수 있다.
 ES6를 사용하지 않았기 때문에 비교적 크로스 브라우징 문제에 안전하다고 볼 수 있다 :)
 
-## 정리하며
+### 정리하며
 위의 나온 세 방법만이 정답은 아니다. 
 문법적으로 또는 이론적으로 이해가 어려운 방법들은 제외했으며 **JSON.stringify**같은 메소드가 들어가는 방법은 성능에 좋지 않을것 같아 마찬가지로 제외하였다.
 스택오버플로를 찾아보면 굉장히 다양한 방법이 있다. 참고하여 자신만의 메소드를 만들면 좋을것 같다.

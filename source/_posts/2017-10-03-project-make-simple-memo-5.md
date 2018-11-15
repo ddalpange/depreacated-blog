@@ -23,7 +23,7 @@ html이나 ts에서 기능 개선을 위해 변경한 코드가 일부 있으니
 
 <!-- more -->
 
-## 인터페이스 변경하여 적용하기.
+### 인터페이스 변경하여 적용하기.
 
 **src/models/memo/memo.interface.ts**
 ```typescript
@@ -39,7 +39,7 @@ export interface Memo {
 
 **key**가 사라지고 **uid**가 추가되었습니다.
 
-## 메모매니저 파이어베이스 연동
+### 메모매니저 파이어베이스 연동
 
 **src/providers/memo-manager/memo-manager.ts**
 ```typescript
@@ -105,7 +105,7 @@ export class MemoManagerProvider {
 변경 및 생성을 하면 자동으로 **Observable**이 구독하여 변경사항이 반영됩니다.
 
 
-## 메모리스트페이지에 반영하기
+### 메모리스트페이지에 반영하기
 
 **src/pages/memo-list/memo-list.html**
 ```html
@@ -212,7 +212,7 @@ export class MemoListPage {
 }
 ```
 
-## 그 외 html 변경사항들입니다.
+### 그 외 html 변경사항들입니다.
 
 **src/pages/memo-detail/memo-detail.html**
 ```html

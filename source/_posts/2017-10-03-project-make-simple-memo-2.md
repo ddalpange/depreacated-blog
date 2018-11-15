@@ -11,9 +11,9 @@ toc: true
 
 ---
 
-# 간단한 메모장을 만듭시다.
+## 간단한 메모장을 만듭시다.
 
-## 시작하기 전에.
+### 시작하기 전에.
 
 포스트 2에서는 아이오닉 컴포넌트를 활용하여 프로토 타이핑을 진행하도록 하겠습니다.
 
@@ -21,7 +21,7 @@ toc: true
 
 [간단한 메모장 만들기 1](https://ddalpange.github.io/2017/07/09/%EA%B0%84%EB%8B%A8%ED%95%9C-%EB%A9%94%EB%AA%A8%EC%9E%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0-1/)
 
-## 페이지 생성을 시작하겠습니다.
+### 페이지 생성을 시작하겠습니다.
 
 루트프로젝트에서 쉘 또는 명령 프롬프트를 실행한 후 아래의 명령어를 입력하여주세요.
 
@@ -166,9 +166,9 @@ export class MyApp {
 
 여기까지 하셨으면 반은 성공한겁니다 !
 
-## 퍼블리싱을 시작하겠습니다.
+### 퍼블리싱을 시작하겠습니다.
 
-### 로그인페이지 (sign-in)
+#### 로그인페이지 (sign-in)
 
 **src/pages/sign-in/sign-in.ts**
 ```typescript
@@ -268,7 +268,7 @@ page-sign-in {
 ```
 
 
-### 회원가입 페이지 (sign-up)
+#### 회원가입 페이지 (sign-up)
 
 **src/pages/sign-up/sign-up.ts**
 ```typescript
@@ -344,7 +344,7 @@ page-sign-up {
 ```
 
 
-### 메모리스트 페이지 (memo-list)
+#### 메모리스트 페이지 (memo-list)
 
 **src/pages/memo-list/memo-list.ts**
 ```typescript
@@ -436,7 +436,7 @@ page-memo-list {
 }
 ```
 
-### 메모 상세 페이지 (memo-detail)
+#### 메모 상세 페이지 (memo-detail)
 
 **src/pages/memo-detail/memo-detail.ts**
 
@@ -533,7 +533,7 @@ page-memo-detail {
 ```
 
 
-### 메모 만들기 페이지 (memo-create)
+#### 메모 만들기 페이지 (memo-create)
 
 **src/pages/memo-create/memo-create.ts**
 ```typescript
