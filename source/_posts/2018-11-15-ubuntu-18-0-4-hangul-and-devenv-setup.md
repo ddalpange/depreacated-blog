@@ -6,7 +6,7 @@ categories:
 date: 2018-11-15 15:34:40
 thumbnail:
 banner:
----${}
+---
 
 
 ## Ubuntu 18.04 개발환경, 한글 세팅하기
