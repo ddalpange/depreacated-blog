@@ -11,13 +11,13 @@ banner:
 Webstorm에서 Pettier를 실행할 때
 
 
-
 ```
 
 /usr/bin/env: node: No such file or directory
 
 ```
 
+<!-- more -->
 
 
 위와 같은 에러가 나는 경우가 있다.

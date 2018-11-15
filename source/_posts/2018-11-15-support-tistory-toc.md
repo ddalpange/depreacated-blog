@@ -4,7 +4,7 @@ tags: []
 categories:
   - null
 date: 2018-11-15 15:33:54
-thumbnail:기
+thumbnail:
 banner:
 ---
 
@@ -16,13 +16,9 @@ banner:
 
 Table Of Contents 의 줄임말.
 
-
-
 "목차" 정도로 해석하면 될것같다.
 
-
-
-
+<!-- more -->
 
 ## 만들기!
 
