@@ -75,13 +75,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: minos
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
   type: git
-  repo: https://github.com/ddalpange/ddalpange.github.io.git
+  repo: https://__GITHUB_TOKEN__@github.com/<USER NAME>/<USER NAME>.github.io
   branch: master
-  message: deploy!!
+  message: "travis"
 
 nofollow:
     enable: true
