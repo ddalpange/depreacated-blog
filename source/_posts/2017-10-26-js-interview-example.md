@@ -47,14 +47,15 @@ console.log(3);
 ```js
 var a = 1;
 function abc() {
-	if(a) {
-		var a = 0;
-		console.log(a);
-	}
-	console.log(a);
+  if(a) {
+    var a = 0;
+    console.log(a);
+  }
+  console.log(a);
 }
 abc();
 ```
+
 가장 큰 충격을 받았던 문제이다.
 당연히 함수 abc의 a가 undefined이기 때문에 외부 스코프에 있는 a를 참조하여  **0, 0**이라는 결과값이 나올줄 알았는데 abc()안의 if문 안에서 **var**키워드로 선언되어있는 지역변수 a가 undefined로 올라가기 때문에 따로 if분기를 타지 않고 **undefined**결과값을 뱉어낸다.
 당연히 a가 undefined니 스코프체인을 타서 바깥 a를 찾을줄 알았는데 해당 함수 스코프에서 끝나버리니 당황했다.
