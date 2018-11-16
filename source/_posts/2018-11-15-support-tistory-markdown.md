@@ -1,5 +1,5 @@
 ---
-title: 티스토리에서 마크다운 지원하
+title: 티스토리에서 마크다운 지원하기
 tags: []
 categories:
   - null

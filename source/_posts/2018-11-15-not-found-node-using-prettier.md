@@ -8,7 +8,7 @@ thumbnail:
 banner:
 ---
 
-Webstorm에서 Pettier를 실행할 때
+Webstorm에서 Prettier를 실행할 때
 
 ```
 /usr/bin/env: node: No such file or directory

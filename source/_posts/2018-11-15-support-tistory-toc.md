@@ -1,5 +1,5 @@
 ---
-title: 티스토리에서 TOC 지원하
+title: 티스토리에서 TOC 지원하기
 tags: []
 categories:
   - null
@@ -7,8 +7,6 @@ date: 2018-11-15 15:33:54
 thumbnail:
 banner:
 ---
-
-
 
 ## TOC
 
@@ -21,15 +19,8 @@ Table Of Contents 의 줄임말.
 
 ### 만들기!
 
-
-
 markedJS에서 렌더러를 통해 마크다운을 엘리먼트로 변환하는 중간 과정에 hook을 걸 수 있다.
-
 h1 ~ h6 엘리먼트에 훅을 걸고 본문의 맨 앞에 TOC를 삽입하면 된다.
-
-
-
-
 
 ### 코드
 

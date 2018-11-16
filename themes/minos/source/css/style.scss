@@ -1,4 +1,4 @@
-$family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+$family-serif: "Yeon Sung", "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
 $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
@@ -84,12 +84,19 @@ a.tag.article-tag {
         h1, h2, h3, h4, h5, h6 {
             cursor: pointer;
             position: relative;
-
             &:hover:before {
                 content: '#';
                 position: absolute;
                 right: 100%;
             }
+        }
+        p {
+            font-size: 18px;
+            line-height: 28px;
+            -webkit-font-smoothing: antialiased;
+            word-break     : keep-all;
+            word-wrap      : break-word;
+
         }
     }
 
