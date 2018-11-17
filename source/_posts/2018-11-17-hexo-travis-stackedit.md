@@ -17,7 +17,8 @@ date: 2018-11-16 18:39:55
 
 그래서 이 두가지 문제를 해결하는 방안을 포스팅하려한다.
 
+## 1. Travis CI를 사용하여 자동 빌드 및 푸쉬하기
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MTQ3NDA1XX0=
+eyJoaXN0b3J5IjpbLTU3OTE4Mzg3Ml19
 -->
