@@ -59,8 +59,10 @@ deploy:
 	message: "travis auto deploy"
 ```
 
+## 2. Stackedit으로 markdown 파일들을 관리하기.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDYzNzkxOSw1NzYwMDg1NzMsMjUzNT
+eyJoaXN0b3J5IjpbMTA0ODg2MDYzMCw1NzYwMDg1NzMsMjUzNT
 IzNzY5XX0=
 -->
