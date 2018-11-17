@@ -20,7 +20,10 @@ date: 2018-11-16 18:39:55
 ## 1. [Travis CI](https://travis-ci.org/)를 사용하여 자동 빌드 및 푸쉬하기
 ![Travis CI screenshot](https://cdn.travis-ci.org/images/landing-page/laptop-f308ed79defa4f49c5f01af29a60084d.png)
 
-앱의 빌드 및 배포를 도와주는 CI 툴이다. 완전 무료이고 사용법도 굉장히 쉽다.
+앱의 빌드 및 배포를 도와주는 CI 툴이다. 완전 무료이고 사용법도 굉장히 쉽다. 헥소에서 트래비스를 적용하기 위한 과정은 다음과 같다.
+
+1. https://github.com/settings/tokens 에서 **repo**만 체크한 후 토큰을 발급받는다. 다른 권한은 필요하지 않다.
+2. ㅎ
 
 ```yml .travis.yml
 language: node_js
@@ -57,5 +60,5 @@ deploy:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwMjg4NzEyLDI1MzUyMzc2OV19
+eyJoaXN0b3J5IjpbLTE4ODc3MzAzMDQsMjUzNTIzNzY5XX0=
 -->
