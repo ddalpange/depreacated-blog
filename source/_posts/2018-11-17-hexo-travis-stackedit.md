@@ -16,6 +16,7 @@ date: 2018-11-16 18:39:55
 2. 개발환경이 갖추어지지 않으면 포스팅을 할 수 없다.
 
 그래서 이 두가지 문제를 해결하는 방안을 포스팅하려한다.
+헥소 블로그를 구성하는 방법은 따로 기술하지 않았다.
 
 ## 1. [Travis CI](https://travis-ci.org/)를 사용하여 자동 빌드 및 푸쉬하기
 ![Travis CI screenshot](https://cdn.travis-ci.org/images/landing-page/laptop-f308ed79defa4f49c5f01af29a60084d.png)
@@ -24,8 +25,8 @@ date: 2018-11-16 18:39:55
 
 1. https://github.com/settings/tokens 에서 **repo**만 체크한 후 토큰을 발급받는다. 다른 권한은 필요하지 않다.
 2. 헥소 저장소에 **.travis.yml**를 추가하고 **_config.yml**의 deploy 부분을 수정한다.
-3.  [Github Travis](https://github.com/marketplace/travis-ci)에 들어간 후 hexo blog 레파지토리를 등록해준다.
-4. travis에서 해당 레파지토리 settings에 들어간 후 environment variables에 **__GITHUB_TOKEN__**라는 이름으로 깃허브에서 발급받은 토큰을 사용한다.
+3. [Github Travis](https://github.com/marketplace/travis-ci)에 들어간 후 hexo blog 레파지토리를 등록해준다..
+4. travis에서 해당 레파지토리 settings에 들어간 후 environment variables에 **__GITHUB_TOKEN__**라는 이름으로 깃허브에서 발급받은 토큰을 등록한다.
 
 ```yml .travis.yml
 language: node_js
@@ -58,10 +59,8 @@ deploy:
 	message: "travis auto deploy"
 ```
 
-[Github Travis](https://github.com/marketplace/travis-ci)에 들어간 후 hexo blog 레파지토리를 등록해준다.
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTIxNDY2OSw1NzYwMDg1NzMsMjUzNT
+eyJoaXN0b3J5IjpbLTkzNDYzNzkxOSw1NzYwMDg1NzMsMjUzNT
 IzNzY5XX0=
 -->
