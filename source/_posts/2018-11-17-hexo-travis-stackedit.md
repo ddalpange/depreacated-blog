@@ -1,5 +1,5 @@
 ---
-title: 블로그를 편하게 하기 위한 발악 (hexo, travis, stackedit)
+title: 블로깅을 편하게 하기 위한 발악 (hexo, travis, stackedit)
 tags: [hexo, travis, github, stackedit]
 categories:
 date: 2018-11-16 18:39:55
@@ -23,7 +23,8 @@ date: 2018-11-16 18:39:55
 앱의 빌드 및 배포를 도와주는 CI 툴이다. 완전 무료이고 사용법도 굉장히 쉽다. 헥소에서 트래비스를 적용하기 위한 과정은 다음과 같다.
 
 1. https://github.com/settings/tokens 에서 **repo**만 체크한 후 토큰을 발급받는다. 다른 권한은 필요하지 않다.
-2. ㅎ
+2. 헥소 저장소에 **.travis.yml**를 추가하고 **_config.yml**의 deploy 부분을 수정한다.
+3.  [Github Travis](https://github.com/marketplace/travis-ci)에 들어간 후 hexo blog 레파지토리를 등록해준다.
 
 ```yml .travis.yml
 language: node_js
@@ -60,5 +61,5 @@ deploy:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc3MzAzMDQsMjUzNTIzNzY5XX0=
+eyJoaXN0b3J5IjpbNTc2MDA4NTczLDI1MzUyMzc2OV19
 -->
