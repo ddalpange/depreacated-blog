@@ -45,7 +45,10 @@ script:
 - hexo deploy
 ```
 
+```yml _config.
+```
 
+[Github Travis](https://github.com/marketplace/travis-ci)에 들어간 후 hexo blog 레파지토리를 등록해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2ODI5ODQ1LDI1MzUyMzc2OV19
+eyJoaXN0b3J5IjpbMTQ4ODk2NTQ1MSwyNTM1MjM3NjldfQ==
 -->
