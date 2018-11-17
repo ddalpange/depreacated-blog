@@ -22,9 +22,29 @@ date: 2018-11-16 18:39:55
 
 앱의 빌드 및 배포를 도와주는 CI 툴이다. 완전 무료이고 사용법도 굉장히 쉽다.
 
-    enter code here
-    enter code here
+```
+# .travis.yml
+language: node_js
+node_js:
+- "9"
 
+branches:
+	only:
+		- master
+
+install:
+- npm install
+
+before_script:
+- git config --global user.name 'ddalpange'
+- git config --global user.email 'ddalpange@gmail.com'
+- sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
+
+script:
+- hexo clean
+- hexo generate
+- hexo deploy
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY1MjgxMzVdfQ==
+eyJoaXN0b3J5IjpbLTg0NjM4OTUzNl19
 -->
