@@ -602,7 +602,7 @@ page-memo-create {
 ```
 
 
-![로그인 페이지](/images/memo/sign-in-page.png)
+![로그인 페이지](https://ddalpange.github.io/images/memo/sign-in-page.png)
 ![회원가입 페이지](/images/memo/sign-up-page.png)
 ![메모 리스트 페이지](/images/memo/memo-list-page.png)
 ![메모 상세 페이지](/images/memo/memo-detail-page.png)
@@ -614,3 +614,6 @@ page-memo-create {
 - [해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simple-memo)
 - [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ2ODgyMzIxNV19
+-->
