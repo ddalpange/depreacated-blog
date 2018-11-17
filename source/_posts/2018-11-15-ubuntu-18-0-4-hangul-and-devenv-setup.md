@@ -105,7 +105,6 @@ Dock은 [Gnome Shell Extension](https://extensions.gnome.org/)에서 Dash To Doc
 
 
 
-우분투에서 Windows XP 테마를 설치한 모습이다.
-
-
-
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTM2NTU3NDAzMV19
+-->
