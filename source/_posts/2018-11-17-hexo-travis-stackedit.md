@@ -69,8 +69,10 @@ Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 
 * repo: `https://github.com/username/blog.git`
 * branch: `master`
-* path: `source`
+* path: `source/_posts`
+
+이제 스택에딧만으로 블로그 포스트들 관리할 수 있다 :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDkyMzMzOSw1NzYwMDg1NzMsMjUzNT
+eyJoaXN0b3J5IjpbMTA2NTYxNzQ2OSw1NzYwMDg1NzMsMjUzNT
 IzNzY5XX0=
 -->
