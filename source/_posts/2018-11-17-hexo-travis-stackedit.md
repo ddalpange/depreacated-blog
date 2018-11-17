@@ -25,6 +25,7 @@ date: 2018-11-16 18:39:55
 1. https://github.com/settings/tokens 에서 **repo**만 체크한 후 토큰을 발급받는다. 다른 권한은 필요하지 않다.
 2. 헥소 저장소에 **.travis.yml**를 추가하고 **_config.yml**의 deploy 부분을 수정한다.
 3.  [Github Travis](https://github.com/marketplace/travis-ci)에 들어간 후 hexo blog 레파지토리를 등록해준다.
+4. travis에서 해당 레파지토리 settings에 들어간 후 environment variables에 **__GITHUB_TOKEN__**라는 이름으로 깃허브에서 발급받은 토큰을 사용한다.
 
 ```yml .travis.yml
 language: node_js
@@ -61,5 +62,6 @@ deploy:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MDA4NTczLDI1MzUyMzc2OV19
+eyJoaXN0b3J5IjpbMTAyMTIxNDY2OSw1NzYwMDg1NzMsMjUzNT
+IzNzY5XX0=
 -->
