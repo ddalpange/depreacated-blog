@@ -40,17 +40,17 @@ branches:
 		- master
 
 install:
-- npm install
+	- npm install
 
 before_script:
-- git config --global user.name 'YOURE_USERNAME'
-- git config --global user.email 'YOURE_EMAIL'
-- sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
+	- git config --global user.name 'YOURE_USERNAME'
+	- git config --global user.email 'YOURE_EMAIL'
+	- sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
 
 script:
-- hexo clean
-- hexo generate
-- hexo deploy
+	- hexo clean
+	- hexo generate
+	- hexo deploy
 ```
 
 ```yml _config.yml
@@ -75,6 +75,6 @@ Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 
 이제 스택에딧만으로 블로그 포스트들 관리할 수 있다 :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODgwNjk5MywxMDY1NjE3NDY5LDU3Nj
-AwODU3MywyNTM1MjM3NjldfQ==
+eyJoaXN0b3J5IjpbLTE4OTUxMjQ4MDcsMTE5ODgwNjk5MywxMD
+Y1NjE3NDY5LDU3NjAwODU3MywyNTM1MjM3NjldfQ==
 -->
