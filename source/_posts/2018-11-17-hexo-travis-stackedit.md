@@ -65,7 +65,7 @@ deploy:
 
 ![Stackedit](https://super-monitoring.com/blog/wp-content/uploads/2017/05/stackedit1.png)
 
-[stackedit](https://stackedit.io)은 온라인 마크다운 에디터다. 오프라인 글쓰기도 지원한다.
+[Stackedit](https://stackedit.io)은 온라인 마크다운 에디터다. 오프라인 글쓰기도 지원한다.
 GitLab, Github, Google Drive 등 왠만한 클라우드 환경은 모두 지원해준다.
 Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 
@@ -73,8 +73,10 @@ Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 * branch: `master`
 * path: `source/_posts`
 
-이제 스택에딧만으로 블로그 포스트들 관리할 수 있다 :)
+이제 Stackedit으로 마크다운 파일들을 관리할 수 있다 !!
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUxMjQ4MDcsMTE5ODgwNjk5MywxMD
-Y1NjE3NDY5LDU3NjAwODU3MywyNTM1MjM3NjldfQ==
+eyJoaXN0b3J5IjpbOTk2NTI5NDc0LDExOTg4MDY5OTMsMTA2NT
+YxNzQ2OSw1NzYwMDg1NzMsMjUzNTIzNzY5XX0=
 -->
