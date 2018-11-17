@@ -15,7 +15,7 @@ date: 2018-11-16 18:39:55
 
 헥소의 문제점은 두가지다.
 1. `hexo deploy -g` 를 매번 해줘야한다.
-2. 개발환경이 갖추어지지 않으면 포스팅을 할 수 없다.
+2. 포스트만 따로 관리할수 있는 어드민이 없다
 
 그래서 이 두가지 문제를 해결하는 방안을 포스팅하려한다.
 헥소 블로그를 구성하는 방법은 따로 기술하지 않았다.
@@ -75,6 +75,6 @@ Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 
 이제 스택에딧만으로 블로그 포스트들 관리할 수 있다 :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg3MTQ3MSwxMDY1NjE3NDY5LDU3Nj
+eyJoaXN0b3J5IjpbMTE5ODgwNjk5MywxMDY1NjE3NDY5LDU3Nj
 AwODU3MywyNTM1MjM3NjldfQ==
 -->
