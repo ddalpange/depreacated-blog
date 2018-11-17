@@ -61,8 +61,10 @@ deploy:
 
 ## 2. Stackedit으로 markdown 파일들을 관리하기.
 
+![Stackedit](https://super-monitoring.com/blog/wp-content/uploads/2017/05/stackedit1.png)
 
+[stackedit](https://stackedit.io)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODg2MDYzMCw1NzYwMDg1NzMsMjUzNT
-IzNzY5XX0=
+eyJoaXN0b3J5IjpbLTEzMjA0MDU3NTAsNTc2MDA4NTczLDI1Mz
+UyMzc2OV19
 -->
