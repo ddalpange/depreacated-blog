@@ -67,8 +67,10 @@ deploy:
 GitLab, Github, Google Drive 등 왠만한 클라우드 환경은 모두 지원해준다.
 Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 
-* 
+* repo: `https://github.com/username/blog.git`
+* branch: `master`
+* path: `source`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY4NTEwNTIsNTc2MDA4NTczLDI1Mz
-UyMzc2OV19
+eyJoaXN0b3J5IjpbMTM2NDkyMzMzOSw1NzYwMDg1NzMsMjUzNT
+IzNzY5XX0=
 -->
