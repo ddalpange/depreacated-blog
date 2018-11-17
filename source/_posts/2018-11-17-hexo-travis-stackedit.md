@@ -7,6 +7,8 @@ date: 2018-11-16 18:39:55
 
 티스토리를 커스터마이징 하여 사용하다가 혈압이 올라서 다시 헥소로 포스팅을 하기로 했다.
 
+<!-- more -->
+
 티스토리는 자체 에디터를 사용하는데 html 결과물이 나오는 형태가 일관성이 없어서 테마를 바꿀때도 또 바꾸어줘야하고 심지어 페이지를 작성하는 에디터와 포스트를 작성하는 에디터가 달라서 포멧이 다르다. Gallery 등 다양한 툴을 붙여서 커스터마이징 하고 싶었는데 혈압올라서 그만뒀다
 
 그래서 티스토리의 단점을 커버하기보다 헥소의 단점을 커버하는게 더 낫다고 생각하여 변경하였다.
@@ -73,6 +75,6 @@ Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 
 이제 스택에딧만으로 블로그 포스트들 관리할 수 있다 :)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTYxNzQ2OSw1NzYwMDg1NzMsMjUzNT
-IzNzY5XX0=
+eyJoaXN0b3J5IjpbLTE5Njg3MTQ3MSwxMDY1NjE3NDY5LDU3Nj
+AwODU3MywyNTM1MjM3NjldfQ==
 -->
