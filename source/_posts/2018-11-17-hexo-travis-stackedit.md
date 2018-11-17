@@ -17,8 +17,11 @@ date: 2018-11-16 18:39:55
 
 그래서 이 두가지 문제를 해결하는 방안을 포스팅하려한다.
 
-## 1. Travis CI를 사용하여 자동 빌드 및 푸쉬하기
+## 1. [Travis CI](https://travis-ci.org/)를 사용하여 자동 빌드 및 푸쉬하기
+![Travis CI screenshot](https://cdn.travis-ci.org/images/landing-page/laptop-f308ed79defa4f49c5f01af29a60084d.png)
+
+앱의 빌드 및 배포를 도와주는 CI 툴이다. 완전 무료이고 사용법도 굉장히 쉽다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTE4Mzg3Ml19
+eyJoaXN0b3J5IjpbMTEyNTAwOTQ3MF19
 -->
