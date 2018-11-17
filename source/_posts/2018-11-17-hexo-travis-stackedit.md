@@ -35,8 +35,8 @@ install:
 - npm install
 
 before_script:
-- git config --global user.name 'ddalpange'
-- git config --global user.email 'ddalpange@gmail.com'
+- git config --global user.name 'YOURE_USERNAME'
+- git config --global user.email 'YOURE_EMAIL'
 - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
 
 script:
@@ -45,10 +45,15 @@ script:
 - hexo deploy
 ```
 
-```yml _config.
+```yml _config.yml
+deploy:
+	type: git
+	repo: https://__GITHUB_TOKEN__@github.com/YOURE_USERNAME/ddalpange.github.io
+	branch: master
+	message: "travis"
 ```
 
 [Github Travis](https://github.com/marketplace/travis-ci)에 들어간 후 hexo blog 레파지토리를 등록해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODk2NTQ1MSwyNTM1MjM3NjldfQ==
+eyJoaXN0b3J5IjpbMzkxODg0MzA1LDI1MzUyMzc2OV19
 -->
