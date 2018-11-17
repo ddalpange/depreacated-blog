@@ -25,7 +25,7 @@ date: 2018-11-16 18:39:55
 ```yml .travis.yml
 language: node_js
 node_js:
-- "9"
+	- "9"
 
 branches:
 	only:
@@ -48,12 +48,14 @@ script:
 ```yml _config.yml
 deploy:
 	type: git
-	repo: https://__GITHUB_TOKEN__@github.com/YOURE_USERNAME/ddalpange.github.io
+	repo: https://__GITHUB_TOKEN__@github.com/YOURE_USERNAME/YOURE_USERNAME.github.io
 	branch: master
-	message: "travis"
+	message: "travis auto deploy"
 ```
 
 [Github Travis](https://github.com/marketplace/travis-ci)에 들어간 후 hexo blog 레파지토리를 등록해준다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxODg0MzA1LDI1MzUyMzc2OV19
+eyJoaXN0b3J5IjpbNzAwMjg4NzEyLDI1MzUyMzc2OV19
 -->
