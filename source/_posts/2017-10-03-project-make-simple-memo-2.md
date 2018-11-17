@@ -603,10 +603,10 @@ page-memo-create {
 
 
 ![로그인 페이지](https://ddalpange.github.io/images/memo/sign-in-page.png)
-![회원가입 페이지](/images/memo/sign-up-page.png)
-![메모 리스트 페이지](/images/memo/memo-list-page.png)
-![메모 상세 페이지](/images/memo/memo-detail-page.png)
-![메모 만들기 페이지](/images/memo/memo-create-page.png)
+![회원가입 페이지](https://ddalpange.github.io/images/memo/sign-up-page.png)
+![메모 리스트 페이지](https://ddalpange.github.io/images/memo/memo-list-page.png)
+![메모 상세 페이지](https://ddalpange.github.io/images/memo/memo-detail-page.png)
+![메모 만들기 페이지](https://ddalpange.github.io/images/memo/memo-create-page.png)
 
 ---
 
@@ -615,5 +615,5 @@ page-memo-create {
 - [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODgyMzIxNV19
+eyJoaXN0b3J5IjpbNjM2Mjg5OV19
 -->
