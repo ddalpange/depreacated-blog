@@ -15,7 +15,7 @@ date: 2018-11-21 18:39:55
 ## Async Pipe
 ```typescript some-component.ts
 export class SomeComponent implements OnInit {
-	list$: Observable<any>;
+	list$: Observable<any[]>;
 	ngOnInit() {
 		this.list$ = this.api.getList();
 	}
@@ -31,7 +31,7 @@ export class SomeComponent implements OnInit {
 
 ```typescript some-component.ts
 export class SomeComponent implements OnInit {
-	list$: Observable<any>;
+	list$: Observable<any[]>;
 	ngOnInit() {
 		this.list$ = this.api.getList().pipe(
 			tap(list => console.log(list))
@@ -57,7 +57,24 @@ async pipe를 여러번 사용하면 api 요청도 여러번 날라가기 때문
 
 ## TakeUntill
 
+```typescript some-component.ts
+export class SomeComponent implements OnInit, OnDestroy {
+	list: any[];
+	list$: Observable<any[]>;
+	private unsubscribe$ = new Subject();
+	ngOnInit() {
+		this.list$ = this.api.getList();
+	}
+	ngOnDestroy(): void {
+	    this.unsubscribe$.next();
+	    this.unsubscribe$.complete();
+	}
+}
+```
+
+
 ## Take
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY1ODI4MjgsLTE3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbMTI3NTEwMjcwNCwtMTQ2NjU4MjgyOCwtMT
+czMzk2MDcwXX0=
 -->
