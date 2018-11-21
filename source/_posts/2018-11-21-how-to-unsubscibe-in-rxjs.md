@@ -51,7 +51,8 @@ export class SomeComponent implements OnInit {
 	<pre [innerHTML]="list | json"></pre>
 </footer>
 ```
-list를 async한 엘리먼트의 자식이 아니라면 ㅂ
+list를 선언한 안쪽이 아닌 바깥쪽에서는 list에 접근할 수가 없습니다.
+async pipe를 여러번 사용하면 api 요청도 여러번 날라가기 때문에 두번 사용할수도
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Nzg4MTAyMiwtMTczMzk2MDcwXX0=
+eyJoaXN0b3J5IjpbLTE4NjcyODM2MTksLTE3MzM5NjA3MF19
 -->
