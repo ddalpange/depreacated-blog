@@ -18,7 +18,7 @@ toc: true
 
 #### [애니포인트미디어](http://www.anypointmedia.com) (2017.11 ~ 2018.01)
 
-#### [노루](http://knowru.com) (2018.11 ~ 현재)
+#### [노루](http://knowru.com) (2017.11 ~ 현재)
 
 <br/>
 
