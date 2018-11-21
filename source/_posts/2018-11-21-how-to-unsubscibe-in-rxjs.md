@@ -10,6 +10,8 @@ date: 2018-11-21 18:39:55
 
 매번 **Unsubscribe**를 하기는 너무나 귀찮음으로 스트림 구독을 해제할 수 있는 다양한 방법을 소개합니다.
 
+<!-- more -->
+
 참고로 **HttpClient**, **Router** 등 앵귤러 내부에서 제공하는 기능들은 따로 **Unsubscribe**를 하지 않아도 자동으로 구독을 해제합니다.
 
 ## Async Pipe
@@ -96,7 +98,9 @@ export class SomeComponent implements OnInit {
 ```
 인수로 넣어준 숫자만큼 **publish**가 일어나면 구독을 종료합니다.
 
+이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4NTI3NzQ1LC0xNDY2NTgyODI4LC0xNz
-MzOTYwNzBdfQ==
+eyJoaXN0b3J5IjpbMTAzNDY0ODI1MywtMTQ2NjU4MjgyOCwtMT
+czMzk2MDcwXX0=
 -->
