@@ -10,9 +10,24 @@ date: 2018-11-21 18:39:55
 
 매번 **Unsubscribe**를 하기는 너무나 귀찮음으로 스트림 구독을 해제할 수 있는 다양한 방법을 소개합니다.
 
-참고로 **HttpClient**, **Router** 등 앵귤러 내부에서 제공하는 기능들은 따로 **Unsubscribe**를 하지 않아
+참고로 **HttpClient**, **Router** 등 앵귤러 내부에서 제공하는 기능들은 따로 **Unsubscribe**를 하지 않아도 자동으로 구독을 해제합니다.
+
+## Async Pipe
+
+```html
+<ng-container *ngIf="list$ | async as list; else loadingTemplate">
+    <app-table [list]="list" [keys]="keys">
+      <span class="title">{{'Version' | translate}} {{'List' | translate}}</span>
+      <div class="actions">
+        <button mat-button color="primary" (click)="openModal(createVersionModal)" appPermission permissions="can_edit_this_runnable">
+          <mat-icon>add</mat-icon> {{'Create' | translate}} {{'Version' | translate}}
+        </button>
+      </div>
+    </app-table>
+  </ng-container>
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDgyNDE0ODQsLTE3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbMjAyMzI3NzMxNiwtMTczMzk2MDcwXX0=
 -->
