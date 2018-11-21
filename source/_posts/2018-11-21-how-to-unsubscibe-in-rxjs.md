@@ -63,7 +63,11 @@ export class SomeComponent implements OnInit, OnDestroy {
 	list$: Observable<any[]>;
 	private unsubscribe$ = new Subject();
 	ngOnInit() {
-		this.list$ = this.api.getList();
+		this.list$ = this.api.getList().pipe(
+			takeUntill(this.unsubscribe$)
+		).subscribe(list => {
+			this.list = list;
+		});
 	}
 	ngOnDestroy(): void {
 	    this.unsubscribe$.next();
@@ -72,9 +76,10 @@ export class SomeComponent implements OnInit, OnDestroy {
 }
 ```
 
+인수로 넣어준 Observable (Subject)가 값을 방출하거나 종료할 경우 
 
 ## Take
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTEwMjcwNCwtMTQ2NjU4MjgyOCwtMT
+eyJoaXN0b3J5IjpbMTgxNTEzOTEyOCwtMTQ2NjU4MjgyOCwtMT
 czMzk2MDcwXX0=
 -->
