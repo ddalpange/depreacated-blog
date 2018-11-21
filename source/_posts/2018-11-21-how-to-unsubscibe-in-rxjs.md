@@ -17,8 +17,8 @@ date: 2018-11-21 18:39:55
 ## Async Pipe
 ```typescript some-component.ts
 export class SomeComponent implements OnInit {
-	list$: Observable<any[]>;
-	ngOnInit() {
+	list$: Observable<Item[]>;
+	ngOnInit(): void {
 		this.list$ = this.api.getList();
 	}
 }
@@ -33,8 +33,8 @@ export class SomeComponent implements OnInit {
 
 ```typescript some-component.ts
 export class SomeComponent implements OnInit {
-	list$: Observable<any[]>;
-	ngOnInit() {
+	list$: Observable<Item[]>;
+	ngOnInit(): void {
 		this.list$ = this.api.getList().pipe(
 			tap(list => console.log(list))
 		);
@@ -61,10 +61,10 @@ async pipe를 여러번 사용하면 api 요청도 여러번 날라가기 때문
 
 ```typescript some-component.ts
 export class SomeComponent implements OnInit, OnDestroy {
-	list: any[];
-	list$: Observable<any[]>;
+	list: Item[];
+	list$: Observable<Item[]>;
 	private unsubscribe$ = new Subject();
-	ngOnInit() {
+	ngOnInit(): void {
 		this.list$ = this.api.getList().pipe(
 			takeUntill(this.unsubscribe$)
 		).subscribe(list => {
@@ -84,10 +84,10 @@ export class SomeComponent implements OnInit, OnDestroy {
 
 ```typescript some-component.ts
 export class SomeComponent implements OnInit {
-	list: any[];
-	list$: Observable<any[]>;
+	list: Item[];
+	list$: Observable<Item[]>;
 
-	ngOnInit() {
+	ngOnInit(): void {
 		this.list$ = this.api.getList().pipe(
 			take(1)
 		).subscribe(list => {
@@ -101,6 +101,6 @@ export class SomeComponent implements OnInit {
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDY0ODI1MywtMTQ2NjU4MjgyOCwtMT
-czMzk2MDcwXX0=
+eyJoaXN0b3J5IjpbLTE1NzEyOTQzNDMsLTE0NjY1ODI4MjgsLT
+E3MzM5NjA3MF19
 -->
