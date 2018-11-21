@@ -13,7 +13,7 @@ date: 2018-11-21 18:39:55
 참고로 **HttpClient**, **Router** 등 앵귤러 내부에서 제공하는 기능들은 따로 **Unsubscribe**를 하지 않아도 자동으로 구독을 해제합니다.
 
 ## Async Pipe
-```typescript
+```typescript some-component.ts
 export class SomeComponent implements OnInit {
 	list$: Observable<any>;
 	ngOnInit() {
@@ -21,13 +21,15 @@ export class SomeComponent implements OnInit {
 	}
 }
 ```
-```html
+```html some-component.html
 <ng-container *ngIf="list$ | async as list; else loadingTemplate">
     <app-table [list]="list" [keys]="keys"></app-table>
 </ng-container>
 ```
+**Angular** 에서 제공하는 **Async** pipe를 사용하는 방법입니다.
+**Async** pipe가 알아서 Observable을 구독하고 해지하기 때무
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQzMTM3NDAsLTE3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbMTg5NTA3ODMwOSwtMTczMzk2MDcwXX0=
 -->
