@@ -27,9 +27,20 @@ export class SomeComponent implements OnInit {
 </ng-container>
 ```
 **Angular** 에서 제공하는 **Async** pipe를 사용하는 방법입니다.
-**Async** pipe가 알아서 Observable을 구독하고 해지하기 때무
+**Async** pipe가 알아서 Observable을 구독하고 해지하기 때문에 사용자는 별도로 신경써줄 필요가 없죠. 다만 이 방법은 두가지의 문제가 있습니다.
+
+```typescript some-component.ts
+export class SomeComponent implements OnInit {
+	list$: Observable<any>;
+	ngOnInit() {
+		this.list$ = this.api.getList().pipe(
+		);
+	}
+}
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTA3ODMwOSwtMTczMzk2MDcwXX0=
+eyJoaXN0b3J5IjpbLTIwNjU0NjI5NDMsLTE3MzM5NjA3MF19
 -->
