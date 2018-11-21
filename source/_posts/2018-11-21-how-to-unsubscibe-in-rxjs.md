@@ -13,21 +13,17 @@ date: 2018-11-21 18:39:55
 참고로 **HttpClient**, **Router** 등 앵귤러 내부에서 제공하는 기능들은 따로 **Unsubscribe**를 하지 않아도 자동으로 구독을 해제합니다.
 
 ## Async Pipe
-
+```typescript
+export class SomeComponent implemen
+this.list$ = this.api.getVersionList();
+```
 ```html
 <ng-container *ngIf="list$ | async as list; else loadingTemplate">
-    <app-table [list]="list" [keys]="keys">
-      <span class="title">{{'Version' | translate}} {{'List' | translate}}</span>
-      <div class="actions">
-        <button mat-button color="primary" (click)="openModal(createVersionModal)" appPermission permissions="can_edit_this_runnable">
-          <mat-icon>add</mat-icon> {{'Create' | translate}} {{'Version' | translate}}
-        </button>
-      </div>
-    </app-table>
-  </ng-container>
+    <app-table [list]="list" [keys]="keys"></app-table>
+</ng-container>
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzI3NzMxNiwtMTczMzk2MDcwXX0=
+eyJoaXN0b3J5IjpbLTEyMzcyMTQ1MTUsLTE3MzM5NjA3MF19
 -->
