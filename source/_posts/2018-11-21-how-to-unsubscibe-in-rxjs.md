@@ -48,11 +48,16 @@ export class SomeComponent implements OnInit {
 	</ng-container>
 </section>
 <footer class="another">
+	<!-- Error -->
 	<pre [innerHTML]="list | json"></pre>
 </footer>
 ```
 list를 선언한 안쪽이 아닌 바깥쪽에서는 list에 접근할 수가 없습니다.
-async pipe를 여러번 사용하면 api 요청도 여러번 날라가기 때문에 두번 사용할수도
+async pipe를 여러번 사용하면 api 요청도 여러번 날라가기 때문에 미리 마크업 구조를 잡고 가야합니다.
+
+## TakeUntill
+
+## Take
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcyODM2MTksLTE3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbLTE0NjY1ODI4MjgsLTE3MzM5NjA3MF19
 -->
