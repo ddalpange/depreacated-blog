@@ -34,13 +34,15 @@ export class SomeComponent implements OnInit {
 	list$: Observable<any>;
 	ngOnInit() {
 		this.list$ = this.api.getList().pipe(
+			tap(list => console.log(list))
 		);
 	}
 }
 ```
+첫번째로 스크립트내에서 데이터를 쓰기가 귀찮습니다. html에서 event를 통해서 받거나, 아니면 tap operator를 이용해 후킹하여 데이터를 저장해야합니다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU0NjI5NDMsLTE3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbLTIwMjAyMDkwNDksLTE3MzM5NjA3MF19
 -->
