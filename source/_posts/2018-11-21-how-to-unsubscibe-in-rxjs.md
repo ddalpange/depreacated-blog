@@ -14,8 +14,12 @@ date: 2018-11-21 18:39:55
 
 ## Async Pipe
 ```typescript
-export class SomeComponent implemen
-this.list$ = this.api.getVersionList();
+export class SomeComponent implements OnInit {
+	list$: Observable<any>;
+	ngOnInit() {
+		this.list$ = this.api.getList();
+	}
+}
 ```
 ```html
 <ng-container *ngIf="list$ | async as list; else loadingTemplate">
@@ -25,5 +29,5 @@ this.list$ = this.api.getVersionList();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzcyMTQ1MTUsLTE3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbLTExMTQzMTM3NDAsLTE3MzM5NjA3MF19
 -->
