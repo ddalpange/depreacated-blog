@@ -76,10 +76,27 @@ export class SomeComponent implements OnInit, OnDestroy {
 }
 ```
 
-인수로 넣어준 Observable (Subject)가 값을 방출하거나 종료할 경우 
+인수로 넣어준 Observable (Subject)가 값을 방출하거나 종료할 경우 구독을 해제합니다.
 
 ## Take
+
+```typescript some-component.ts
+export class SomeComponent implements OnInit {
+	list: any[];
+	list$: Observable<any[]>;
+
+	ngOnInit() {
+		this.list$ = this.api.getList().pipe(
+			take(1)
+		).subscribe(list => {
+			this.list = list;
+		});
+	}
+}
+```
+인수로 넣어준 숫자만큼 **publish**가 일어나면 구독을 종료합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTEzOTEyOCwtMTQ2NjU4MjgyOCwtMT
-czMzk2MDcwXX0=
+eyJoaXN0b3J5IjpbNTY4NTI3NzQ1LC0xNDY2NTgyODI4LC0xNz
+MzOTYwNzBdfQ==
 -->
