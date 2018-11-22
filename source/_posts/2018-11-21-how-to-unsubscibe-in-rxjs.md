@@ -137,12 +137,11 @@ export class SomeComponent implements OnInit {
 }
 ```
 첫번째 구독만 받는 operator입니다.
-인자로 expression func를 넣어주면 해당 ㅎ
-
+인자로 expression을 넘겨줄 수 있습니다.
 
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDUwMjgwNSwxMzQ3MDU4NDkyLC0xNT
-cxMjk0MzQzLC0xNDY2NTgyODI4LC0xNzMzOTYwNzBdfQ==
+eyJoaXN0b3J5IjpbMTgzNjAzNTUyLDEzNDcwNTg0OTIsLTE1Nz
+EyOTQzNDMsLTE0NjY1ODI4MjgsLTE3MzM5NjA3MF19
 -->
