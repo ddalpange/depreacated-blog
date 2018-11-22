@@ -120,9 +120,28 @@ export class SomeComponent implements OnInit {
 ```
 인수로 넣어준 숫자만큼 **publish**가 일어나면 구독을 종료합니다.
 
+## Take
+
+```typescript some-component.ts
+export class SomeComponent implements OnInit {
+	list: Item[];
+	list$: Observable<Item[]>;
+
+	ngOnInit(): void {
+		this.list$ = this.api.getList().pipe(
+			take(1)
+		).subscribe(list => {
+			this.list = list;
+		});
+	}
+}
+```
+인수로 넣어준 숫자만큼 **publish**가 일어나면 구독을 종료합니다.
+
+
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwODg5MTk2LDEzNDcwNTg0OTIsLTE1Nz
-EyOTQzNDMsLTE0NjY1ODI4MjgsLTE3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbLTk0NDMxNDExNiwxMzQ3MDU4NDkyLC0xNT
+cxMjk0MzQzLC0xNDY2NTgyODI4LC0xNzMzOTYwNzBdfQ==
 -->
