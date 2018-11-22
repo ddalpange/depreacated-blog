@@ -80,6 +80,29 @@ export class SomeComponent implements OnInit, OnDestroy {
 
 인수로 넣어준 Observable (Subject)가 값을 방출하거나 종료할 경우 구독을 해제합니다.
 
+## TakeUntill
+
+```typescript some-component.ts
+export class SomeComponent implements OnInit, OnDestroy {
+	list: Item[];
+	list$: Observable<Item[]>;
+	private unsubscribe$ = new Subject();
+	ngOnInit(): void {
+		this.list$ = this.api.getList().pipe(
+			takeUntill(this.unsubscribe$)
+		).subscribe(list => {
+			this.list = list;
+		});
+	}
+	ngOnDestroy(): void {
+	    this.unsubscribe$.next();
+	    this.unsubscribe$.complete();
+	}
+}
+```
+
+인수로 넣어준 Observable (Subject)가 값을 방출하거나 종료할 경우 구독을 해제합니다.
+
 ## Take
 
 ```typescript some-component.ts
@@ -101,6 +124,6 @@ export class SomeComponent implements OnInit {
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzEyOTQzNDMsLTE0NjY1ODI4MjgsLT
-E3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbMTM0NzA1ODQ5MiwtMTU3MTI5NDM0MywtMT
+Q2NjU4MjgyOCwtMTczMzk2MDcwXX0=
 -->
