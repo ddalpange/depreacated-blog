@@ -78,7 +78,7 @@ export class SomeComponent implements OnInit, OnDestroy {
 }
 ```
 
-인수로 넣어준 Observable (Subject)가 값을 방출하거나 종료할 경우 구독을 해제합니다.
+인자로 넣어준 Observable (Subject)가 값을 방출하거나 종료할 경우 구독을 해제합니다.
 
 ## TakeWhile
 
@@ -100,7 +100,7 @@ export class SomeComponent implements OnInit, OnDestroy {
 }
 ```
 
-인수로 넣어준 Boolean 값이 false일 경우 구독이 일어나지 않습니다.
+인자로 넣어준 Boolean 값이 false일 경우 구독이 일어나지 않습니다.
 
 ## Take
 
@@ -118,9 +118,9 @@ export class SomeComponent implements OnInit {
 	}
 }
 ```
-인수로 넣어준 숫자만큼 **publish**가 일어나면 구독을 종료합니다.
+인자로 넣어준 숫자만큼 **publish**가 일어나면 구독을 종료합니다.
 
-## Take
+## First
 
 ```typescript some-component.ts
 export class SomeComponent implements OnInit {
@@ -129,19 +129,20 @@ export class SomeComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.list$ = this.api.getList().pipe(
-			take(1)
+			first()
 		).subscribe(list => {
 			this.list = list;
 		});
 	}
 }
 ```
-인수로 넣어준 숫자만큼 **publish**가 일어나면 구독을 종료합니다.
+첫번째 구독만 받는 operator입니다.
+인자로 expression func를 넣어주면 해당 ㅎ
 
 
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDMxNDExNiwxMzQ3MDU4NDkyLC0xNT
+eyJoaXN0b3J5IjpbMTI3MDUwMjgwNSwxMzQ3MDU4NDkyLC0xNT
 cxMjk0MzQzLC0xNDY2NTgyODI4LC0xNzMzOTYwNzBdfQ==
 -->
