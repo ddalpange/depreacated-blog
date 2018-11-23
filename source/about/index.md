@@ -81,6 +81,16 @@ toc: true
 ![4](https://ddalpange.github.io/images/portfolio/oowa/4.png)
 </div>
 
+#### [Knowru Limited](https://wwww.knowrulimited.com)
+> 노루 제품 소개 및 블로그 사이트 
+**Angular**, **Material2**
+
+
+#### AI Interview
+> 인터뷰 및 비디오 레코딩. 지원자를 분석
+**Vue**, **Vuex**, **Vuetify**
+
+
 <br/>
 
 
@@ -100,14 +110,8 @@ toc: true
 
 ### Skills
 
-1. React
-2. Angular
-3. RxJS
-4. NodeJS
-5. Git                  
-6. Flux
-7. Bash
-8. Data Visualization
+React, Reflux, Flux, Angular, Angular1, Vue, RxJS, Git, Bash, Data Visualization 등등
+
 
 ### Links
 
