@@ -6,9 +6,12 @@ toc: true
 ### 소개
 
 프론트엔드 프로그래머 김요한입니다.
+React, Vue, Angular 등 자바스크립트 기술 트렌드에 관심이 많으며 기초 지식 또한 놓치지 않습니다.
+요즘에는 프론트엔드 테스팅에 관심을 가지고 접근중입니다.
 
 **email**: ddalpange@gmail.com
 **github**: https://github.com/ddalpange
+**blog**: https://ddalpange.github.io
 
 <br/>
 
@@ -22,11 +25,11 @@ toc: true
 
 <br/>
 
-
 ### Projects
 #### [PC Travelhow](https://www.travelhow.com)
-> 트래블하우 PC 플랫폼입니다. 항공 예약 프로세스 전격 개편을 진행하였습니다. 
+> 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Web
 **React**, **Reflux**
+
 
 <div class="justified-gallery">
 ![1](https://ddalpange.github.io/images/portfolio/travelhow-web/1.png)
@@ -34,12 +37,12 @@ toc: true
 </div>
 
 #### [Mobile Travelhow](https://m.travelhow.com)
-> 트래블하우 Mobile 플랫폼입니다. 유지보수를 총괄하였으며, 주로 호텔 리팩토링과 신한 제휴서비스를 담당하였습니다.
+> 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Mobile
 **React**, **Reflux**, **PostCSS**, **Cordova Webview**
 
 #### [Mobile2 Travelhow](https://mm.travelhow.com)
-> 트래블하우 Mobile2 (수정 후) 플랫폼입니다. Mobile플랫폼의 유지보수보다 신규개발이 빠르다고 판단하여 새로 진행한 프로젝트입니다. 액티비티 서비스 신규개발을 전담하였습니다
-**Ionic**, **Angular**, **RxJS**
+> 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Mobile
+**Ionic**, **Angular2+**, **RxJS**
 
 <div class="justified-gallery">
 ![1](https://ddalpange.github.io/images/portfolio/travelhow-mobile/1.png)
@@ -51,11 +54,12 @@ toc: true
 
 
 #### [Biz Travelhow](https://biz.travelhow.biz)
-> 트래블하우 비즈니스 플랫폼입니다. 항공 카테고리를 전담하여 신규 개발하였습니다.
+> 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. B to B
 **Angular**, **RxJS**
 
+
 #### [Knowru](https://www.knowru.com)
-> 데이터 시각화, 머신러닝 호스팅
+> 머신러닝 모델을 호스팅하여 API로 활용할 수 있게 해주고 그에 대한 값들을 테스팅 및 시각화 할 수 있는 서비스.
 
 <div class="justified-gallery">
 ![1](https://ddalpange.github.io/images/portfolio/knowru/1.jpg)
@@ -72,7 +76,7 @@ toc: true
 </div>
 
 #### [Oowa](https://oowa.io)
-> IOT, People Counting
+> 오프라인 광고 집행 시 CCTV로 녹화하여 광고를 시청한 사람들을 분석해 데이터로 시각화해주는 서비스.
 
 <div class="justified-gallery">
 ![1](https://ddalpange.github.io/images/portfolio/oowa/1.png)
@@ -82,12 +86,12 @@ toc: true
 </div>
 
 #### [Knowru Limited](https://wwww.knowrulimited.com)
-> 노루 제품 소개 및 블로그 사이트 
+> Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 대한 정보를 제공하는 서비스.
 **Angular**, **Material2**
 
 
 #### AI Interview
-> 인터뷰 및 비디오 레코딩. 지원자를 분석
+> 인터뷰 및 비디오 레코딩. 지원자를 머신러닝으로 분석하여 채용 코스트를 줄여주는 서비스.
 **Vue**, **Vuex**, **Vuetify**
 
 
