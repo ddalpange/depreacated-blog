@@ -85,7 +85,7 @@ React, Vue, Angular 등 자바스크립트 기술 트렌드에 관심이 많으�
 ![4](https://ddalpange.github.io/images/portfolio/oowa/4.png)
 </div>
 
-#### [Knowru Limited](https://wwww.knowrulimited.com)
+#### [Knowru Limited](https://www.knowrulimited.com)
 > Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 대한 정보를 제공하는 서비스.
 **Angular**, **Material2**
 
