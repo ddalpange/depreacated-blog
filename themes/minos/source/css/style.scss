@@ -1,5 +1,5 @@
 $family-serif: "Godo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
-$family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
+$family-mono: "Ubuntu Mono", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
 body, button, input, select, textarea {
@@ -91,7 +91,8 @@ a.tag.article-tag {
             }
         }
         p {
-            font-size: 18px;
+            font-size: 16px;
+            color: #464646;
             line-height: 28px;
             -webkit-font-smoothing: antialiased;
             word-break     : keep-all;
