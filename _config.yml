@@ -41,6 +41,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: true
+  copy: true
 #  tab_replace: true
   
 # Home page setting
