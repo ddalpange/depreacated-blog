@@ -1,4 +1,4 @@
-$family-serif: "Godo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+$family-serif: "Noto Sans KR", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
 $family-mono: "Ubuntu Mono", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
@@ -91,13 +91,11 @@ a.tag.article-tag {
             }
         }
         p {
-            font-size: 16px;
             color: #464646;
             line-height: 28px;
             -webkit-font-smoothing: antialiased;
             word-break     : keep-all;
             word-wrap      : break-word;
-
         }
     }
 
