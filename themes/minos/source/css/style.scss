@@ -1,6 +1,5 @@
-$family-serif: "Noto Serif KR", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
-$family-sanserif: "Noto Sans KR", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$family-mono: "Ubuntu Mono", monospace, "Microsoft YaHei";
+$family-serif: "Apple SD Gothic Neo", "Spoqa Han Sans", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+$family-mono: "Fira Mono", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
 body, button, input, select, textarea {
@@ -85,7 +84,6 @@ a.tag.article-tag {
         h1, h2, h3, h4, h5, h6 {
             cursor: pointer;
             position: relative;
-            font-family: $family-sanserif;
             &:hover:before {
                 content: '#';
                 position: absolute;
@@ -93,7 +91,6 @@ a.tag.article-tag {
             }
         }
         p {
-            font-family: $family-serif;
             color: #464646;
             line-height: 28px;
             -webkit-font-smoothing: antialiased;
