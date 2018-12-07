@@ -1,17 +1,27 @@
-title: About Me
+title: About
 date: 2017-07-26 23:25:27
 toc: true
 ---
 
-### 소개
+<div style="display: flex;">
+    <div style="width: 250px; padding: 15px 50px 0px;">
+        <img src="https://avatars2.githubusercontent.com/u/20659160?s=460&v=4"
+             style="border-radius:100px;"
+        >
+    </div>
+    <div style="flex: 1;">
+        ** DDALPANGE ** (Yohan Kim)
+        
+        React, Vue, Angular 등 자바스크립트 기술 트렌드에 관심이 많으며 기초 지식 또한 놓치지 않습니다.
+        요즘에는 프론트엔드 테스팅에 관심을 가지고 접근중입니다.
+        
+        **Email**: ddalpange@gmail.com
+        **Github**: https://github.com/ddalpange
+        **Blog**: https://ddalpange.github.io
+      
+    </div>
+</div>
 
-프론트엔드 프로그래머 김요한입니다.
-React, Vue, Angular 등 자바스크립트 기술 트렌드에 관심이 많으며 기초 지식 또한 놓치지 않습니다.
-요즘에는 프론트엔드 테스팅에 관심을 가지고 접근중입니다.
-
-**email**: ddalpange@gmail.com
-**github**: https://github.com/ddalpange
-**blog**: https://ddalpange.github.io
 
 <br/>
 
