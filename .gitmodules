@@ -1,0 +1,3 @@
+[submodule "themes/minos"]
+	path = themes/minos
+	url = https://github.com/ddalpange/hexo-theme-minos.git
