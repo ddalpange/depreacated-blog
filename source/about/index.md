@@ -128,14 +128,10 @@ toc: true
 
 ### Skills
 
-* View
-  React, Vue, Angular, Angular1, Jquery
-* Data Structure
-  RxJS, Refulx, Flux, Vuex
-* Chart
-  AmCharts, TUIChart, ChartJS
-* ETC
-  Git, Bash, AppSync, Cloudformation, Cloudfront
+* React, Vue, Angular, Angular1, Jquery
+* RxJS, Refulx, Flux, Vuex
+* AmCharts, TUIChart, ChartJS
+* Git, Bash, AppSync, Cloudformation, Cloudfront
 
 
 
