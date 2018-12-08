@@ -40,15 +40,18 @@ toc: true
 > 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Web
 **React**, **Reflux**
 
-
 <div class="justified-gallery">
 ![1](https://ddalpange.github.io/images/portfolio/travelhow-web/1.png)
 ![2](https://ddalpange.github.io/images/portfolio/travelhow-web/2.png)
 </div>
 
+<br/>
+
 #### [Mobile Travelhow](https://m.travelhow.com)
 > 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Mobile
 **React**, **Reflux**, **PostCSS**, **Cordova Webview**
+
+<br/>
 
 #### [Mobile2 Travelhow](https://mm.travelhow.com)
 > 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Mobile
@@ -62,6 +65,7 @@ toc: true
 ![5](https://ddalpange.github.io/images/portfolio/travelhow-mobile/5.png)
 </div>
 
+<br/>
 
 #### [Biz Travelhow](https://biz.travelhow.biz)
 > 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. B to B
@@ -85,6 +89,8 @@ toc: true
 ![11](https://ddalpange.github.io/images/portfolio/knowru/12.png)
 </div>
 
+<br/>
+
 #### [Oowa](https://oowa.io)
 > 오프라인 광고 집행 시 CCTV로 녹화하여 광고를 시청한 사람들을 분석해 데이터로 시각화해주는 서비스.
 
@@ -99,14 +105,13 @@ toc: true
 > Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 대한 정보를 제공하는 서비스.
 **Angular**, **Material2**
 
+<br/>
 
 #### AI Interview
 > 인터뷰 및 비디오 레코딩. 지원자를 머신러닝으로 분석하여 채용 코스트를 줄여주는 서비스.
 **Vue**, **Vuex**, **Vuetify**
 
-
 <br/>
-
 
 ### Study
 #### [Simple Memo](https://github.com/ddalpange/simple-memo)
@@ -117,17 +122,26 @@ toc: true
 
 ### Contributions
 
-#### [Tui Chart](https://github.com/nhnent/tui.chart)
+* [Tui Chart](https://github.com/nhnent/tui.chart)
 
 <br/>
 
-
 ### Skills
 
-React, Reflux, Flux, Angular, Angular1, Vue, RxJS, Git, Bash, Data Visualization 등등
+* View
+  React, Vue, Angular, Angular1, Jquery
+* Data Structure
+  RxJS, Refulx, Flux, Vuex
+* Chart
+  AmCharts, TUIChart, ChartJS
+* ETC
+  Git, Bash, AppSync, Cloudformation, Cloudfront
+
 
 
 ### Links
 
-#### [Github](https://github.com/ddalpange)
-#### [RocketPunch](https://www.rocketpunch.com/@a4a1dafb457a438e)
+* [Email](ddalpange@gmail.com)
+* [Blog](https://ddalpange.github.io)
+* [RocketPunch](https://www.rocketpunch.com/@a4a1dafb457a438e/info)
+* [Github](https://github.com/ddalpange)
