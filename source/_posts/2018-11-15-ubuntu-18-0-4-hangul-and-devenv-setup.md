@@ -23,7 +23,7 @@ banner:
 	sudo apt-get install chrome-gnome-shell
 	sudo apt-get install zsh
 	sudo apt-get install curl
-	sh -c "$(curl -fsSL [https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh](https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh))"
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 	chsh -s /usr/bin/zsh
 	```
 
@@ -106,5 +106,5 @@ Dock은 [Gnome Shell Extension](https://extensions.gnome.org/)에서 Dash To Doc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTU3NDAzMV19
+eyJoaXN0b3J5IjpbMjEzOTU2NDAzOV19
 -->
