@@ -10,8 +10,7 @@ categories:
 toc: true
 ---
 
-### 서론
-
+React, Vue, Angular 등 프론트엔드프레임웍을 쓰다보면 Data에 따라 UI가 
 프론트엔드쪽 일을 하다보면 대부분 오브젝트 및 오브젝트 배열(데이터 흐름)을 핸들링 하는 일과 돔에 대한 퍼포먼스를 개선하는 일로 나뉜다.
 
 리액트는 데이터의 흐름에 따라서 가상돔이 자동으로 렌더링을 돌기 때문에 올바른 데이터의 흐름을 구현한다면 따로 **Immutable**을 사용해 렌더링여부를 제어하지 않아도 나름 쾌적한 성능을 보장한다.
@@ -74,3 +73,6 @@ ES6를 사용하지 않았기 때문에 비교적 크로스 브라우징 문제�
 참고문서
 - https://stackoverflow.com/questions/36032179/remove-duplicates-in-an-object-array-javascript
 - https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTYwNzgyOTU3Ml19
+-->
