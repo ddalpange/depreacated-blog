@@ -9,7 +9,7 @@ thumbnail: https://pbs.twimg.com/profile_images/821080734102220800/PANTqUmu.jpg
 toc: true
 ---
 
-
+자바스크립트는 버전업과 타입이 없는 동적 언어의 특성으로 자바가
 자바스크립트는 자바나 다른 정적 언어에 비해 정의되거나 정해진게 많지 않아 어려운 반면이 없지않아 있습니다.
 
 각자 프로그래밍에 대한 생각이 다르다 보니 코딩 스타일도 다르기 때문인데요.
@@ -160,3 +160,6 @@ export class BlueButton extends React.component {
 반대로 여기선 props의 남은 프로퍼티들을 열거했기 때문에 spread로 볼수 있겠죠 ?
 
 틀렸거나 궁금한점이 있다면 댓글 부탁드립니다.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTUzNzI2Mzc4XX0=
+-->
