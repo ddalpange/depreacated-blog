@@ -6,9 +6,9 @@ categories: hexo
 date: 2018-11-21 18:39:55
 ---
 
-**HighlightJS**는 **PrismJS**와 달리 Code Copy 플러그인이 없어서 **ClipboardJS**로 직접 만들었다.
+[Highlight](https://highlightjs.org/)는 [Prism](https://prismjs.com/index.html)과 달리 Code Copy 플러그인이 없어서 **ClipboardJS**로 직접 만들었다.
 
-생각해보니 그냥 **HighlightJS**를 **PrismJS**로 교체하는게 빠른듯.
+생각해보니 그냥 [Highlight](https://highlightjs.org/)를 [Prism](https://prismjs.com/index.html)으로 교체하는게 빠른듯.
 
 <!-- more -->
 
@@ -80,6 +80,6 @@ plugins:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE2OTQ5NDEsLTE5MTUxNzY4MTVdfQ
+eyJoaXN0b3J5IjpbLTEyOTc3MDM5MjEsLTE5MTUxNzY4MTVdfQ
 ==
 -->
