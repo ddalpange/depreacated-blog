@@ -4,6 +4,7 @@ thumbnail: https://cdn-images-1.medium.com/fit/t/1600/480/1*gD37OB2-PtMqZdk3X1Yn
 tags: [rxjs, unsubscribe, stream]
 date: 2018-11-21 18:39:55
 categories:
+- javascript
 - rxjs
 ---
 
@@ -144,7 +145,7 @@ export class SomeComponent implements OnInit {
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMDU0NTkxLDE4MzYwMzU1MiwxMzQ3MD
-U4NDkyLC0xNTcxMjk0MzQzLC0xNDY2NTgyODI4LC0xNzMzOTYw
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTc0NjI1MDkyNywyNDMwNTQ1OTEsMTgzNj
+AzNTUyLDEzNDcwNTg0OTIsLTE1NzEyOTQzNDMsLTE0NjY1ODI4
+MjgsLTE3MzM5NjA3MF19
 -->
