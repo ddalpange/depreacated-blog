@@ -2,8 +2,9 @@
 title: 블로깅을 편하게 하기 위한 발악 (hexo, travis, stackedit)
 tags: [hexo, travis, github, stackedit]
 thumbnail: https://workablehr.s3.amazonaws.com/uploads/account/logo/11901/large_Mascot-fullcolor-png.png
-categories:
 date: 2018-11-16 18:39:55
+categories:
+- hexo
 ---
 
 티스토리를 커스터마이징 하여 사용하다가 혈압이 올라서 다시 헥소로 포스팅을 하기로 했다.
@@ -78,7 +79,7 @@ Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 
 ![개쩔어](https://media.giphy.com/media/d2Z9QYzA2aidiWn6/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDUzNjIzNSwtMTgxNDc5NzMwMywxMT
-k4ODA2OTkzLDEwNjU2MTc0NjksNTc2MDA4NTczLDI1MzUyMzc2
-OV19
+eyJoaXN0b3J5IjpbMTI1MTExMzMwOCwxNzUwNTM2MjM1LC0xOD
+E0Nzk3MzAzLDExOTg4MDY5OTMsMTA2NTYxNzQ2OSw1NzYwMDg1
+NzMsMjUzNTIzNzY5XX0=
 -->
