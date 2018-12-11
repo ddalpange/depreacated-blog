@@ -2,7 +2,8 @@
 title: NVM을 통한 NodeJS 버전 관리
 tags: [nodejs, nvm, n, Current]
 categories:
-  - nodejs
+  - javascript
+  - node
 date: 2018-03-24 18:39:55
 thumbnail: https://cdn-images-1.medium.com/max/1200/1*XeFELjfQfDkPL-s7dE9-CQ.pngnodejs.org/static/images/logos/nodejs-new-pantone-black.png
 banner: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
@@ -37,5 +38,5 @@ STABLE은 **9.9.0**이니 말 다했다.
 
 좀 더 빨리 알았다면 좋았을텐데 :(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDgwNDc2Myw2NDY3NjE5MjRdfQ==
+eyJoaXN0b3J5IjpbLTE3MDAzNjY2NjAsNjQ2NzYxOTI0XX0=
 -->
