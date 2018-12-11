@@ -77,7 +77,7 @@ console.log(c, b, arrayRest); // 1, 2
 
 **Rest Operator**와 반대되는 의미라고 해석하면 될것같습니다.
 
-앞에 *...*을 명시하면 배열이라면 원소들을 나열하고, 
+앞에 **...** 를 써주면 배열이라면 원소들을 나열하고, 
 
 오브젝트라면 열거할수 있는 프로퍼티들을 나열합니다.
 
@@ -104,6 +104,7 @@ new Date(...[2018,01,01]);
 오브젝트의 프로퍼티 나열할때 똑같은 프로퍼티가 있다면 뒤에 쓴걸로 덮어쓰기됩니다.
 
 *여기서 의문!*
+
 과연 Spread는 오브젝트를 딥카피할까요 ?
 
 ```js
@@ -126,6 +127,7 @@ console.log(depth.value, depth.oneDepth.value);
 
 
 ### 정리
+
 이제 예제를 다 이해 하셨으면 처음의 문제로 돌아가보죠.
 
 ```jsx
@@ -139,14 +141,14 @@ export class BlueButton extends React.component {
 	}
 	
 	render() {
-		let { className, ...props } = this.props;
+		const { className, ...props } = this.props;
 		
 		return <button className={`btn btn-info ${className}`} {...props} />		
 	}
 	
 }
 ```
-위 코드는 스프레드일까요 레스트일까요? 
+위 코드는 **Spread Operator**일까요 **Rest Operator**일까요? 
 
 `let { className, ...props } = this.props;` 
 
@@ -158,5 +160,5 @@ export class BlueButton extends React.component {
 
 틀렸거나 궁금한점이 있다면 댓글 부탁드립니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Njc1NTk3Ml19
+eyJoaXN0b3J5IjpbMjI3NjUyMTU4XX0=
 -->
