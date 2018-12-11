@@ -15,6 +15,8 @@ toc: true
 
 이번 시간에서는 목 객체와 Angular2의 서비스(보통 아이오닉에선 provider 라고 명칭합니다.)를 이용해서 메모가 어떻게 만들어지고, 수정되고, 삭제되는지 알아볼겁니다. 틀리거나 안되는것이 있다면 바로바로 댓글로 달아주세요!
 
+<!-- more -->
+
 **mock objects?**
 > 목 객체는 실제 객체의 동작을 흉내내는 시뮬레이션 객체입니다. 보통 프론트단에서 api와의 의존성을 없애고 테스트를 쉽게 하기 위해 하드코딩된 데이터들을 mock data라고 칭합니다.
 
@@ -25,8 +27,7 @@ toc: true
 
 **src**폴더에서 **models**, **memo** 폴더를 차례대로 만들어 주신 후 그 안에 **memo.interface.ts**파일을 만들어주세요
 
-**src/modes/memo/memo.interface.ts**
-```typescript
+```typescript src/modes/memo/memo.interface.ts
 export interface Memo {
     key: number;
     author: string;                 // 작성자
@@ -37,7 +38,6 @@ export interface Memo {
 }
 ```
 
-<!-- more -->
 
 ### 목 메모리스트 정의하기
 
@@ -413,3 +413,6 @@ export class MemoCreatePage {
 참고 링크
 - [해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simple-memo)
 - [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIxMjY0NjE2NTBdfQ==
+-->
