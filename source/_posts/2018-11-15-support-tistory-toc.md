@@ -4,7 +4,7 @@ tags: []
 date: 2018-11-15 15:33:54
 thumbnail: https://t1.daumcdn.net/cfile/tistory/23711A3856372C9617
 categories:
-  - javascript
+- javascript
 ---
 
 ## TOC
@@ -131,5 +131,5 @@ function prepareTOC(toc) {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwMDQxMTEzXX0=
+eyJoaXN0b3J5IjpbNTI5NTg0NzkzXX0=
 -->
