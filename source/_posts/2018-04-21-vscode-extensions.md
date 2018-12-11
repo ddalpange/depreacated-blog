@@ -3,6 +3,7 @@ title: vscode extension
 tags: []
 categories:
   - javascript
+  - ide
 date: 2018-04-21 01:33:28
 thumbnail: http://www.itpaper.co.kr/wp-content/uploads/2017/12/0_Tu2sJCmh_CaSOD17.png
 banner: http://www.itpaper.co.kr/wp-content/uploads/2017/12/0_Tu2sJCmh_CaSOD17.png
@@ -84,3 +85,6 @@ typescript를 사용할때 각종 package를 자동으로 import해줍니다.
 비슷한 패키지로 typescript hero가 있는데 이 패키지는 absolute import를 지원하지 않습니다.
 
 rxjs를 사용할 때에는 오퍼레이터나 메소드에 대한 인텔리센스를 전혀 제공하지 못하는데 해결방법을 찾아야할듯 싶습니다.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTM3MDE1ODMwN119
+-->
