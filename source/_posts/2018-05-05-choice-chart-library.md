@@ -2,7 +2,10 @@ title: 자바스크립트 차트 라이브러리
 tags:
   - javascript
   - chart
-thumbnail: https://cdn-images-1.medium.com/max/1600/1*d7dvz2Zh28hJbzYXmKsCcQ.png
+thumbnail: https://cdn-images-1.medium.com/max/1600/1*d7dvz2Zh28hJbzYXmKsCcQ.pncategories:
+  - javascript
+thumbnail: images/chart-logo.jpg
+banner: images/chart-logo.jpg
 date: 2018-05-05 08:30:00
 toc: true
 categories:
@@ -63,5 +66,6 @@ Oowa 서비스에서 Table HeatMap을 사용하기 위해 쓰고있다.
 
 차트 용어는 이 [링크](https://wiki.pentaho.com/display/Reporting/Charting+Terminology)를 참고하면 좋다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxNDQ4MDQ1LC02NTU0MTM3NDVdfQ==
+eyJoaXN0b3J5IjpbMTAxNDcxNTk4MCw3MjE0NDgwNDUsLTY1NT
+QxMzc0NV19
 -->
