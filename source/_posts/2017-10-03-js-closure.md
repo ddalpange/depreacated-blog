@@ -64,7 +64,7 @@ myFunc();
 
 즉 초기화되는 위치와 관계없이 해당 함수가 **선언**된 곳에서 스코프를 형성한다는 뜻이다.
 
-`myFunc`에 null을 할당하지 않으면 가비지콜렉터가 `makeFunc`
+`myFunc`에 null을 할당하지 않으면 가비지콜렉터가 `makeFunc`의 메모리를 해제하지 않기 때문에 클로저를 사용한다면 별도로 꼭 null을 할당해줘야한다.
 
 ```javascript
 function count() {
@@ -124,5 +124,5 @@ count();
 2. http://meetup.toast.com/posts/86
 3. http://unikys.tistory.com/309
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgzMzY0NDRdfQ==
+eyJoaXN0b3J5IjpbMTg1Njg2ODQ5Nl19
 -->
