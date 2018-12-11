@@ -1,5 +1,5 @@
 ---
-title: 자바스크립트 클로져
+title: 자바스크립트 클로저
 date: 2017-10-03 22:44:53
 tags: [javascript, pureJavascript, study, closure]
 thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
@@ -121,5 +121,5 @@ count();
 2. http://meetup.toast.com/posts/86
 3. http://unikys.tistory.com/309
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE2MTE5ODNdfQ==
+eyJoaXN0b3J5IjpbOTQ5ODY4NzkzXX0=
 -->
