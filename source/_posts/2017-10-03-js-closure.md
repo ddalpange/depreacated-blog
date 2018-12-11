@@ -64,6 +64,7 @@ myFunc();
 
 즉 초기화되는 위치와 관계없이 해당 함수가 **선언**된 곳에서 스코프를 형성한다는 뜻이다.
 
+`myFunc`에 null을 할당하지 않으면 가비지콜렉터가 `makeFunc`
 
 ```javascript
 function count() {
@@ -123,5 +124,5 @@ count();
 2. http://meetup.toast.com/posts/86
 3. http://unikys.tistory.com/309
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODg3MDc0M119
+eyJoaXN0b3J5IjpbLTE1NjgzMzY0NDRdfQ==
 -->
