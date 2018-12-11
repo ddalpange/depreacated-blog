@@ -12,10 +12,9 @@ toc: true
 
 React, Vue, Angular 등 프론트엔드 프레임웍을 쓰면 Data에 따라 UI가 그려지기 때문에 어느정도 앱이 완성궤도에 올라오면 데이터 흐름을 제어하는 비지니스 로직과 돔에 대한 퍼포먼스를 개선하는 성능최적화 작업이 대부분이다.
 
-가상 돔을 쓰는 프레임웍이면 데이터의 흐름에 따라서 ㄹ
-리액트는 데이터의 흐름에 따라서 가상돔이 자동으로 렌더링을 돌기 때문에 올바른 데이터의 흐름을 구현한다면 따로 **Immutable**을 사용해 렌더링여부를 제어하지 않아도 나름 쾌적한 성능을 보장한다.
+가상 돔을 쓰는 프레임웍이면 데이터의 흐름 및 변화에 따라 자동으로 렌더링을 돌기 때문에 구조를 왠만큼 꼬거나 뎁스가 3~4뎁스를 넘기는게 아니라면 별도로 성능최적화를 하지 않더라도 나름 쾌적한 성능을 보장한다.
 
-데이터를 핸들링하는 일을 개선하다보면 필히 오브젝트 배열의 특정 키값을 기준으로 중복을 제거해야할 일이 생기는데 그에 대한 방법을 포스팅해본다.
+비지니스 로직을 개선하다보면 필히 오브젝트 배열의 특정 키값을 기준으로 중복을 제거해야할 일이 생기는데 그에 대한 방법을 포스팅해본다.
 
 
 ### 언더스코어의 uniq 메소드를 이용하는 방법
@@ -74,5 +73,5 @@ ES6를 사용하지 않았기 때문에 비교적 크로스 브라우징 문제�
 - https://stackoverflow.com/questions/36032179/remove-duplicates-in-an-object-array-javascript
 - https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODIwNzQ3MF19
+eyJoaXN0b3J5IjpbMTk5NjE1MTg3NF19
 -->
