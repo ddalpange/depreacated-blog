@@ -4,7 +4,7 @@ thumbnail: https://cdn-images-1.medium.com/fit/t/1600/480/1*gD37OB2-PtMqZdk3X1Yn
 tags: [rxjs, unsubscribe, stream]
 date: 2018-11-21 18:39:55
 categories:
-- RxJS
+- rxjs
 ---
 
 **Angular**는 기본적으로 **RxJS**를 사용합니다.
@@ -144,7 +144,7 @@ export class SomeComponent implements OnInit {
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzMTkyODYzLDE4MzYwMzU1MiwxMzQ3MD
+eyJoaXN0b3J5IjpbMjQzMDU0NTkxLDE4MzYwMzU1MiwxMzQ3MD
 U4NDkyLC0xNTcxMjk0MzQzLC0xNDY2NTgyODI4LC0xNzMzOTYw
 NzBdfQ==
 -->
