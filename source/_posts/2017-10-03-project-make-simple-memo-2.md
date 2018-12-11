@@ -37,8 +37,7 @@ $ ionic generate page memo-create
 
 루트 모듈(app.module.ts)에 위 5개의 페이지를 임포트하겠습니다.
 
-**src/app/app.module.ts**
-```typescript
+```typescript src/app/app.module.ts
 // 주의 !! Ionic 2버전입니다.
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
@@ -97,8 +96,7 @@ export class AppModule {}
 **정정합니다.**
 > Ionic3 업데이트로 각각의 페이지는 모듈을 가지도록 바뀌어서 기본적으로 게으른 로딩(lazy loading)을 지원하도록 바뀌었습니다. cli를 통해 페이지를 만들 때 모듈 파일이 같이 있다면 앱 모듈에서 바로 페이지를 declation 할 수 없습니다. 각각의 모듈을 임포트해야하죠.
 
-**src/app/app.module.ts**
-```typescript
+```typescript src/app/app.module.ts
 import { SignUpPageModule } from './../pages/sign-up/sign-up.module';
 import { SignInPageModule } from './../pages/sign-in/sign-in.module';
 import { MemoListPageModule } from './../pages/memo-list/memo-list.module';
@@ -140,8 +138,7 @@ export class AppModule {}
 **잊지마세요!**
 루트모듈만 바꾸면 되는게 아닙니다. 루트 컴포넌트(app.component.ts)에 가서 루트 페이지(시작 페이지)도 같이 바꿔줘야합니다.
 
-**src/app/app.component.ts**
-```typescript
+```typescript src/app/app.component.ts
 import { SignInPage } from './../pages/sign-in/sign-in';
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
@@ -170,8 +167,7 @@ export class MyApp {
 
 #### 로그인페이지 (sign-in)
 
-**src/pages/sign-in/sign-in.ts**
-```typescript
+```typescript src/pages/sign-in/sign-in.ts
 import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -226,8 +222,7 @@ export class SignInPage {
 }
 ```
 
-**src/pages/sign-in/sign-in.html**
-```html
+```html src/pages/sign-in/sign-in.html
 <ion-content padding>
   <div class="image-wrap">
     <img src="https://ddalpange.github.io/images/gyul.png" 
@@ -248,8 +243,7 @@ export class SignInPage {
 </ion-content>
 ```
 
-**src/pages/sign-in/sign-in.scss**
-```scss
+```scss src/pages/sign-in/sign-in.scss
 page-sign-in {
   .image-wrap {
     width:100%;
@@ -270,8 +264,7 @@ page-sign-in {
 
 #### 회원가입 페이지 (sign-up)
 
-**src/pages/sign-up/sign-up.ts**
-```typescript
+```typescript src/pages/sign-up/sign-up.ts
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -307,8 +300,7 @@ export class SignUpPage {
 
 ```
 
-**src/pages/sign-up/sign-up.html**
-```html
+```html src/pages/sign-up/sign-up.html
 <ion-content padding>
    <div class="image-wrap">
     <img src="https://ddalpange.github.io/images/gyul.png" 
@@ -329,8 +321,7 @@ export class SignUpPage {
 
 ```
 
-**src/pages/sign-up/sign-up.scss**
-```scss
+```scss src/pages/sign-up/sign-up.scss
 page-sign-up {
   .image-wrap {
     width:100%;
@@ -615,5 +606,5 @@ page-memo-create {
 - [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2Mjg5OV19
+eyJoaXN0b3J5IjpbMTg3Njg1NjczMSw2MzYyODk5XX0=
 -->
