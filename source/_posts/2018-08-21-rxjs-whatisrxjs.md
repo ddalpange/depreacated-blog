@@ -1,10 +1,10 @@
 ---
 title: RxJS란 무엇인가?
-tags: [r]
+tags: [rxjs]
 date: 2018-08-21 14:51:12
 thumbnail: https://cdn-images-1.medium.com/fit/t/1600/480/1*gD37OB2-PtMqZdk3X1YnEQ.png
 categories:
-  - rxjs
+- rxjs
 ---
 
 ## RxJS
@@ -148,5 +148,5 @@ fromEvent(button, 'click').pipe(
 
 이 밖에도 `pluck`, `pairwise`, `sample`과 같은 다양한 오퍼레이터를 지원한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM0ODY5N119
+eyJoaXN0b3J5IjpbLTE1NDEyNzU4MDBdfQ==
 -->
