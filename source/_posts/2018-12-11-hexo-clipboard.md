@@ -77,9 +77,7 @@ date: 2018-11-21 18:39:55
 plugins:
 	clipboard: true
 ```
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTYyNTU1OTMsLTE5MTUxNzY4MTVdfQ
-==
+eyJoaXN0b3J5IjpbLTY4MjMzODUxNSwtMTAxNjI1NTU5MywtMT
+kxNTE3NjgxNV19
 -->
