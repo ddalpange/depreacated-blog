@@ -1,11 +1,10 @@
 ---
 title: 티스토리에서 TOC 지원하기
 tags: []
-categories:
-  - null
 date: 2018-11-15 15:33:54
 thumbnail: https://t1.daumcdn.net/cfile/tistory/23711A3856372C9617
-banner:
+categories:
+  - javascript
 ---
 
 ## TOC
@@ -132,5 +131,5 @@ function prepareTOC(toc) {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjI1OTIzN119
+eyJoaXN0b3J5IjpbMjMwMDQxMTEzXX0=
 -->
