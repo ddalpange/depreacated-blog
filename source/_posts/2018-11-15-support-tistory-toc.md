@@ -4,7 +4,7 @@ tags: []
 categories:
   - null
 date: 2018-11-15 15:33:54
-thumbnail:
+thumbnail: https://t1.daumcdn.net/cfile/tistory/23711A3856372C9617
 banner:
 ---
 
@@ -131,3 +131,6 @@ function prepareTOC(toc) {
 }
 
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI5MjI1OTIzN119
+-->

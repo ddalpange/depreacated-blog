@@ -1,5 +1,6 @@
 ---
 title: Rxjs 구독을 취소하는 여러가지 방법
+thumbnail: https://cdn-images-1.medium.com/fit/t/1600/480/1*gD37OB2-PtMqZdk3X1YnEQ.png
 tags: [rxjs, unsubscribe, stream]
 categories:
 date: 2018-11-21 18:39:55
@@ -142,6 +143,7 @@ export class SomeComponent implements OnInit {
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjAzNTUyLDEzNDcwNTg0OTIsLTE1Nz
-EyOTQzNDMsLTE0NjY1ODI4MjgsLTE3MzM5NjA3MF19
+eyJoaXN0b3J5IjpbLTE1MTI4ODI1OTksMTgzNjAzNTUyLDEzND
+cwNTg0OTIsLTE1NzEyOTQzNDMsLTE0NjY1ODI4MjgsLTE3MzM5
+NjA3MF19
 -->
