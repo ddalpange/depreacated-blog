@@ -68,10 +68,20 @@ date: 2018-11-21 18:39:55
 <% } %>
 ```
 
-위 파일의 내용을 **themes/layout/plugins**
+위 파일의 내용을 **themes/__YOUR_THEME__/layout/plugins** 폴더에 넣어준 후 `_config.yml`을 아래와 같이 변경한다
+```yml _config.yml
+... 
+...
+...
+plugins:
+	clipboard: true
+...
+...
+...
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMwMzEyODIsLTE5MTUxNzY4MTVdfQ
+eyJoaXN0b3J5IjpbLTEyODQ5NTUxNjEsLTE5MTUxNzY4MTVdfQ
 ==
 -->
