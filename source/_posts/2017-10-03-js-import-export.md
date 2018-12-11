@@ -11,7 +11,7 @@ toc: true
 ---
 
 
-### Import, Export
+###  Import, Export
 
 기존 프로젝트 유지보수를 진행하다 보면 "AS20342"과 같은 특정한 코드값들이 있다. 그러한 코드값들은 전부 공통으로 모아 상수로 빼는게 상책인데, import, export를 어떻게 해야할지 감이 오질 않았다. 아래 내용은 공통함수를 뺄때까지의 과정이다.
 
@@ -73,3 +73,6 @@ test라는 오브젝트의 프로퍼티에 접근한다고 생각하면 쉬울 �
 프로젝트 폴더구조가 알아보기 쉽지않고, import, export 경로 찾기도 매우 어려운데
 
 나중에 폴더마다 index.js를 만들어 import하기 쉽게 만들어야겠다. 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTI0MTU5NTUyNF19
+-->
