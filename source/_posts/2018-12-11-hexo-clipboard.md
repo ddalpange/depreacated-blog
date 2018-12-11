@@ -68,10 +68,10 @@ date: 2018-11-21 18:39:55
 <% } %>
 ```
 
-위 파일을 **sources/**
+위 파일의 내용을 **themes/layout/plugins**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI5MzQwMTYsLTE5MTUxNzY4MTVdfQ
+eyJoaXN0b3J5IjpbLTEwOTMwMzEyODIsLTE5MTUxNzY4MTVdfQ
 ==
 -->
