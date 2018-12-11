@@ -7,7 +7,7 @@ date: 2018-11-15 15:33:54
 thumbnail: https://t1.daumcdn.net/cfile/tistory/23711A3856372C9617
 categories:
 - javascript
-banner:
+- tistory
 ---
 
 ## TOC
@@ -134,5 +134,5 @@ function prepareTOC(toc) {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxODUyOTczLDUyOTU4NDc5M119
+eyJoaXN0b3J5IjpbLTEyMzIzMTA1ODAsNTI5NTg0NzkzXX0=
 -->
