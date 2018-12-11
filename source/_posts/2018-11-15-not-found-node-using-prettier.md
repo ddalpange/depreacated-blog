@@ -1,10 +1,13 @@
 ---
 title: Prettier에서 node를 찾지 못할 때.
 tags: []
+categories:
+  - null
 date: 2018-11-15 15:35:15
 thumbnail: https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png
 categories:
 - javascript
+banner:
 ---
 
 Webstorm에서 Prettier를 실행할 때
@@ -25,5 +28,5 @@ Webstorm의 Prettier `/usr/bin/node`의 경로로 노드를 돌리는데 nvm같�
 sudo ln -s `which node` /usr/bin/node
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwMDgyOTA2XX0=
+eyJoaXN0b3J5IjpbMTAwNDI3OTM0NCw1MzAwODI5MDZdfQ==
 -->
