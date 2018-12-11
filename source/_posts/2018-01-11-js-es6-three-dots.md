@@ -29,7 +29,7 @@ export class BlueButton extends React.component {
 	render() {
 		let { className, ...props } = this.props;
 		
-		return <button className={`btn btn-info ${className}`} {...props} />		
+		return <button className={`btn btn-blue ${className}`} {...props} />		
 	}
 	
 }
@@ -143,22 +143,24 @@ export class BlueButton extends React.component {
 	render() {
 		const { className, ...props } = this.props;
 		
-		return <button className={`btn btn-info ${className}`} {...props} />		
+		return <button className={`btn btn-blue ${className}`} {...props} />		
 	}
 	
 }
 ```
 위 코드는 **Spread Operator**일까요 **Rest Operator**일까요? 
 
-`let { className, ...props } = this.props;` 
-
+```jsx
+let { className, ...props } = this.props;
+```
 여기선 this.props에서 클래스네임을 따로 정의하고, 남은걸 props로 모았기 때문에 rest라 할 수 있습니다.
 
-`return <button className={`btn btn-info ${className}`} {...props} />`
-
-반대로 여기선 props의 남은 프로퍼티들을 열거했기 때문에 spread로 볼수 있겠죠 ?
+```jsx
+return <button className={`btn btn-info ${className}`} {...props} />
+```
+반대로 여기선 props의 남은 프로퍼티들을 열거했기 때문에 **Spread Operator**로 볼수 있겠죠 ?
 
 틀렸거나 궁금한점이 있다면 댓글 부탁드립니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NjUyMTU4XX0=
+eyJoaXN0b3J5IjpbLTE0Nzg1MjY4NzRdfQ==
 -->
