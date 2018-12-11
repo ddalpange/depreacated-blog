@@ -9,13 +9,9 @@ thumbnail: https://pbs.twimg.com/profile_images/821080734102220800/PANTqUmu.jpg
 toc: true
 ---
 
-자바스크립트는 버전업과 타입이 없는 동적 언어의 특성으로 자바가
-자바스크립트는 자바나 다른 정적 언어에 비해 정의되거나 정해진게 많지 않아 어려운 반면이 없지않아 있습니다.
-
-각자 프로그래밍에 대한 생각이 다르다 보니 코딩 스타일도 다르기 때문인데요.
-
+자바스크립트는 버전업과 타입이 없는 동적 언어의 특성으로 자바같은 정적 언어에 비해 어려운 면이 없지않아 있습니다.
+정해진게 많이 없다 보니 각자의 프로그래밍 기법이 그대로 묻어나온오는 특성 때문인데요.
 다른 사람들의 소스코드를 읽을때마다 가끔씩 괴랄한 문법이 튀어나오는데 당황하지말고 정리해봅시다.
-
 리액트를 쓰시다 보면 아래와 같이 수상한(?) 문법을 보셨을때가 있었을 겁니다.
 
 <!-- more -->
@@ -38,7 +34,7 @@ export class BlueButton extends React.component {
 	
 }
 ```
-사실 위의 *...*표기법은 ES6에서 제안된 문법인데요. Rest Operator와 Spread Operator로 나뉩니다. 한번 알아보도록 하죠
+사실 위의 **...** (Three dots)표기법은 ES6에서 제안된 문법인데요. Rest Operator와 Spread Operator로 나뉩니다. 한번 알아보도록 하죠
  
 ### Rest Operator
 
@@ -161,5 +157,5 @@ export class BlueButton extends React.component {
 
 틀렸거나 궁금한점이 있다면 댓글 부탁드립니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzI2Mzc4XX0=
+eyJoaXN0b3J5IjpbMjkxMzM2NzQ1XX0=
 -->
