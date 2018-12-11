@@ -4,6 +4,8 @@ date: 2018-07-21 18:21:27
 tags:
 thumbnail: https://www.knowrulimited.com/assets/images/knowru-dashboard.png
 toc: true
+categories:
+  - javascript
 ---
 ### 첫 프로젝트인 노루를 완성하였다.
 
@@ -36,5 +38,5 @@ toc: true
 angular는 기본적으로 프로젝트가 클때 진가를 발휘한다. 노루는 양이 많긴 하지만 별 어려운 작업은 없었는데 그냥 preact 또는 vue를 사용하여 장고 템플릿 안에 mba형식으로 만들었으면 훨씬 더 빠른 작업이 가능했을것 같다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDkxODldfQ==
+eyJoaXN0b3J5IjpbLTQ3MjM1NTE3XX0=
 -->
