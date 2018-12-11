@@ -78,8 +78,3 @@ Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 이제 Stackedit으로 마크다운 파일들을 관리할 수 있다 !!
 
 ![개쩔어](https://media.giphy.com/media/d2Z9QYzA2aidiWn6/giphy.gif)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTExMzMwOCwxNzUwNTM2MjM1LC0xOD
-E0Nzk3MzAzLDExOTg4MDY5OTMsMTA2NTYxNzQ2OSw1NzYwMDg1
-NzMsMjUzNTIzNzY5XX0=
--->

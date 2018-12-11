@@ -78,7 +78,3 @@ categories:
 plugins:
 	clipboard: true
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjMwMTczNiwtNjgyMzM4NTE1LC0xMD
-E2MjU1NTkzLC0xOTE1MTc2ODE1XX0=
--->

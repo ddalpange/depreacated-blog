@@ -142,9 +142,3 @@ export class SomeComponent implements OnInit {
 인자로 expression을 넘겨줄 수 있습니다.
 
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMDU0NTkxLDE4MzYwMzU1MiwxMzQ3MD
-U4NDkyLC0xNTcxMjk0MzQzLC0xNDY2NTgyODI4LC0xNzMzOTYw
-NzBdfQ==
--->
