@@ -2,8 +2,9 @@
 title: Mac, IOS 프레임 웹 목업 만들기
 tags: [IOS, Mac, Mockup]
 thumbnail: https://i.pinimg.com/originals/e4/6c/9e/e46c9e94708b98d1f638cb388d706ef5.png
-categories:
 date: 2018-11-16 18:39:55
+categories:
+- UI/UX
 ---
 
 pinterest 또는 google에 랜딩페이지 예시들을 보면 Mac, IOS 디바이스채로 앱을 소개하는 페이지들이 있다.
@@ -22,5 +23,5 @@ pinterest 또는 google에 랜딩페이지 예시들을 보면 Mac, IOS 디바�
 
 ![Knowu Limited MockUp](https://www.knowrulimited.com/assets/images/knowru-dashboard.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU0NjQ5MTRdfQ==
+eyJoaXN0b3J5IjpbMTYwMDc1NDU2MSwtMTIwNTQ2NDkxNF19
 -->
