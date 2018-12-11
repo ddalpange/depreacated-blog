@@ -1,6 +1,7 @@
 ---
 title: 블로깅을 편하게 하기 위한 발악 (hexo, travis, stackedit)
 tags: [hexo, travis, github, stackedit]
+thumbnail: https://workablehr.s3.amazonaws.com/uploads/account/logo/11901/large_Mascot-fullcolor-png.png
 categories:
 date: 2018-11-16 18:39:55
 ---
@@ -77,6 +78,7 @@ Github workspace를 등록해주면 자동으로 동기화를 진행한다.
 
 ![개쩔어](https://media.giphy.com/media/d2Z9QYzA2aidiWn6/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ3OTczMDMsMTE5ODgwNjk5MywxMD
-Y1NjE3NDY5LDU3NjAwODU3MywyNTM1MjM3NjldfQ==
+eyJoaXN0b3J5IjpbMTc1MDUzNjIzNSwtMTgxNDc5NzMwMywxMT
+k4ODA2OTkzLDEwNjU2MTc0NjksNTc2MDA4NTczLDI1MzUyMzc2
+OV19
 -->
