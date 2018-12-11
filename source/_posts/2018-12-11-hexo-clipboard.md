@@ -1,5 +1,6 @@
 ---
 title: Hexo에서 Code Copy 버튼 만들기
+thumbnail: https://zenorocha.github.io/clipboard.js/assets/images/facebook.png
 tags: [hexo, clipboardJS]
 categories: hexo
 date: 2018-11-21 18:39:55
@@ -69,5 +70,5 @@ date: 2018-11-21 18:39:55
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUxNzY4MTVdfQ==
+eyJoaXN0b3J5IjpbMTMyNzU4Njc4NywtMTkxNTE3NjgxNV19
 -->
