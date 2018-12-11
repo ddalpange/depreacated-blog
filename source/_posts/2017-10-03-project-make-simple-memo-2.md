@@ -337,8 +337,7 @@ page-sign-up {
 
 #### 메모리스트 페이지 (memo-list)
 
-**src/pages/memo-list/memo-list.ts**
-```typescript
+```typescript src/pages/memo-list/memo-list.ts
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -370,8 +369,7 @@ export class MemoListPage {
 
 ```
 
-**src/pages/memo-list/memo-list.html**
-```html
+```html src/pages/memo-list/memo-list.html
 <ion-header>
   <ion-navbar color="primary">
     <ion-title>메모들</ion-title>
@@ -409,9 +407,7 @@ export class MemoListPage {
 </ion-content>
 ```
 
-**src/pages/memo-list/memo-list.scss**
-
-```scss
+```scss src/pages/memo-list/memo-list.scss
 page-memo-list {
   .content {
     background: #f4f4f4;
@@ -429,9 +425,8 @@ page-memo-list {
 
 #### 메모 상세 페이지 (memo-detail)
 
-**src/pages/memo-detail/memo-detail.ts**
 
-```typescript
+```typescript src/pages/memo-detail/memo-detail.ts
 import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { MemoCreatePage } from './../memo-create/memo-create';
@@ -461,9 +456,7 @@ export class MemoDetailPage {
 
 ```
 
-**src/pages/memo-detail/memo-detail.html**
-
-```html
+```html src/pages/memo-detail/memo-detail.html
 <ion-header>
   <ion-navbar color="danger">
     <ion-title>메모 상세</ion-title>
@@ -505,8 +498,7 @@ export class MemoDetailPage {
 
 ```
 
-**src/pages/memo-detail/memo-detail.scss**
-```scss
+```scss src/pages/memo-detail/memo-detail.scss
 page-memo-detail {
   .content {
     background: #f4f4f4;
@@ -526,8 +518,7 @@ page-memo-detail {
 
 #### 메모 만들기 페이지 (memo-create)
 
-**src/pages/memo-create/memo-create.ts**
-```typescript
+```typescript src/pages/memo-create/memo-create.ts
 import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -562,8 +553,7 @@ export class MemoCreatePage {
 
 ```
 
-**src/pages/memo-create/memo-create.html**
-```html
+```html src/pages/memo-create/memo-create.html
 <ion-header>
   <ion-navbar color="secondary">
     <ion-title>메모 만들기</ion-title>
@@ -585,9 +575,7 @@ export class MemoCreatePage {
 
 ```
 
-**src/pages/memo-create/memo-create.scss**
-
-```scss
+```scss src/pages/memo-create/memo-create.scss
 page-memo-create {
 }
 ```
@@ -606,5 +594,5 @@ page-memo-create {
 - [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Njg1NjczMSw2MzYyODk5XX0=
+eyJoaXN0b3J5IjpbMjAwMzg1OTM4Nyw2MzYyODk5XX0=
 -->
