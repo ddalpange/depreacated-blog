@@ -9,9 +9,13 @@ thumbnail: https://pbs.twimg.com/profile_images/821080734102220800/PANTqUmu.jpg
 toc: true
 ---
 
-자바스크립트는 버전업과 타입이 없는 동적 언어의 특성으로 자바같은 정적 언어에 비해 어려운 면이 없지않아 있습니다.
-정해진게 많이 없다 보니 각자의 프로그래밍 기법이 그대로 묻어나온오는 특성 때문인데요.
+
+자바스크립트는 버전업과 타입이 없는 동적 언어의 특성으로 자바같은 정적 언어에 비해자바나 다른 정적 언어에 비해 정의되거나 정해진게 많지 않아 어려운 반면이 없지않아 있습니다.
+정해진게 많이 없다 보니 
+각자의 프로그래밍 기법이 그대로 묻어나온오는 특성에 대한 생각이 다르다 보니 코딩 스타일도 다르기 때문인데요.
+
 다른 사람들의 소스코드를 읽을때마다 가끔씩 괴랄한 문법이 튀어나오는데 당황하지말고 정리해봅시다.
+
 리액트를 쓰시다 보면 아래와 같이 수상한(?) 문법을 보셨을때가 있었을 겁니다.
 
 <!-- more -->
@@ -29,13 +33,13 @@ export class BlueButton extends React.component {
 	render() {
 		let { className, ...props } = this.props;
 		
-		return <button className={`btn btn-blue ${className}`} {...props} />		
+		return <button className={`btn btn-blueinfo ${className}`} {...props} />		
 	}
 	
 }
 ```
 사실 위의 **...**  즉 Three dots 표기법은 ES6에서 제안된 문법인데요.
-특성에 따라 **Rest Operator**와 **Spread Operator**로 나뉩니다. 한번 알아보도록 하죠
+특성에 따라 ** Rest Operator**와 **와 Spread Operator**로 나뉩니다. 한번 알아보도록 하죠
  
 ### Rest Operator
 
@@ -69,7 +73,7 @@ const [c, d, ...arrayRest] = array;
 console.log(c, b, arrayRest); // 1, 2
 ```
 
-앞에 **...** 를 써주면 배열이라면 나머지 원소들을 배열로 만들어 리턴하고,
+앞에 **...** 를 써주를 명시하면 배열이라면 나머지 원소들을 배열로 만들어 리턴하고,
 
 오브젝트라면 열거할수 있는 나머지 프로퍼티들을 묶어 오브젝트로 반환합니다.
 
@@ -77,7 +81,7 @@ console.log(c, b, arrayRest); // 1, 2
 
 **Rest Operator**와 반대되는 의미라고 해석하면 될것같습니다.
 
-앞에 **...** 를 써주면 배열이라면 원소들을 나열하고, 
+앞에 **...** 를 써주을 명시하면 배열이라면 원소들을 나열하고, 
 
 오브젝트라면 열거할수 있는 프로퍼티들을 나열합니다.
 
@@ -141,26 +145,28 @@ export class BlueButton extends React.component {
 	}
 	
 	render() {
-		const { className, ...props } = this.props;
+		conslet { className, ...props } = this.props;
 		
-		return <button className={`btn btn-blue ${className}`} {...props} />		
+		return <button className={`btn btn-blueinfo ${className}`} {...props} />		
 	}
 	
 }
 ```
-위 코드는 **Spread Operator**일까요 **Rest Operator**일까요? 
+위 코드는 **Spread Operator**일까요 **Rest Operator**스프레드일까요 레스트일까요? 
 
 ```jsx
 let { className, ...props } = this.props;
-```
+```` 
+
 여기선 this.props에서 클래스네임을 따로 정의하고, 남은걸 props로 모았기 때문에 rest라 할 수 있습니다.
 
 ```jsx
 return <button className={`btn btn-info ${className}`} {...props} />
 ```
-반대로 여기선 props의 남은 프로퍼티들을 열거했기 때문에 **Spread Operator**로 볼수 있겠죠 ?
+
+반대로 여기선 props의 남은 프로퍼티들을 열거했기 때문에 **Sspread Operator**로 볼수 있겠죠 ?
 
 틀렸거나 궁금한점이 있다면 댓글 부탁드립니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg1MjY4NzRdfQ==
+eyJoaXN0b3J5IjpbNDI0ODE1MzYzLC0xNDc4NTI2ODc0XX0=
 -->
