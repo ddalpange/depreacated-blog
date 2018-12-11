@@ -27,7 +27,8 @@ toc: true
 
 **src**폴더에서 **models**, **memo** 폴더를 차례대로 만들어 주신 후 그 안에 **memo.interface.ts**파일을 만들어주세요
 
-```typescript src/modes/memo/memo.interface.ts
+```typescript **src/modes/memo/memo.interface.ts**
+```typescript
 export interface Memo {
     key: number;
     author: string;                 // 작성자
@@ -38,6 +39,7 @@ export interface Memo {
 }
 ```
 
+<!-- more -->
 
 ### 목 메모리스트 정의하기
 
@@ -46,7 +48,8 @@ export interface Memo {
 
 그 안에 **memo-list.mock.ts**파일을 만들어주세요
 
-```typescript src/mocks/memo/memo-list.mock.ts
+```typescript **src/mocks/memo/memo-list.mock.ts**
+```typescript
 import { Memo } from './../../models/memo/memo.interface';
 export const MEMOLIST: Memo[] = [
     {
@@ -76,7 +79,8 @@ $ ionic g provider memo-manager
 위 명령어를 실행하고 나면 **providers**라는 폴더가 **src** 폴더에 생길거에요!
 Ionic Cli로 만든 provider는 앱 모듈에 자동으로 추가(registering)됩니다.
 
-```typescript src/proividers/memo-manager/memo-manager.ts
+```typescript **src/proividers/memo-manager/memo-manager.ts**
+```typescript
 import { MEMOLIST } from './../../mocks/memo/memo-list.mock';
 import { Memo } from './../../models/memo/memo.interface';
 import { Injectable } from '@angular/core';
@@ -155,7 +159,8 @@ export class MemoManagerProvider {
 
 메모 리스트페이지의 constructor 부분을 아래와 같이 바꿔주세요.
 
-```typescript src/pages/memo-list/memo-list.ts
+```typescript **src/pages/memo-list/memo-list.ts**
+```typescript
 ...
 import { MemoManagerProvider } from './../../providers/memo-manager/memo-manager';
 
@@ -179,7 +184,8 @@ export class MemoListPage {
 
 이제 페이지들의 뷰에 각 데이터들을 연동하고, 메모 매니저를 주입(DI)받아서 메모를 쓰기, 수정 삭제, 보기 할 수 있는 기능을 만들거에요.
 
-```typescript src/pages/memo-list/memo-list.ts
+```typescript **src/pages/memo-list/memo-list.ts**
+```typescript
 import { Memo } from './../../mod els/memo/memo.interface';
 import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
@@ -220,7 +226,8 @@ export class MemoListPage {
 }
 ```
 
-```html src/pages/memo-list/memo-list.html
+```html **src/pages/memo-list/memo-list.html**
+```html
 <ion-header>
   <ion-navbar color="primary">
     <ion-title>메모들</ion-title>
@@ -245,7 +252,8 @@ export class MemoListPage {
 </ion-content>
 ```
 
-```typescript src/pages/memo-detail/memo-detail.ts
+```typescript **src/pages/memo-detail/memo-detail.ts**
+```typescript
 import { MemoManagerProvider } from './../../providers/memo-manager/memo-manager';
 import { Memo } from './../../models/memo/memo.interface';
 import { Component, OnInit } from '@angular/core';
@@ -287,7 +295,8 @@ export class MemoDetailPage {
 ```
 
 
-```html src/pages/memo-detail/memo-detail.html
+```html **src/pages/memo-detail/memo-detail.html**
+```html
 <ion-header>
   <ion-navbar color="danger">
     <ion-title>메모 상세</ion-title>
@@ -327,7 +336,8 @@ export class MemoDetailPage {
 </ion-content>
 ```
 
-```typescript src/pages/memo-create/memo-create.ts
+```typescript **src/pages/memo-create/memo-create.ts**
+```typescript
 import { MemoManagerProvider } from './../../providers/memo-manager/memo-manager';
 import { Memo } from './../../models/memo/memo.interface';
 import { Component, OnInit } from '@angular/core';
@@ -377,7 +387,8 @@ export class MemoCreatePage {
 }
 ```
 
-```html src/pages/memo-create/memo-create.html
+```html **src/pages/memo-create/memo-create.html**
+```html
 <ion-header>
   <ion-navbar color="secondary">
     <ion-title>메모 만들기</ion-title>
@@ -406,5 +417,5 @@ export class MemoCreatePage {
 - [해당 포스트에 작성된 모든 코드는 여기에 있습니다!](https://github.com/ddalpange/simple-memo)
 - [해당 프로젝트는 여기서 볼 수 있습니다 !!](https://memo-28314.firebaseapp.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5ODc2MzY4XX0=
+eyJoaXN0b3J5IjpbMTQ1NjgxMDU4Miw2MTk4NzYzNjhdfQ==
 -->

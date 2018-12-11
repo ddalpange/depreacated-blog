@@ -1,6 +1,6 @@
 ---
 title: Ubuntu 18.04 개발환경, 한글 세팅하기
-tags: [ubuntu, hangul]
+tags: [ubuntu, hangul
 date: 2018-11-15 15:34:40
 thumbnail: https://i2.wp.com/wp.laravel-news.com/wp-content/uploads/2016/12/laravel-valet-ubuntu.png?resize=2200%2C1125
 categories:
@@ -22,7 +22,7 @@ categories:
 	sudo apt-get install chrome-gnome-shell
 	sudo apt-get install zsh
 	sudo apt-get install curl
-	sh -c "$(curl -fsSL [https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh](https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh))"
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 	chsh -s /usr/bin/zsh
 	```
 
@@ -105,6 +105,6 @@ Dock은 [Gnome Shell Extension](https://extensions.gnome.org/)에서 Dash To Doc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjY1OTU3NSwxMzY1NTc0MDMxLDIxMz
-k1NjQwMzldfQ==
+eyJoaXN0b3J5IjpbOTUwOTI4MDMwLDEwNjY2NTk1NzUsMTM2NT
+U3NDAzMV19
 -->
