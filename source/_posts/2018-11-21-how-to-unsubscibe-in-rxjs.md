@@ -20,7 +20,7 @@ date: 2018-11-21 18:39:55
 export class SomeComponent implements OnInit {
 	list$: Observable<Item[]>;
 	ngOnInit(): void {
-		this.list$ = this.api.getList();
+	    this.list$ = this.api.getList();
 	}
 }
 ```
@@ -143,7 +143,7 @@ export class SomeComponent implements OnInit {
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI4ODI1OTksMTgzNjAzNTUyLDEzND
-cwNTg0OTIsLTE1NzEyOTQzNDMsLTE0NjY1ODI4MjgsLTE3MzM5
-NjA3MF19
+eyJoaXN0b3J5IjpbMTUyMzQzMDQ2NSwxODM2MDM1NTIsMTM0Nz
+A1ODQ5MiwtMTU3MTI5NDM0MywtMTQ2NjU4MjgyOCwtMTczMzk2
+MDcwXX0=
 -->
