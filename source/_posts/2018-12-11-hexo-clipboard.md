@@ -2,8 +2,9 @@
 title: Hexo에서 Code Copy (Clipboard) 버튼 만들기
 thumbnail: https://zenorocha.github.io/clipboard.js/assets/images/facebook.png
 tags: [hexo, clipboardJS]
-categories: hexo
 date: 2018-11-21 18:39:55
+categories:
+- hexo
 ---
 
 [Highlight](https://highlightjs.org/)는 [Prism](https://prismjs.com/index.html)과 달리 Code Copy 플러그인이 없어서 [Clipboard](https://clipboardjs.com/)로 직접 만들었다.
@@ -78,6 +79,6 @@ plugins:
 	clipboard: true
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjMzODUxNSwtMTAxNjI1NTU5MywtMT
-kxNTE3NjgxNV19
+eyJoaXN0b3J5IjpbMTE2NjMwMTczNiwtNjgyMzM4NTE1LC0xMD
+E2MjU1NTkzLC0xOTE1MTc2ODE1XX0=
 -->
