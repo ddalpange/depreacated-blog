@@ -12,9 +12,10 @@ date: 2018-11-21 18:39:55
 
 <!-- more -->
 
+## 사용법
 
-
-위 파일의 내용을 **themes/__YOUR_THEME__/layout/plugins** 폴더에 넣어준 후 `_config.yml`을 아래와 같이 변경한다
+* `clipboard.ejs`를 **themes/__YOUR_THEME__/layout/plugins**에 넣는다.
+* `_config.yml`에서 `plugins.clipboard`에 `true`를 넣는다.
 
 ```ejs clipboard.ejs
 <% if (!head && !(has_config('plugins.clipboard') && get_config('plugins.clipboard') === false)) { %>
@@ -79,5 +80,6 @@ plugins:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDAwMDg5NywtMTkxNTE3NjgxNV19
+eyJoaXN0b3J5IjpbLTIwMDE2OTQ5NDEsLTE5MTUxNzY4MTVdfQ
+==
 -->
