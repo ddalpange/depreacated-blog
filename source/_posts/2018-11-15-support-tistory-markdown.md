@@ -4,7 +4,7 @@ tags: []
 date: 2018-11-15 15:33:47
 thumbnail: https://t1.daumcdn.net/cfile/tistory/23711A3856372C9617
 categories:
-  - javascript
+- javascript
 ---
 
 원래 블로그를 hexo로 운영하고 있었는데 아래와 같은 이유때문에 티스토리로 이전했다.
@@ -128,5 +128,5 @@ try {
 좀 더 사용해보고 문제를 픽스한 후, 오픈소스로 배포할 예정이다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjA3NDA3ODBdfQ==
+eyJoaXN0b3J5IjpbLTI1MDA3NTgyMF19
 -->
