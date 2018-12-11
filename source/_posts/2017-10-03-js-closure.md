@@ -59,7 +59,9 @@ myFunc();
 
 `displayName`은 자신이 선언된 스코프에서 벗어나 global 환경에서 초기화되었다.
 스코프 탐색은 실행스택과는 관련이 없는 `makeFunc`를 거쳐갔으며 `displayName`의 외부 스코프는 global이 아닌 `makeFunc`의 스코프이다. 
+
 `myFunc`가 글로벌 환경에서 초기화 되더라도 리턴된 `dispalyName`의 스코프체인은 `displayName` -> `makeFunc` -> `global` 순으로 형성된다. 
+
 즉 초기화되는 위치와 관계없이 해당 함수가 **선언**된 곳에서 스코프를 형성한다는 뜻이다.
 
 
@@ -76,7 +78,7 @@ count();
 ```
 
 1 ~ 10까지 1씩 증가하여 출력하는 코드를 원했지만 결과는 기대와 달리 10이 9번 출력된다. 
-0.1초동안 i는 10이 되었기 때문이며 클로저함수 timer에서 외부 스코프인 count의 변수인 i에 직접 접근하여 출력하였기 때문이다. 
+0.1초동안 i는 10이 되었기 때문이며 클로저함수 timer에서 외부 스코프인 `count`의 변수인 `i`에 직접 접근하여 출력하였기 때문이다. 
 해당 코드를 원하는 결과값으로 바꾸기 위해 어떻게 해야할까 ?
 
 **내부 스코프를 하나 더 추가하는 방식.**
@@ -121,5 +123,5 @@ count();
 2. http://meetup.toast.com/posts/86
 3. http://unikys.tistory.com/309
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5ODY4NzkzXX0=
+eyJoaXN0b3J5IjpbLTc0ODg3MDc0M119
 -->
