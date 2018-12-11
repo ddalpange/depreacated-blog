@@ -7,7 +7,9 @@ date: 2018-11-21 18:39:55
 
 **HighlightJS**는 **PrismJS**와 달리 Code Copy 플러그인이 없어서 직접 만들었다.
 
-생각해보니 그냥 
+생각해보니 그냥 **HighlightJS**를 **PrismJS**로 교체하는게 빠른듯.
+
+<!-- more -->
 
 ```ejs clipboard.ejs
 <% if (!head && !(has_config('plugins.clipboard') && get_config('plugins.clipboard') === false)) { %>
@@ -67,5 +69,5 @@ date: 2018-11-21 18:39:55
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyODI0NzIxXX0=
+eyJoaXN0b3J5IjpbLTE5MTUxNzY4MTVdfQ==
 -->
