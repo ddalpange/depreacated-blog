@@ -34,11 +34,12 @@ export class BlueButton extends React.component {
 	
 }
 ```
-사실 위의 **...** (Three dots)표기법은 ES6에서 제안된 문법인데요. Rest Operator와 Spread Operator로 나뉩니다. 한번 알아보도록 하죠
+사실 위의 **...**  즉 Three dots 표기법은 ES6에서 제안된 문법인데요.
+특성에 따라 **Rest Operator**와 **Spread Operator**로 나뉩니다. 한번 알아보도록 하죠
  
 ### Rest Operator
 
-Rest Operator를 알아보기 전에 리터럴 문법을 먼저 알아볼 필요가 있습니다.
+**Rest Operator**를 알아보기 전에 리터럴 문법을 먼저 알아볼 필요가 있습니다.
 
 ```js
 const object = {a: 1, b: 2 , c: 3};
@@ -56,7 +57,7 @@ console.log(c, b); // 1, 2
 
 a,b,c,d,e,f,g 기하급수적으로 늘어난다면 해당 값의 변수를 계속해서 선언해주기엔 무리가 따릅니다.
 
-그럴때 쓰는게 바로 Rest Opertor입니다.
+그럴때 쓰는게 바로 **Rest Operator**입니다.
 
 ```js
 const object = {a: 1, b: 2 , c: 3};
@@ -68,13 +69,13 @@ const [c, d, ...arrayRest] = array;
 console.log(c, b, arrayRest); // 1, 2
 ```
 
-앞에 *...*를 명시하면 배열이라면 나머지 원소들을 배열로 만들어 리턴하고,
+앞에 **...** 를 써주면 배열이라면 나머지 원소들을 배열로 만들어 리턴하고,
 
 오브젝트라면 열거할수 있는 나머지 프로퍼티들을 묶어 오브젝트로 반환합니다.
 
 ### Spread Operator
 
-Rest Opertor와 반대되는 의미라고 해석하면 될것같습니다.
+**Rest Operator**와 반대되는 의미라고 해석하면 될것같습니다.
 
 앞에 *...*을 명시하면 배열이라면 원소들을 나열하고, 
 
@@ -157,5 +158,5 @@ export class BlueButton extends React.component {
 
 틀렸거나 궁금한점이 있다면 댓글 부탁드립니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMzM2NzQ1XX0=
+eyJoaXN0b3J5IjpbMTI0Njc1NTk3Ml19
 -->
