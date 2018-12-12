@@ -1,6 +1,6 @@
 title: 나도 오픈소스 기여자다!
 author: ddalpange
-tags: [OopenSsource]
+tags: [OpenSource]
 date: 2018-05-14 18:21:27
 categories:
 - Experience
@@ -15,5 +15,5 @@ categories:
 
 ![나도 오픈소스 기여자다!](https://ddalpange.github.io/images/tui-chart-contribute.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDc2MTEwMF19
+eyJoaXN0b3J5IjpbLTE0Nzg5NTAzNDBdfQ==
 -->
