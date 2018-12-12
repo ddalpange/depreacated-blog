@@ -1,5 +1,5 @@
+---
 title: 첫 프로젝트
-author: ddalpange
 date: 2018-07-21 18:21:27
 tags:
 thumbnail: https://www.knowrulimited.com/assets/images/knowru-dashboard.png

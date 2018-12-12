@@ -1,16 +1,15 @@
 ---
-title: NVM을 통한 NodeJS 버전 관리
+title: NVM(Node Version Manager)을 통한 NodeJS 버전 관리
 tags: [nodejs, nvm, n, Current]
 categories:
   - javascript
   - node
 date: 2018-03-24 18:39:55
-thumbnail: https://cdn-images-1.medium.com/max/1200/1*XeFELjfQfDkPL-s7dE9-CQ.pngnodejs.org/static/images/logos/nodejs-new-pantone-black.png
-banner: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
+thumbnail: http://seanamarasinghe.com/wp-content/uploads/2016/02/nvm-1050x360.jpg
 toc: true
 ---
 
-[Node의 업데이트는 [릴리즈 노JS의 버전 업데이트](https://nodejs.org/en/download/releases/)를 보면는 약 3일 정도에 마이너 버전이 하나씩 올라갈 정도로 매우 매우 빠르다.
+[Node 릴리즈 노트](https://nodejs.org/en/download/releases/)를 보면 약 3일 정도에 마이너 버전이 하나씩 올라갈 정도로 매우 매우 빠르다.
 
 작년(2017) 3월 21일 기준으로 LTS는 **6.10.1**인데 올해(2018년) 3월 24일 기준으로 LTS는 **8.10.0**이다.
 

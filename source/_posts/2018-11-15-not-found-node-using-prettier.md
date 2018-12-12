@@ -1,6 +1,6 @@
 ---
 title: Prettier에서 node를 찾지 못할 때.
-tags: []
+tags: [Prettier, Node, NVM]
 date: 2018-11-15 15:35:15
 thumbnail: https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png
 categories:

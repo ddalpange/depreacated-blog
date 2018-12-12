@@ -2,10 +2,7 @@ title: 자바스크립트 차트 라이브러리
 tags:
   - javascript
   - chart
-thumbnail: https://cdn-images-1.medium.com/max/1600/1*d7dvz2Zh28hJbzYXmKsCcQ.pncategories:
-  - javascript
-thumbnail: images/chart-logo.jpg
-banner: images/chart-logo.jpg
+thumbnail: https://cdn-images-1.medium.com/max/1600/1*d7dvz2Zh28hJbzYXmKsCcQ.png
 date: 2018-05-05 08:30:00
 toc: true
 categories:

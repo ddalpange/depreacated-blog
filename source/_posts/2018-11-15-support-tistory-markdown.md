@@ -1,8 +1,6 @@
 ---
 title: 티스토리에서 마크다운 지원하기
 tags: []
-categories:
-  - null
 date: 2018-11-15 15:33:47
 thumbnail: https://t1.daumcdn.net/cfile/tistory/23711A3856372C9617
 categories:
