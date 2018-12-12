@@ -8,13 +8,9 @@ categories:
 ---
 
 헥소 블로그 테마로 [Minos](https://github.com/ppoffice/hexo-theme-minos)를 사용하고 있다.
-
 헥소는 기본적으로 [Highlight](https://highlightjs.org/)를 이용해서 코드를 하이라이팅한다.
-
 [Highlight](https://highlightjs.org/)는 [Prism](https://prismjs.com/index.html)과 달리 Code Copy 플러그인이 없어서 [Clipboard](https://clipboardjs.com/)로 직접 만들었다.
-
 해당 수정사항을 **Pull Request**로 보냈더니 승인해줬다. 오픈소스 활동 하나 더 늘었다 !!
-
 생각해보니 그냥 [Highlight](https://highlightjs.org/)를 [Prism](https://prismjs.com/index.html)으로 교체하는게 빠른듯.
 
 <!-- more -->
@@ -103,5 +99,5 @@ plugins:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjU0MjMyMF19
+eyJoaXN0b3J5IjpbLTg2OTA3NDQ0MF19
 -->
