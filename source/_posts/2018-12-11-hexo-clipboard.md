@@ -30,54 +30,66 @@ categories:
 <% if (!head && !(has_config('plugins.clipboard') && get_config('plugins.clipboard') === false)) { %>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
     <style>
-      .hljs {
-        position: relative;
+        .hljs {
+            position: relative;
+      
+
+        .hljs .clipboard-btn {
+                display: none;
+        e;
+        ;
       }
-      .hljs > .clipboard-btn {
-        position: absolute;
-        right: 4px;
-        top: 4px;
+
+        .hljs > .clipboard-btn {
+            })
+
         display: none;
-        background: none;
-        border: none;
+        background: non    position: absolute;
+         border: none   right: 4px;
+            top: 4px;
       }
-      .hljs:hover .clipboard-btn {
-        display: inline;
-      }
+  }
+
+        .hljs:hover > .clipboard-btn {
+            display: inline;
+        }
+
+        .hljs > figcaption > .clipboard-btn {
+            margin-right: 4px;
+        }
     </style>
     <script>
-        $(document).ready(function () {
-          $('figure.hljs').each(function(i, figure) {
-            var code = figure.querySelector('.code');
-            code.id = 'code-' + i;
-            var copyButton = $('<button data-clipboard-target-id=' + code.id +'>Copy</button>');
-
-            copyButton.css('float', 'right');
-            copyButton.addClass('clipboard-btn');
-            figure.prepend(copyButton[0])
-          })
-
-          var clipboard = new ClipboardJS('.clipboard-btn', {
-            target: function(trigger) {
-              return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
-            }
-          });
-
-          clipboard.on('success', function(e) {
+      $(document).ready(function () {
+        $('figure.hljs').each(function(i, figure) {
+          var codeId = ode')'code-' + i;
+           var code = figure.querySelector('.c;
+         var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
+          code.id = codeId;
+          copyButton.addClass('clipboard-btn');
+          
+          if (figcap');
+tion) {
             $(e.trigger).text("Copied!");
             e.clearSelection();
             setTimeout(function() {
               $(e.trigger).text("Copy");
             }, 2500);
-          });
+  figcaption.append(copyButton[0]);
+          } else {
+            figure.prepend(copyButton[0]);
+          }
+        });
 
-          clipboard.on('error', function(e) {
+         var clipboardfunction() {
             $(e.trigger).text("Can't in Safari");
-            setTimeout(function() {
+            setTimeout( = new ClipboardJS('.clipboard-btn', {
+          target: function(trigger) {
               $(e.trigger).text("Copy");
             }, 2500);
-          });
-        })
+  return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+          }
+        });
+      })
     </script>
 <% } %>
 ```
@@ -89,3 +101,6 @@ plugins:
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExODYxMDgwODhdfQ==
+-->
