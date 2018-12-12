@@ -12,7 +12,7 @@ toc: true
 
 React, Vue, Angular 등 프론트엔드 프레임웍을 쓰면 Data에 따라 UI가 그려지기 때문에 어느정도 앱이 완성궤도에 올라오면 ### 서론
 
-프론트엔드쪽 일을 하다보면 대부분 오브젝트 및 오브젝트 배열(데이터 흐름)을 제어하는 비지니스 로직핸들링 하는 일과 돔에 대한 퍼포먼스를 개선하는 성능최적화 작업이 대부분이다.
+React, Vue, Angular 등 프론트엔드 프레임웍을 쓰면 Data에 따라 UI가 그려지기 때문에 어느정도 앱이 완성궤도에 올라오면 비지니스 로직 핸들링과 돔에 대한 퍼포먼스를 개선하는 성능최적화 작업이 대부분이다.
 
 가상 돔을 쓰는 프레임웍이면 데이터의 흐름 및 변화에 따라 자동으로 렌더링을 돌기 때문에 구조를 왠만큼 꼬거나 뎁스가 3~4뎁스를 넘기는게 아니라면 별도로 성능최적화를 일로 나뉜다.
 
@@ -77,5 +77,6 @@ ES6를 사용하지 않았기 때문에 비교적 크로스 브라우징 문제�
 - https://stackoverflow.com/questions/36032179/remove-duplicates-in-an-object-array-javascript
 - https://stackoverflow.com/questions/2218999/remove-duplicates-from-an-array-of-objects-in-javascript
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMwMjcyODYsMTk5NjE1MTg3NF19
+eyJoaXN0b3J5IjpbNzk4MDkyMDksLTEwOTMwMjcyODYsMTk5Nj
+E1MTg3NF19
 -->
