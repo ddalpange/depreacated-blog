@@ -123,6 +123,7 @@ toc: true
 ### Contributions
 
 * [Tui Chart](https://github.com/nhnent/tui.chart)
+* [Hexo Minos](https://github.com/ppoffice/hexo-theme-minos)
 
 <br/>
 

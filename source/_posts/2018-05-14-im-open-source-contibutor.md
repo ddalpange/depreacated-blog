@@ -13,4 +13,4 @@ categories:
 
 <!-- more -->
 
-![나도 오픈소스 기여자다!](/images/tui-chart-contribute.png)
+![나도 오픈소스 기여자다!](https://ddalpange.github.io/images/tui-chart-contribute.png)
