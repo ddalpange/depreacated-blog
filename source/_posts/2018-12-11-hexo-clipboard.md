@@ -17,9 +17,10 @@ categories:
 
 생각해보니 그냥 [Highlight](https://highlightjs.org/)를 [Prism](https://prismjs.com/index.html)으로 교체하는게 빠른듯.
 
-![Pull Request](https://ddalpange.github.io/images/minos-contribute.png)
-
 <!-- more -->
+
+
+![Pull Request](https://ddalpange.github.io/images/minos-contribute.png)
 
 ## 사용법
 
@@ -102,5 +103,5 @@ plugins:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODYxMDgwODhdfQ==
+eyJoaXN0b3J5IjpbMjA5NjU0MjMyMF19
 -->
