@@ -4,6 +4,7 @@ thumbnail: https://cdn-images-1.medium.com/fit/t/1600/480/1*gD37OB2-PtMqZdk3X1Yn
 tags: [rxjs, unsubscribe, stream]
 date: 2018-11-21 18:39:55
 categories:
+- javascript
 - rxjs
 ---
 
@@ -142,3 +143,6 @@ export class SomeComponent implements OnInit {
 인자로 expression을 넘겨줄 수 있습니다.
 
 이 밖에도 효율적인 **Unsubscribe** 방법이 있다면 알려주세요 !!
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTYxMDUxMzM3OV19
+-->
