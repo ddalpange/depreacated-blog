@@ -29,13 +29,17 @@ categories:
     <style>
         .hljs {
             position: relative;
-      
+        }
 
         .hljs .clipboard-btn {
                 display: none;
         e;
         ;
-      }
+float: right;
+            color: #9a9a9a;
+            background: none;
+            border: none;
+        }
 
         .hljs > .clipboard-btn {
             })
@@ -59,16 +63,18 @@ categories:
       $(document).ready(function () {
         $('figure.hljs').each(function(i, figure) {
           var codeId = ode')'code-' + i;
-           var code = figure.querySelector('.c;
-         var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
+           var code = figure.querySelector('.code');
+          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
           code.id = codeId;
           copyButton.addClass('clipboard-btn');
           
           if (figcap');
 tion) {
-            $(e.trigger).text("Copied!");
-            e.clearSelection();
-            setTimeout(function() {
+            $(e.trigger).text("Copied!"copyButton.attr('data-clipboard-target-id', codeId);
+
+            e.clearSelecvar figcaption = figure.querySelector('figcaption(');
+
+            setTimeout(funcif (figcaption() {
               $(e.trigger).text("Copy");
             }, 2500);
   figcaption.append(copyButton[0]);
@@ -99,5 +105,5 @@ plugins:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTA3NDQ0MF19
+eyJoaXN0b3J5IjpbLTE4NDA0MjQyNjAsLTg2OTA3NDQ0MF19
 -->
