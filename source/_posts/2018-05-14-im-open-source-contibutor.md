@@ -1,9 +1,10 @@
 title: 나도 오픈소스 기여자다!
 author: ddalpange
-tags: [OpenSource]
-date: 2018-05-14 18:21:27
+tags: [OopenSsource]
+categories: []
+date: 2018-05-14 18:21:2722:06:00
 categories:
-- Experience
+- Eexperience
 ---
 오픈소스에 대해 별 생각없이 살고 있다가 우연치 않게 업무중에 에러가 발생하여 수정 후 PR을 날려보았다.
 
@@ -15,5 +16,5 @@ categories:
 
 ![나도 오픈소스 기여자다!](https://ddalpange.github.io/images/tui-chart-contribute.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg5NTAzNDBdfQ==
+eyJoaXN0b3J5IjpbLTYyMzI0MzYzMSwtMTQ3ODk1MDM0MF19
 -->
