@@ -118,6 +118,112 @@ markedJS에서 렌더러를 통해 마크다운을 엘리먼트로 변환하는 
 h1 ~ h6 엘리먼트에 훅을 걸고 본문의 맨 앞에 **TOC**를 삽입하면 된다.
 
 
+```javascript
+
+var toc = [];
+var article = $(".tt_article_useless_p_margin");
+
+prepareTOC(toc);
+convert(article);
+insertTOC(article, toc);
+
+function insertTOC (article, toc) {
+  var result = "목차\n========\n";
+  var firstLebel = toc[0] ? toc[0].level : 1;
+
+  for(var i = 0; i < toc.length; i++) {
+    var link = toc[i];
+    var tabs = "";
+
+    for(var j = firstLebel; j < link.level; j++) {
+      tabs += "\t";
+    }
+
+    tabs += "*";
+    result += tabs + " ["+ link.text + "](#" + link.anchor + ")\n";
+  }
+  
+  result += "\n\n"
+    
+   if (toc.length > 2) {
+     article.prepend(marked(result));	
+   }
+}
+
+
+
+function convert(article) {
+
+  article[0].className += " markdown-body";
+  
+  var childs = article.children();
+  var results = [];
+
+  for(var i = 0; i < childs.length; i++) {
+
+    var child = childs[i];
+    if (child.tagName === "P") {
+      if (child.children[0] && child.children[0].tagName === "BR") {
+        results.push("");
+      } else {
+        results.push(child.innerText)
+      }
+    } else {
+      results.push(child);
+    }
+
+    child.remove();
+  }
+
+  var string = "";
+
+  for (var i = 0; i < results.length; i++) {
+    var result = results[i];
+    if (typeof result === "string") {
+      string += result + "\n";
+    } else {
+      article.append(marked(string));
+      string = "";
+      article.append(result);
+    }
+  }
+
+  if (string) {
+    article.append(marked(string));
+  }
+}
+
+
+
+function prepareTOC(toc) {
+
+  var renderer = new marked.Renderer();
+
+  renderer.heading = function(text, level, raw) {
+    var anchor = Math.random() * 100
+    toc.push({
+      anchor: anchor,
+      level: level,
+      text: text
+    });
+    return '<h'
+      + level
+      + ' id="'
+      + anchor
+      + '">'
+      + text
+      + '</h'
+      + level
+      + '>\n';
+  };
+
+  marked.setOptions({
+    renderer: renderer
+  });
+}
+
+```
+
 
 [MarkedJS](https://github.com/markedjs/marked)와 [PrismJS](https://github.com/PrismJS/prism)를 사용하였다.
 
@@ -135,6 +241,6 @@ h1 ~ h6 엘리먼트에 훅을 걸고 본문의 맨 앞에 **TOC**를 삽입하�
 좀 더 사용해보고 문제를 픽스한 후, 오픈소스로 배포할 예정이다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA5Nzk0OTQsLTI1NTU4Nzk3NSwtMj
-UwMDc1ODIwXX0=
+eyJoaXN0b3J5IjpbMzIxMDMzODUyLC0yNTU1ODc5NzUsLTI1MD
+A3NTgyMF19
 -->
