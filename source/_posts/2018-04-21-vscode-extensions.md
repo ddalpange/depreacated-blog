@@ -1,5 +1,5 @@
 ---
-title: vscode extension
+title: VSCODE 익스텐션
 tags: []
 categories:
   - javascript
@@ -86,5 +86,5 @@ typescript를 사용할때 각종 package를 자동으로 import해줍니다.
 
 rxjs를 사용할 때에는 오퍼레이터나 메소드에 대한 인텔리센스를 전혀 제공하지 못하는데 해결방법을 찾아야할듯 싶습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDE1ODMwN119
+eyJoaXN0b3J5IjpbLTE4NTEzNDA3MywtMzcwMTU4MzA3XX0=
 -->
