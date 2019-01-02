@@ -111,6 +111,12 @@ try {
 
 ```
 
+대충 만든 코드를 정리하고 **TOC**를 적용해보자.
+**TOC**는 Table of Contents의 줄임말로 목차라고 생각하면 된다.
+
+markedJS에서 렌더러를 통해 마크다운을 엘리먼트로 변환하는 중간 과정에 hook을 걸 수 있다.
+h1 ~ h6 엘리먼트에 훅을 걸고 본문의 맨 앞에 **TOC**를 삽입하면 된다.
+
 
 
 [MarkedJS](https://github.com/markedjs/marked)와 [PrismJS](https://github.com/PrismJS/prism)를 사용하였다.
@@ -129,5 +135,6 @@ try {
 좀 더 사용해보고 문제를 픽스한 후, 오픈소스로 배포할 예정이다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTU4Nzk3NSwtMjUwMDc1ODIwXX0=
+eyJoaXN0b3J5IjpbLTIwMzA5Nzk0OTQsLTI1NTU4Nzk3NSwtMj
+UwMDc1ODIwXX0=
 -->
