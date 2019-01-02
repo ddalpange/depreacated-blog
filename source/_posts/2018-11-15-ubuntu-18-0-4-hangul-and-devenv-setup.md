@@ -7,12 +7,11 @@ categories:
 - ubuntu
 ---
 
-
-## Ubuntu 18.04 개발환경, 한글 세팅하기
-
-### 사전준비
+우분투 18.04 버전에서 개발환경과 한글 세팅하는 방법을 설명합니다.
 
 <!-- more -->
+
+### 사전 준비
 
 1. 패키지 설치하기
 
@@ -27,14 +26,6 @@ categories:
 	```
 
 2. [Gnome Shell Intergration](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep?hl=en) 설치하기
-
-
-
-
-
-
-
-
 
 
 
@@ -105,6 +96,6 @@ Dock은 [Gnome Shell Extension](https://extensions.gnome.org/)에서 Dash To Doc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwOTI4MDMwLDEwNjY2NTk1NzUsMTM2NT
-U3NDAzMV19
+eyJoaXN0b3J5IjpbOTgwNzI3MjgwLDk1MDkyODAzMCwxMDY2Nj
+U5NTc1LDEzNjU1NzQwMzFdfQ==
 -->
