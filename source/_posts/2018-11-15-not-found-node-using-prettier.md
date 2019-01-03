@@ -7,12 +7,14 @@ categories:
 - javascript
 ---
 
-Webstorm에서 Prettier를 실행할 때
+NVM을 사용할 때 Node의 경로를 찾지 못하는 경우 해결하는 방법을 설명합니다.
 
+<!-- more -->
+
+Webstorm에서 Prettier를 실행할 때
 ```
 /usr/bin/env: node: No such file or directory
 ```
-<!-- more -->
 
 위와 같은 에러가 나는 경우가 있다.
 
@@ -25,6 +27,6 @@ Webstorm의 Prettier `/usr/bin/node`의 경로로 노드를 돌리는데 nvm같�
 sudo ln -s `which node` /usr/bin/node
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTY5NjU1NywtMTkxODI1MDU3MywtMT
+eyJoaXN0b3J5IjpbLTUzNDU1NDg1MCwtMTkxODI1MDU3MywtMT
 YyMzAwMTQ5Ml19
 -->
