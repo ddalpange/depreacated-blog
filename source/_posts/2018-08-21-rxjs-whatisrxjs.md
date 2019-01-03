@@ -8,8 +8,6 @@ categories:
 - rxjs
 ---
 
-## RxJS
-
 `Observable`을 사용하여 비동기 및 이벤트 기반의 프로그램을 작성하기 위한 라이브러리이다.
 동기, 비동기에 구분없이 일관된 코드를 작성할 수 있다는 점이 인상적인 라이브러리이다.
 `RxJS`는 *Iterator Pattern*과 *Observer Pattern*을 결합하여 이벤트들을 관리하기 위한 효울적인 방법을 제공한다.
@@ -149,6 +147,6 @@ fromEvent(button, 'click').pipe(
 
 이 밖에도 `pluck`, `pairwise`, `sample`과 같은 다양한 오퍼레이터를 지원한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA4NTM0ODIsLTE1NDEyNzU4MDBdfQ
-==
+eyJoaXN0b3J5IjpbMjE0NTk2NjA5MywtMjA1MDg1MzQ4MiwtMT
+U0MTI3NTgwMF19
 -->
