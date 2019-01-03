@@ -1,7 +1,7 @@
 ---
 title: Prettier에서 node를 찾지 못할 때.
 date: 2018-11-15 15:35:15
-thumbnail: https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-lightegorioe.png
+thumbnail: https://www.keycdn.com/img/blog/node-version-manager.png
 categories: [Node]
 tags: [Prettier, Node, NVM]
 ---
