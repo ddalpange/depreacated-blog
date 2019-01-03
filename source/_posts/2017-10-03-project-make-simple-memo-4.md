@@ -1,14 +1,11 @@
 ---
 title: 간단한 메모장 만들기 4
 date: 2017-10-03 22:49:00
-tags: [javascript, angular, ionic]
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
-categories:
-- projects
-- simpleMemo
+categories: [SimpleMemo]
+tags: [Javascript, Angular, Ionic, SimpleMemo]
 toc: true
-
 ---
 
 이번시간에는 파이어베이스를 이용한 로그인 연동, 회원가입, 로그아웃을 해보겠습니다.

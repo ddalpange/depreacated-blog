@@ -1,15 +1,14 @@
 ---
 title: 가장 얇은 지갑 만들기
 date: 2017-10-03 22:47:24
-tags: [javascript, algorithm]
 thumbnail: http://cfile212.uf.daum.net/image/2126BB4F53BCF73D197D26
 banner: http://cfile212.uf.daum.net/image/2126BB4F53BCF73D197D26
-categories:
-- programming
-- algorithm
+categories: [Algorithm]
+tags: [Algorithm, Programming]
 toc: true
 ---
 
+<!-- more -->
 
 ### 가장 얇은 지갑을 만들어라 !
 
@@ -26,7 +25,6 @@ toc: true
   * 입력값에 오류는 없다고 가정한다. 즉, "135000원" 같이 구성 불가능한 입력값은 없다.
   별도로 오류처리 해 줄 필요 없음.
 2. 출력 : 예) 1만원 X장, 7만원 X장, 11만원 X장, 17만원 X장
-<!-- more -->
 
 ```html
 <!DOCTYPE HTML>

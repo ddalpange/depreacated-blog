@@ -1,14 +1,11 @@
 ---
 title: 간단한 메모장 만들기 6
 date: 2017-10-03 22:49:05
-tags: [javascript, angular, ionic]
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
-categories:
-- projects
-- simpleMemo
 toc: true
-
+categories: [SimpleMemo]
+tags: [Javascript, Angular, Ionic, SimpleMemo]
 ---
 
 이번시간에는 아이오닉에서 제공해주는 무한 스크롤(infinite scroll)을 적용해볼거에요!!

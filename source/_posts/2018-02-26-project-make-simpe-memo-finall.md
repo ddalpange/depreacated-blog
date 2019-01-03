@@ -1,11 +1,9 @@
 ---
 title: 간단한 메모장 만들기 정리
-tags: [javascript, angular, ionic]
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
-categories:
-- projects
-- simpleMemo
+categories: [SimpleMemo]
+tags: [Javascript, Angular, Ionic, SimpleMemo]
 date: 2018-02-26 15:37:14
 toc: true
 ---

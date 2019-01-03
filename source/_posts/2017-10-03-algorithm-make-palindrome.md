@@ -1,14 +1,14 @@
 ---
 title: 회문 만들기
 date: 2017-10-03 22:48:09
-tags: [javascript, algorithm]
 thumbnail: https://media2.fdncms.com/portmerc/imager/u/large/18918590/logo.jpg
 banner: https://media2.fdncms.com/portmerc/imager/u/large/18918590/logo.jpg
-categories:
-- programming
-- algorithm
+categories: [Algorithm]
+tags: [Algorithm, Programming]
 toc: true
 ---
+
+<!-- more -->
 
 ### 회문 만들기.
  
@@ -29,7 +29,6 @@ Palindrome(이하 회문)은 앞/뒤 어느쪽으로 읽어도 같은 말이 되
 5214 + 4125 = 9339
 출력 : 195 4 9339
 ```
-<!-- more -->
 
 ##### 참고
 회문을 찾을 수 없는 수도 있다.
@@ -47,7 +46,7 @@ Palindrome(이하 회문)은 앞/뒤 어느쪽으로 읽어도 같은 말이 되
 
 ##### 코드
 
-```javascript
+```html
 <!DOCTYPE HTML>
 <html>
   <head>
@@ -157,7 +156,7 @@ return : 6
 
 ##### 코드
 
-```javascript
+```html
 <!DOCTYPE HTML>
 <html>
 <head>

@@ -1,15 +1,14 @@
 ---
 title: angular firebase2 quick start
 date: 2017-10-03 22:45:44
-tags: [javascript, angular]
 thumbnail: http://www.techjini.com/wp-content/uploads/2017/04/A2.jpg
 banner: http://www.techjini.com/wp-content/uploads/2017/04/A2.jpg
-categories:
-- javascript
-- angular
+categories: [Firebase]
+tags: [Javascript, Angular, Firebase]
 toc: true
 ---
 
+<!-- more -->
 
 ### 앵귤러, 파이어베이스
 
@@ -37,7 +36,6 @@ ng new angular-firebase
 cd  angular-firebase
 ng serve --open
 ```
-<!-- more -->
 
 >***ng serve***는 서버를 올리기 위한 명령어입니다. 당신들의 파일을 주시하며, 변경이 있을때마다 앱을 다시 빌드합니다. ***--open (또는 -o)*** 옵션은 자동으로 당신의 브라우저로 켜주는 명령어입니다. (http://localhost:4200/)
 

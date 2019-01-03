@@ -1,11 +1,10 @@
 ---
 title: 첫 프로젝트
 date: 2018-07-21 18:21:27
-tags:
 thumbnail: https://www.knowrulimited.com/assets/images/knowru-dashboard.png
 toc: true
-categories:
-- experience
+categories: [경험]
+tags: [노루]
 ---
 
 노루는 머신러닝 플랫폼을 대신 호스팅 및 통계 등을 제공하는 서비스인데. 기존에 있는 노루의 프론트엔드는 장고 템플릿을 사용하여 보여주고 있었다. 정말 기능만 중시했기 때문에 UI/UX가 매우 불편하고 유지보수 측면중에서도 어려운게 많았다. 무엇보다 `Jquery`를 쓰기 싫어서 강력하게 이것은 새로 만들어야한다! 라고 주장하고 프론트엔드 개발자가 나 혼자임에도 불구하고 아무 생각 없이 시작했다. (그것은 틀린 선택이었다.)

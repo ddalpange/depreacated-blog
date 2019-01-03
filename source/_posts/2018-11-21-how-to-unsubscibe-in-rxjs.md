@@ -1,11 +1,9 @@
 ---
 title: Rxjs 구독을 취소하는 여러가지 방법
 thumbnail: https://cdn-images-1.medium.com/fit/t/1600/480/1*gD37OB2-PtMqZdk3X1YnEQ.png
-tags: [rxjs, unsubscribe, stream]
+tags: [RxJS, Unsubscribe, Stream, Event]
 date: 2018-11-21 18:39:55
-categories:
-- javascript
-- rxjs
+categories: [RxJS]
 ---
 
 **Angular**는 기본적으로 **RxJS**를 사용합니다. **RxJS**를 사용할때 스트림을 연 컴포넌트가 없어진다 해도 열린 스트림은 닫히지 않기 때문에 메모리를 계속 먹습니다. 그렇기 때문에 **Unsubscribe**를 호출하여 스트림을 닫아주어야하는데요. 매번 **Unsubscribe**를 하기는 너무나 귀찮음으로 스트림 구독을 해제할 수 있는 다양한 방법을 소개합니다.

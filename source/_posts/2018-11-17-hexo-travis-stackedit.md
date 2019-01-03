@@ -1,10 +1,9 @@
 ---
 title: 블로깅을 편하게 하기 위한 발악 (hexo, travis, stackedit)
-tags: [hexo, travis, github, stackedit]
 thumbnail: https://workablehr.s3.amazonaws.com/uploads/account/logo/11901/large_Mascot-fullcolor-png.png
 date: 2018-11-16 18:39:55
-categories:
-- hexo
+categories: [블로그]
+tags: [Hexo, Travis, Github, StackEdit]
 ---
 
 티스토리를 커스터마이징 하여 사용하다가 혈압이 올라서 다시 헥소로 포스팅을 하기로 했다.

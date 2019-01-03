@@ -1,12 +1,10 @@
 ---
 title: 간단한 메모장 만들기 2
 date: 2017-10-03 22:48:55
-tags: [javascript, angular, ionic]
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
-categories:
-- projects
-- simpleMemo
+categories: [SimpleMemo]
+tags: [Javascript, Angular, Ionic, SimpleMemo]
 toc: true
 
 ---

@@ -1,12 +1,10 @@
 ---
 title: 자바스크립트 오브젝트 배열 중복 삭제하기
-tags: [js, javascript, object array, duplicate, es6, underscore]
 date: 2017-10-10 15:10:12
 thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
-categories:
-- javascript
-- pureJavascript
+categories: [Javascript]
+tags: [Javascript, ES6, Underscore]
 toc: true
 ---
 

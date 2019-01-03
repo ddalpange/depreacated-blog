@@ -1,11 +1,9 @@
 ---
 title: RxJS란 무엇인가?
-tags: [rxjs]
 date: 2018-08-21 14:51:12
 thumbnail: https://cdn-images-1.medium.com/fit/t/1600/480/1*gD37OB2-PtMqZdk3X1YnEQ.png
-categories:
-- javascript
-- rxjs
+tags: [RxJS, Observable, Observer, Subscription, Subject]
+categories: [RxJS]
 ---
 
 `Observable`을 사용하여 비동기 및 이벤트 기반의 프로그램을 작성하기 위한 라이브러리이다. 동기/비동기/이벤트 등 다양한 코드를 동일한 인터페이스로 작성할 수 있다는 점이 매우 인상적이다. `RxJS`는 *Iterator Pattern*과 *Observer Pattern*을 결합하여 이벤트들을 관리하기 위한 효울적인 방법을 제공한다. `RxJS`의 주요 개념은 다음와 같다.

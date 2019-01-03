@@ -1,14 +1,13 @@
 ---
 title: firebase 배포
 date: 2017-10-03 22:45:54
-tags: [javascript, angular, firebase, ionic]
 thumbnail: https://firebase.google.com/images/homepage/news/500_blog_firebase_2x.png?hl=ko
 banner: https://firebase.google.com/images/homepage/news/500_blog_firebase_2x.png?hl=ko
-categories:
-- firebase
-- services
+categories: [Firebase]
+tags: [Javascript, Angular, Firebase, Ionic]
 toc: true
 ---
+<!-- more -->
 
 ## Firebase Hosting
 
@@ -23,7 +22,6 @@ toc: true
 신속한 배포	 | Firebase CLI가 불과 몇 초만에 앱을 궤도에 올려 드립니다. 명령줄 도구로 빌드 프로세스에 배포 타겟을 손쉽게 추가할 수 있습니다.
 클릭 한 번으로 롤백	 | 빠른 배포도 좋지만 실수를 빠르게 되돌릴 수 있다면 더 좋을 것입니다. Firebase 호스팅은 완벽한 버전 관리 및 릴리스 관리를 제공하며 클릭 한 번으로 롤백이 가능합니다.
 
-<!-- more -->
 
 ### 작동원리
 

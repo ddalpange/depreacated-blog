@@ -1,10 +1,9 @@
 ---
 title: Ubuntu 18.04 개발환경, 한글 세팅하기
-tags: [ubuntu, hangul]
 date: 2018-11-15 15:34:40
 thumbnail: https://i2.wp.com/wp.laravel-news.com/wp-content/uploads/2016/12/laravel-valet-ubuntu.png?resize=2200%2C1125
-categories:
-- ubuntu
+tags: [Ubuntu, Hangul]
+categories: [Linux]
 ---
 
 우분투 18.04 버전에서 개발환경과 한글 세팅하는 방법을 설명합니다.

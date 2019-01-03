@@ -1,15 +1,16 @@
 ---
 title: 임포트와 익스포트
 date: 2017-10-03 22:46:44
-tags: [javascript, module]
 thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
-categories:
-- javascript
-- pureJavascript
+categories: [Javascript]
+tags: [Javascript]
 toc: true
 ---
 
+자바스크립트 프로젝에서 상수를 관리하기 위한 방법을 설명하는 글.
+
+<!-- more -->
 
 ###  Import, Export
 
@@ -26,8 +27,6 @@ const obj = {
 
 export default obj;
 ```
-
-<!-- more -->
 
 
 -> 나쁘지 않은 방법이다. 하지만 오브젝트를 const로 선언한다면 오브젝트의 프로퍼티 값은 const가 아니기 때문에 obj.name  = "puppy"와 같이 값 자체를 바꿀 수 있다. 엄밀히 따지자면 상수가 아닌 셈이다. (Object.freeze()라는 것을 사용하면 될 수도 ??)

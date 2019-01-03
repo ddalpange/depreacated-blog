@@ -1,10 +1,9 @@
 ---
 title: Prettier에서 node를 찾지 못할 때.
-tags: [Pprettier, Nnode, NVMnvm]
 date: 2018-11-15 15:35:15
 thumbnail: https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-lightegorioe.png
-categories:
-- javascript
+categories: [Node]
+tags: [Prettier, Node, NVM]
 ---
 
 NVM을 사용할 때 Node의 경로를 찾지 못하는 경우 해결하는 방법을 설명합니다.

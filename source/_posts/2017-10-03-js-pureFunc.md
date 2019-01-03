@@ -1,14 +1,16 @@
 ---
 title: 순수 함수
 date: 2017-10-03 22:46:56
-tags: [ programming, pureFunc, SideEffect ]
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/220px-Function_machine2.svg.png
 banner: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/220px-Function_machine2.svg.png
-categories:
-- programming
-- software
+categories: [Javascript]
+tags: [Javascript, PureFunction]
 toc: true
 ---
+
+요즘 힙한 프로그래밍 기법중 하나인 순수함수에 대해 알아보자.
+
+<!-- more -->
 
 ## 순수함수란 ?
 
@@ -33,7 +35,6 @@ var F = function (x) {
 
 F(5);
 ```
-<!-- more -->
 
 위의 함수는 순수 함수가 아니다. 함수의 외부스코프에있는 outside의 값이 변하면 *F(5)*의 값도 같이 변하기 때문이다.
 

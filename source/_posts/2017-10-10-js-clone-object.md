@@ -1,12 +1,10 @@
 ---
 title: 자바스크립트 객체 복사하기
-tags: [js, javascript, clone object, deep copy]
 date: 2017-10-10 16:26:05
 thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
-categories:
-- javascript
-- pureJavascript
+categories: [Javascript]
+tags: [Javascript, DeepCopy, SwallowCopy]
 toc: true
 ---
 

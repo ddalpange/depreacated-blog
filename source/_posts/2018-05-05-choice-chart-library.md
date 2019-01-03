@@ -1,13 +1,9 @@
 title: 자바스크립트 차트 라이브러리
-tags:
-  - javascript
-  - chart
 thumbnail: https://cdn-images-1.medium.com/max/1600/1*d7dvz2Zh28hJbzYXmKsCcQ.png
 date: 2018-05-05 08:30:00
 toc: true
-categories:
-- javascript
-- chart
+categories: [Javascript]
+tags: [Javascript, Chart]
 ---
 
 Knowru 회사에서 나의 주요업무는 데이터 시각화다. 여러 차트 라이브러리를 사용해보며 부딪히고 깨진 경험을 공유해보고자 한다.

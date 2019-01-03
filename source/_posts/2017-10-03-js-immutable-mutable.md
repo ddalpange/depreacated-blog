@@ -1,12 +1,14 @@
 ---
 title: 자바스크립트 불변과 가변
 date: 2017-10-03 22:48:30
-tags: [javascript]
-categories:
-- javascript
-- pureJavascript
+categories: [Javascript]
+tags: [Javascript]
 toc: true
 ---
+
+참조타입, 원시타입, 불변형, 가변형 등 자료형의 차이에 대해 알아봅시다.
+
+<!-- more -->
 
 
 #### 참조타입, 원시타입? 불변형, 가변형?
@@ -44,7 +46,6 @@ toc: true
 
 4. null과 undefined는 숫자도 문자도 불리언 값도 아닌 독립적인 값에 속한다.
 
-<!-- more -->
 
 ##### 테스트 해봅시다.
 

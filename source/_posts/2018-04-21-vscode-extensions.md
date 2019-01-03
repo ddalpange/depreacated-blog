@@ -1,13 +1,11 @@
 ---
 title: VSCODE 익스텐션
-tags: []
-categories:
-  - javascript
-  - ide
 date: 2018-04-21 01:33:28
 thumbnail: http://www.itpaper.co.kr/wp-content/uploads/2017/12/0_Tu2sJCmh_CaSOD17.png
 banner: http://www.itpaper.co.kr/wp-content/uploads/2017/12/0_Tu2sJCmh_CaSOD17.png
 toc: true
+tags: [IDE, VSCODE]
+categories: [경험]
 ---
 
 한동안 Webstorm을 쓰다가 무료체험기간 30일이 끝나버려서 다시 VSCODE를 사용하고 있습니다. 유료툴인 Webstorm은 추가 패키지를 안깔아도 각종 인텔리센스와 개발경험을 제공하지만 VSCODE는 그렇지 않습니다. Angular를 개발하면서 필요하다 느꼈던 Extension을 공유합니다.

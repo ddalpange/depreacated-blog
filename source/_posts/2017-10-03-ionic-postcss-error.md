@@ -1,14 +1,15 @@
 ---
 title: 아이오닉 postCss 에러
 date: 2017-10-03 22:46:29
-tags: [javascript, angular, ionic, error, postcss]
 thumbnail: https://ionicframework.com/img/ionic-meta.jpg
 banner: https://ionicframework.com/img/ionic-meta.jpg
-categories:
-- javascript
-- angular
+categories: [Javascript, Angular, Ionic]
+tags: [Ionic]
 toc: true
 ---
+
+<!-- more -->
+
 
 ## 아이오닉 포스트 CSS 에러 잡기
 
@@ -31,7 +32,6 @@ toc: true
 
 그래서 검색을 해서 해결법을 찾았다.
 
-<!-- more -->
 
 https://github.com/ionic-team/ionic/issues/12441
 
