@@ -8,13 +8,9 @@ categories:
 - rxjs
 ---
 
-`Observable`을 사용하여 비동기 및 이벤트 기반의 프로그램을 작성하기 위한 라이브러리이다.
-동기, 비동기에 구분없이 일관된 코드를 작성할 수 있다는 점이 인상적인 라이브러리이다.
-`RxJS`는 *Iterator Pattern*과 *Observer Pattern*을 결합하여 이벤트들을 관리하기 위한 효울적인 방법을 제공한다.
-비동기 이벤트를 해결하는 RxJS의 주요 개념은 다음와 같다.
+`Observable`을 사용하여 비동기 및 이벤트 기반의 프로그램을 작성하기 위한 라이브러리이다. 동기/비동기/이벤트 등 다양한 코드를 동일한 인터페이스로 작성할 수 있다는 점이 매우 인상적이다. `RxJS`는 *Iterator Pattern*과 *Observer Pattern*을 결합하여 이벤트들을 관리하기 위한 효울적인 방법을 제공한다. `RxJS`의 주요 개념은 다음와 같다.
 
 <!-- more -->
-
 
 1. ``Observable``: 미래에 발생할 이벤트, 값들을 모아놓은 컬렉션이다.
 2. ``Observer``: `Observable`이 배달한 값을 읽을 수 있도록 하는 콜백들의 컬렉션이다.
@@ -147,6 +143,6 @@ fromEvent(button, 'click').pipe(
 
 이 밖에도 `pluck`, `pairwise`, `sample`과 같은 다양한 오퍼레이터를 지원한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTk2NjA5MywtMjA1MDg1MzQ4MiwtMT
+eyJoaXN0b3J5IjpbMTYxMjQzMzkwNywtMjA1MDg1MzQ4MiwtMT
 U0MTI3NTgwMF19
 -->
