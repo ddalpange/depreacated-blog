@@ -19,7 +19,7 @@ STABLE은 **9.9.0**이니 말 다했다.
 
 안본 사이 노드 버전의 격차가 너무 벌어져서 생각없이 업데이트를 때렸다가는 `node-sass`, `node-gyp`같이 예민한 아이들이 피토를 하뿜뿜! 뿜어내며 퇴근을 방해한다.
 
-![흔한 에러](https://ddalpange.github.io넌 집에 못가!](/images/common/node-gyp-error.png)
+![흔한 에러](https://ddalpange.github.io/images/common/node-gyp-error.png)
 
 그러므로 Node의 버전을 올릴때 또는 오래된 노드 프로젝트와 새로 만든 노드 프로젝트를 유연하게 빌드 할수 있을려면
 
@@ -37,5 +37,6 @@ STABLE은 **9.9.0**이니 말 다했다.
 
 좀 더 빨리 알았다면 좋았을텐데 :(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAzNjY2NjAsNjQ2NzYxOTI0XX0=
+eyJoaXN0b3J5IjpbMTYzNzM3MDkxNSwtMTcwMDM2NjY2MCw2ND
+Y3NjE5MjRdfQ==
 -->
