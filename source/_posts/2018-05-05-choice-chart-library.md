@@ -10,10 +10,9 @@ categories:
 - chart
 ---
 
-## 자바스크립트 차트 라이브러리
+Knowru 회사에서 나의 주요업무는 데이터 시각화다. 여러 차트 라이브러리를 사용해보며 부딪히고 깨진 경험을 공유해보고자 한다.
 
-Knowru 회사에서 나의 주요업무는 데이터 시각화다.
-여러 차트 라이브러리를 사용해보며 부딪히고 깨진 경험을 공유해보고자 한다.
+<!-- more -->
 
 ### [ChartJS](https://www.chartjs.org/)
 깃허브에서 가장 많은 스타를 받은 차트 라이브러리이다.
@@ -23,8 +22,6 @@ Canvas를 이용하여 그리기 때문에 반응형 레이아웃도 문제없�
 
 무엇보다 사용자가 많기 때문에 스택 오버플로에서 왠만하면 다 해결할 수 있다.
 현재 Knowru 서비스에서 사용중이다.
-
-<!-- more -->
 
 
 ### [D3.js](https://d3js.org/)
@@ -64,6 +61,6 @@ Oowa 서비스에서 Table HeatMap을 사용하기 위해 쓰고있다.
 
 차트 용어는 이 [링크](https://wiki.pentaho.com/display/Reporting/Charting+Terminology)를 참고하면 좋다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ2MDgzNzUsNzIxNDQ4MDQ1LC02NT
-U0MTM3NDVdfQ==
+eyJoaXN0b3J5IjpbMTAzNDQzNjYxLC0xMzk0NjA4Mzc1LDcyMT
+Q0ODA0NSwtNjU1NDEzNzQ1XX0=
 -->
