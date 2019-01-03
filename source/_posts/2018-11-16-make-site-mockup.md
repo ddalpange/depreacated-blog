@@ -2,7 +2,6 @@
 title: Mac, IOS 프레임 웹 목업 만들기
 tags: [IOS, Mac, Mockup]
 thumbnail: https://i.pinimg.com/originals/e4/6c/9e/e46c9e94708b98d1f638cb388d706ef5.png]
-categories:
 date: 2018-11-16 18:39:55
 categories:
 - UI/UX
@@ -24,5 +23,5 @@ pinterest 또는 google에 랜딩페이지 예시들을 보면 Mac, IOS 디바�
 
 ![Knowu Limited MockUp](https://www.knowrulimited.com/assets/images/knowru-dashboard.pngscontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/43007714_178359666390726_8807423532481904640_o.jpg?_nc_cat=111&_nc_ht=scontent-hkg3-1.xx&oh=2a412d038a2d20619561695114983f6c&oe=5C69604F)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTg0MDUwMl19
+eyJoaXN0b3J5IjpbMTM4MTUyNDYsMTg3OTg0MDUwMl19
 -->
