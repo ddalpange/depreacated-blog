@@ -10,11 +10,9 @@ banner: http://www.itpaper.co.kr/wp-content/uploads/2017/12/0_Tu2sJCmh_CaSOD17.p
 toc: true
 ---
 
-한동안 Webstorm을 쓰다가 무료체험기간 30일이 끝나버려서 다시 vscode를 사용하고 있습니다.
+한동안 Webstorm을 쓰다가 무료체험기간 30일이 끝나버려서 다시 VSCODE를 사용하고 있습니다. 유료툴인 Webstorm은 추가 패키지를 안깔아도 각종 인텔리센스와 개발경험을 제공하지만 VSCODE는 그렇지 않습니다. Angular를 개발하면서 필요하다 느꼈던 Extension을 공유합니다.
 
-유료툴인 webstorm은 추가 패키지를 안깔아도 각종 인텔리센스와 개발경험을 제공하지만 vscode는 그렇지 않습니다.
-
-angular를 개발하면서 필요하다 느꼈던 extension을 공유합니다.
+<!-- more -->
 
 1. Angular Files
 해당 위치에 `ng generate someting`를 할 수 있는 패키지입니다.
@@ -24,7 +22,7 @@ angular를 개발하면서 필요하다 느꼈던 extension을 공유합니다.
 Angular팀에서 내놓은 공식 익스텐션입니다.
 `@angular/language-service`를 같이 깔아야 한다는데 안깔았었네요.
 역시 설명을 잘 읽어봐야 합니다.
-<!-- more -->
+
 3. Auto Rename Tag
 html에서 여는 태그를 변경할때 자동으로 닫는 태그를 변경해줍니다.
 비슷한 용도로 Auto Close Tag가 있는데 Generic을 선언해줄때도 태그로 인식해서 닫아버려요
@@ -83,8 +81,7 @@ from 쓸때 경로에 대한 intellisense를 알려줘요
 19. Auto Import
 typescript를 사용할때 각종 package를 자동으로 import해줍니다.
 비슷한 패키지로 typescript hero가 있는데 이 패키지는 absolute import를 지원하지 않습니다.
-
-rxjs를 사용할 때에는 오퍼레이터나 메소드에 대한 인텔리센스를 전혀 제공하지 못하는데 해결방법을 찾아야할듯 싶습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTEzNDA3MywtMzcwMTU4MzA3XX0=
+eyJoaXN0b3J5IjpbNTc0MDQ2OTMxLC0xODUxMzQwNzMsLTM3MD
+E1ODMwN119
 -->
