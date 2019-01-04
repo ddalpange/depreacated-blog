@@ -4,21 +4,16 @@ toc: true
 ---
 
 <div style="display: flex;">
-    <div style="width: 250px; padding: 15px 50px 0px;">
+    <div style="width: 200px; padding-right: 30px;">
         <img src="https://avatars2.githubusercontent.com/u/20659160?s=460&v=4"
              style="border-radius:100px;"
         >
     </div>
     <div style="flex: 1;">
-        ** DDALPANGE ** (Yohan Kim)
-        
-        React, Vue, Angular 등 자바스크립트 기술 트렌드에 관심이 많으며 기초 지식 또한 놓치지 않습니다.
-        요즘에는 프론트엔드 테스팅에 관심을 가지고 접근중입니다.
-        
-        **Email**: ddalpange@gmail.com
-        **Github**: https://github.com/ddalpange
-        **Blog**: https://ddalpange.github.io
-      
+        **DDALPANGE** (Yohan Kim)
+       항상 어떻게 코드를 잘 짤까 생각했었지만, 요즘에는 어떤 식으로 하면 설계를 잘할까. 탄탄한 설계와 빠른 생산성 중 무엇을 가져가야 하는가. 등 다양한 생각에 잠겨있습니다.
+        [Email](mailto:ddalpange@gmail.com) 
+        [Github](https://github.com/ddalpange)
     </div>
 </div>
 
@@ -32,6 +27,13 @@ toc: true
 #### [애니포인트미디어](http://www.anypointmedia.com) (2017.11 ~ 2018.01)
 
 #### [노루](http://knowru.com) (2018.03 ~ 현재)
+
+<br/>
+
+### Education
+
+#### [세명컴퓨터고등학교](http://www.smc.hs.kr/index.do) (2014.03 ~ 2017.04)
+스마트보안솔루션과 졸업
 
 <br/>
 
