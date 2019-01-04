@@ -10,10 +10,10 @@ toc: true
         >
     </div>
     <div style="flex: 1;">
-        **DDALPANGE** (Yohan Kim)
-       항상 어떻게 코드를 잘 짤까 생각했었지만, 요즘에는 어떤 식으로 하면 설계를 잘할까. 탄탄한 설계와 빠른 생산성 중 무엇을 가져가야 하는가. 등 다양한 생각에 잠겨있습니다.
-        [Email](mailto:ddalpange@gmail.com) 
-        [Github](https://github.com/ddalpange)
+        **DDALPANGE** (Yohan Kim) <small>[Email](mailto:ddalpange@gmail.com) [Github](https://github.com/ddalpange)</small>
+        <p>
+            깔끔한 코드와 탄탄한 설계, 원활한 협업 등 다양한 생각에 잠겨있습니다. 적당한 유머감각을 보유했으며 심도 깊은 개발 얘기를 좋아합니다.
+        </p>
     </div>
 </div>
 
@@ -32,8 +32,7 @@ toc: true
 
 ### Education
 
-#### [세명컴퓨터고등학교](http://www.smc.hs.kr/index.do) (2014.03 ~ 2017.04)
-스마트보안솔루션과 졸업
+#### [세명컴퓨터고등학교](http://www.smc.hs.kr/index.do) (2014.03 ~ 2017.04) 
 
 <br/>
 
@@ -50,14 +49,9 @@ toc: true
 <br/>
 
 #### [Mobile Travelhow](https://m.travelhow.com)
-> 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Mobile
-**React**, **Reflux**, **PostCSS**, **Cordova Webview**
-
-<br/>
-
 #### [Mobile2 Travelhow](https://mm.travelhow.com)
 > 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Mobile
-**Ionic**, **Angular2+**, **RxJS**
+**React**, **Reflux**, **PostCSS**, **Cordova Webview**, **Ionic**, **Angular2+**, **RxJS**
 
 <div class="justified-gallery">
 ![1](https://ddalpange.github.io/images/portfolio/travelhow-mobile/1.png)
@@ -73,6 +67,7 @@ toc: true
 > 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. B to B
 **Angular**, **RxJS**
 
+<br/>
 
 #### [Knowru](https://www.knowru.com)
 > 머신러닝 모델을 호스팅하여 API로 활용할 수 있게 해주고 그에 대한 값들을 테스팅 및 시각화 할 수 있는 서비스.
@@ -102,6 +97,8 @@ toc: true
 ![3](https://ddalpange.github.io/images/portfolio/oowa/3.png)
 ![4](https://ddalpange.github.io/images/portfolio/oowa/4.png)
 </div>
+
+<br/>
 
 #### [Knowru Limited](https://www.knowrulimited.com)
 > Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 대한 정보를 제공하는 서비스.
