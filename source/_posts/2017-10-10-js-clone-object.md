@@ -4,7 +4,7 @@ date: 2017-10-10 16:26:05
 thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 banner: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
 categories: [Javascript]
-tags: [Javascript, DeepCopy, SwallowCopy]
+tags: [Javascript, DeepCopy, ShallowCopy]
 toc: true
 ---
 
@@ -47,7 +47,7 @@ function cloneObject(obj) {
 
 **Object.assign**은 첫번째 인자로 들어오는 객체에 두번째 인자로 들어오는 객체의 프로퍼티들을 차례대로 덮어쓰기하여 반환하는 메소드이다.
 여기서 주의할 점은 **Object.assign**은 프로퍼티들에 대한 참조를 덮어쓰기하기 때문에, 오브젝트 안에 오브젝트 또는 배열이 있을 경우 복사가 아닌 참조를 하게된다.
-즉 객체를 `얕은 복사(Swallow Copy)`한다.
+즉 객체를 `얕은 복사(Shallow Copy)`한다.
 
 #### 2. JSON 객체의 메소드를 이용
 ```js
