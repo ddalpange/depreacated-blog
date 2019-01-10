@@ -1,5 +1,5 @@
 ---
-title: angular firebase2 quick start
+title: Angular + Firebase 퀵 스타트
 date: 2017-10-03 22:45:44
 thumbnail: http://www.techjini.com/wp-content/uploads/2017/04/A2.jpg
 banner: http://www.techjini.com/wp-content/uploads/2017/04/A2.jpg
@@ -8,13 +8,12 @@ tags: [Javascript, Angular, Firebase]
 toc: true
 ---
 
+`Angular`에서 `Firebase`를 사용하기 위한 방법을 설명합니다.
 <!-- more -->
-
-### 앵귤러, 파이어베이스
 
 #### 앵귤러.
 
-##### 1. 환경 세팅
+##### 사전 환경 세팅
 
 ```makefile
 npm install -g @angular/cli
@@ -22,7 +21,7 @@ npm install -g @angular/cli
 
 >명령을 실행하기 전에, ***node -v***, ***npm -v*** 명령어로 노드는 6.9.x 버전인지, npm은 3.x.x 버전인지 확인하세요. 구버전은 에러를 일으킬 수 있습니다.
 
-##### 2. 만드세요.
+##### 프로젝트를 만드세요.
 
 ```makefile
 ng new angular-firebase
@@ -30,16 +29,16 @@ ng new angular-firebase
 
 >참을성을 가지세요. 대부분의 시간은 npm package들을 인스톨 하는데에 쓰입니다.
 
-##### 3. 실행하세요.
+##### 프로젝트를 실행하세요.
 
 ```makefile
-cd  angular-firebase
+cd angular-firebase
 ng serve --open
 ```
 
 >***ng serve***는 서버를 올리기 위한 명령어입니다. 당신들의 파일을 주시하며, 변경이 있을때마다 앱을 다시 빌드합니다. ***--open (또는 -o)*** 옵션은 자동으로 당신의 브라우저로 켜주는 명령어입니다. (http://localhost:4200/)
 
-##### 4. 파일구조 한번 보죠
+##### 파일구조를 살펴봅시다.
 
 ###### Src Folder
 
@@ -124,14 +123,14 @@ tslint.json | Linting configuration for TSLint together with Codelyzer, used whe
 
 #### 파이어베이스
 
-##### 1. 까세요.
+##### 파이어베이스 깔아주세요
 
 ```
 npm install angularfire2 firebase --save
 ```
 https://github.com/angular/angularfire2
 
-##### 2. 프로젝트 만드세요.
+##### 파이어베이스 프로젝트를 만들어주세요.
 
 https://console.firebase.google.com/project/angular-test-146ca/database/data/items?hl=ko
 
@@ -234,7 +233,7 @@ export class FirebaseTestComponent implements OnInit {
   items: FirebaseListObservable<any[]>;
 
   constructor(private _db: AngularFireDatabase) { }
-
+를
   ngOnInit() {
     this.items = this._db.list('/items');
     this.items.push("안녕하세요 ?");

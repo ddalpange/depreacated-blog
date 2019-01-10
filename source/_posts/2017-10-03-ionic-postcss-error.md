@@ -8,29 +8,19 @@ tags: [Ionic]
 toc: true
 ---
 
-<!-- more -->
-
-
-## 아이오닉 포스트 CSS 에러 잡기
-
 [메모만들기 2](https://ddalpange.github.io/2017/07/11/%EA%B0%84%EB%8B%A8%ED%95%9C-%EB%A9%94%EB%AA%A8%EC%9E%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0-2/) 포스트가 잘 되는지 확인할려고 처음부터 다시 하던 도중, ionic의 기본 css가 적용되지 않는 문제가 발생하였다.
 
+<!-- more -->
 
 ![문제 화면](/images/ionic/postCssError.png)
 
-흐음 .. 처음 실행하는 것이니 웹팩의 설정에 잘못된게 있을리 없다.
-
-그래서 콘솔창을 유심히 살펴보았다.
+흐음 .. 처음 실행하는 것이니 웹팩의 설정에 잘못된게 있을리 없다. 그래서 콘솔창을 유심히 살펴보았다.
 
 ![문제 콘솔](/images/ionic/postCssConsole.png)
 
 > Your current PostCSS version is 5.2.17, but autoprefixer uses 6.0.8. Perhaps this is the source of the error below.
 
-당신의 postcss 버전은 5.2.17이다. 하지만 autoprefixer는 6.0.8을 요구하는데, 이건 아마 당신의 소스에 문제를 발생시킬 것이다.
-
-가만히 있던 postcss가 문제일리는 없고, ionic팀에서 버전업데이트를 할 때 예상치 못한 에러가 발생한듯 하다.
-
-그래서 검색을 해서 해결법을 찾았다.
+당신의 postcss 버전은 5.2.17이다. 하지만 autoprefixer는 6.0.8을 요구하는데, 이건 아마 당신의 소스에 문제를 발생시킬 것이다. 가만히 있던 postcss가 문제일리는 없고, ionic팀에서 버전업데이트를 할 때 예상치 못한 에러가 발생한듯 하다. 그래서 검색을 해서 해결법을 찾았다.
 
 
 https://github.com/ionic-team/ionic/issues/12441
@@ -39,7 +29,6 @@ https://github.com/ionic-team/ionic/issues/12441
 프로젝트의 @ionic/app-scripts를 1.3.7 버전으로 다운그레이드 하면 된다.
 
 변경 전
-
 ```javascript
 {
   "name": "ddalpange-memo",
@@ -63,7 +52,6 @@ https://github.com/ionic-team/ionic/issues/12441
 ```
 
 변경 후
-
 ```javascript
 {
   "name": "ddalpange-memo",

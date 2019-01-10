@@ -1,5 +1,5 @@
 ---
-title: 간단한 메모장 만들기 6
+title: 간단한 메모장 만들기 6 - 무한 스크롤 적용
 date: 2017-10-03 22:49:05
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
@@ -9,6 +9,8 @@ tags: [Javascript, Angular, Ionic, SimpleMemo]
 ---
 
 이번시간에는 아이오닉에서 제공해주는 무한 스크롤(infinite scroll)을 적용해볼거에요!!
+<!-- more -->
+
 
 ### 테스트 환경 작성
 
@@ -23,13 +25,10 @@ tags: [Javascript, Angular, Ionic, SimpleMemo]
 5000개가 넘어가면 메모리스트 페이지가 많이 느려지는걸 볼 수 있습니다.
 텍스트만 있어도 느린데 이미지가 있는 페이지라면 어느정도일지 짐작이 되시겠죠?
 
-<!-- more -->
 
 ### 코드 작성
 
-#### HTML
-**src/pages/memo-list/memo-list/html**
-```html
+```html src/pages/memo-list/memo-list/html
 <ion-header>
   <ion-navbar color="primary">
     <ion-searchbar [(ngModel)]="searchKeyword"></ion-searchbar>
@@ -81,9 +80,7 @@ tags: [Javascript, Angular, Ionic, SimpleMemo]
 
 **ionInfinite**에 주목하세요. ion-infinite-scroll 태그가 화면상에 보일경우 등록해놓은 **doInfinite** 함수를 호출합니다.
 
-#### Code
-**src/pages/memo-list/memo-list/ts**
-```typescript
+```typescript src/pages/memo-list/memo-list/ts
 import { AuthManagerProvider } from './../../providers/auth-manager/auth-manager';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { Memo } from './../../models/memo/memo.interface';

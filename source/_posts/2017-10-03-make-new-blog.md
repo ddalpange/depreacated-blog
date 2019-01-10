@@ -6,10 +6,8 @@ banner: http://cdn2.hubspot.net/hub/53/file-23115630-jpg/blog/images/blogging_im
 categories: [블로그]
 tags: [Hexo, Deploy, Encoding, Url]
 ---
-그
-**hexo deploy**에 문제가 있었다.
-한글 제목의 포스팅이 윈도우에서 빌드 및 배포했을 때는 잘 되지만,
-맥에서 빌드 및 배포를 했을 때 404 에러가 뜨기 시작했다.
+
+블로그 배포에 문제가 있었다. 한글 제목의 포스팅이 윈도우에서 빌드 및 배포했을 때는 잘 되지만 맥에서 빌드 및 배포를 했을 때 404 에러가 뜨기 시작했다.
 
 <!-- more -->
 

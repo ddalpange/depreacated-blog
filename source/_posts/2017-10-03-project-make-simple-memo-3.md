@@ -1,5 +1,5 @@
 ---
-title: 간단한 메모장 만들기 3
+title: 간단한 메모장 만들기 3 - 목데이터 사용
 date: 2017-10-03 22:48:57
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
@@ -8,8 +8,6 @@ tags: [Javascript, Angular, Ionic, SimpleMemo]
 toc: true
 
 ---
-
-## 간단한 메모장을 만듭시다 !
 
 이번 시간에서는 목 객체와 Angular2의 서비스(보통 아이오닉에선 provider 라고 명칭합니다.)를 이용해서 메모가 어떻게 만들어지고, 수정되고, 삭제되는지 알아볼겁니다. 틀리거나 안되는것이 있다면 바로바로 댓글로 달아주세요!
 

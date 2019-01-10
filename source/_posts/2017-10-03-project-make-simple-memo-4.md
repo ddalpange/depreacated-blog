@@ -1,5 +1,5 @@
 ---
-title: 간단한 메모장 만들기 4
+title: 간단한 메모장 만들기 4 - Auth
 date: 2017-10-03 22:49:00
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
@@ -10,6 +10,7 @@ toc: true
 
 이번시간에는 파이어베이스를 이용한 로그인 연동, 회원가입, 로그아웃을 해보겠습니다.
 
+<!-- more -->
 
 https://console.firebase.google.com
 
@@ -36,7 +37,6 @@ https://console.firebase.google.com
 
 config 변수 부분을 복사해주세요 딴건 필요없답니다.
 
-<!-- more -->
 
 ### 아이오닉 프로젝트에 추가하기
 

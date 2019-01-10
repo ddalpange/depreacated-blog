@@ -1,5 +1,5 @@
 ---
-title: firebase 배포
+title: Firebase 배포
 date: 2017-10-03 22:45:54
 thumbnail: https://firebase.google.com/images/homepage/news/500_blog_firebase_2x.png?hl=ko
 banner: https://firebase.google.com/images/homepage/news/500_blog_firebase_2x.png?hl=ko
@@ -7,11 +7,10 @@ categories: [Firebase]
 tags: [Javascript, Angular, Firebase, Ionic]
 toc: true
 ---
+
+Firebase 호스팅은 개발자를 위한 프로덕션 등급 웹 콘텐츠 호스팅 서비스입니다. Firebase 호스팅을 사용하면 한 번의 명령으로 웹 앱과 정적 콘텐츠를 글로벌 콘텐츠 전송 네트워크(CDN)에 빠르고 손쉽게 배포할 수 있습니다.
+
 <!-- more -->
-
-## Firebase Hosting
-
->Firebase 호스팅은 개발자를 위한 프로덕션 등급 웹 콘텐츠 호스팅 서비스입니다. Firebase 호스팅을 사용하면 한 번의 명령으로 웹 앱과 정적 콘텐츠를 글로벌 콘텐츠 전송 네트워크(CDN)에 빠르고 손쉽게 배포할 수 있습니다.
 
 ### 주요기능
 

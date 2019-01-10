@@ -1,5 +1,5 @@
 ---
-title: 간단한 메모장 만들기 5
+title: 간단한 메모장 만들기 5 - CRUD
 date: 2017-10-03 22:49:02
 thumbnail: /images/memo/memoBanner.png
 banner: /images/memo/memoBanner.png
@@ -9,9 +9,10 @@ toc: true
 
 ---
 
-이번 시간에는 메모리스트를 파이어베이스의 데이터베이스를 사용하여 CRUD를 해볼게요.
+이번 시간에는 메모리스트를 파이어베이스의 데이터베이스를 사용하여 `CRUD`를 해볼게요. `html`이나 `ts`에서 기능 개선을 위해 변경한 코드가 일부 있으니, 감안하여 봐주세요.
 
-html이나 ts에서 기능 개선을 위해 변경한 코드가 일부 있으니, 감안하여 봐주세요.
+<!-- more -->
+
 
 **CRUD**
 > CRUD는 대부분의 컴퓨터 소프트웨어가 가지는 기본적인 데이터 처리 기능인 Create(생성), Read(읽기), Update(갱신), Delete(삭제)를 묶어서 일컫는 말이다. 사용자 인터페이스가 갖추어야 할 기능(정보의 참조/검색/갱신)을 가리키는 용어로서도 사용된다.
@@ -19,12 +20,10 @@ html이나 ts에서 기능 개선을 위해 변경한 코드가 일부 있으니
 **Real Time Database**
 > Firebase 실시간 데이터베이스는 클라우드 호스팅 데이터베이스입니다. **데이터는 JSON으로 저장되며 연결된 모든 클라이언트에 실시간으로 동기화됩니다.** iOS, Android 및 자바스크립트 SDK로 교차 플랫폼 앱을 개발하면 모든 클라이언트가 하나의 실시간 데이터베이스 인스턴스를 공유하고 자동 업데이트로 최신 데이터를 수신합니다.
 
-<!-- more -->
 
 ### 인터페이스 변경하여 적용하기.
 
-**src/models/memo/memo.interface.ts**
-```typescript
+```typescript src/models/memo/memo.interface.ts
 export interface Memo {
     uid: string;                    // 유저넘버
     author: string;                 // 작성자
@@ -39,8 +38,7 @@ export interface Memo {
 
 ### 메모매니저 파이어베이스 연동
 
-**src/providers/memo-manager/memo-manager.ts**
-```typescript
+```typescript src/providers/memo-manager/memo-manager.ts
 import { AuthManagerProvider } from './../auth-manager/auth-manager';
 import { Memo } from './../../models/memo/memo.interface';
 import { Injectable } from '@angular/core';
@@ -105,8 +103,7 @@ export class MemoManagerProvider {
 
 ### 메모리스트페이지에 반영하기
 
-**src/pages/memo-list/memo-list.html**
-```html
+```html src/pages/memo-list/memo-list.html
 <ion-header>
   <ion-navbar color="primary">
     <ion-searchbar [(ngModel)]="searchKeyword"></ion-searchbar>
@@ -137,8 +134,7 @@ export class MemoManagerProvider {
 </ion-content>
 ```
 
-**src/pages/memo-list/memo-list.ts**
-```typescript
+```typescript src/pages/memo-list/memo-list.ts
 import { AuthManagerProvider } from './../../providers/auth-manager/auth-manager';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { Memo } from './../../models/memo/memo.interface';
@@ -212,8 +208,7 @@ export class MemoListPage {
 
 ### 그 외 html 변경사항들입니다.
 
-**src/pages/memo-detail/memo-detail.html**
-```html
+```html src/pages/memo-detail/memo-detail.html
 <ion-header>
   <ion-navbar>
     <ion-buttons end>
@@ -255,8 +250,7 @@ export class MemoListPage {
 ```
 
 
-**src/pages/memo-detail/memo-detail.html**
-```html
+```html src/pages/memo-detail/memo-detail.html
 <ion-header>
   <ion-navbar color="secondary">
   </ion-navbar>
