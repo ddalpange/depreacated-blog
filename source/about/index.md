@@ -1,7 +1,9 @@
-title: About
+title: 나는 누구인가?
 date: 2017-07-26 23:25:27
 toc: true
 ---
+
+### Who Am I?
 
 <div style="display: flex;">
     <div style="width: 200px; padding-right: 30px;">
@@ -30,13 +32,14 @@ toc: true
 
 <br/>
 
-### Education
+### Educations
 
 #### [세명컴퓨터고등학교](http://www.smc.hs.kr/index.do) (2014.03 ~ 2017.04) 
 
 <br/>
 
 ### Projects
+
 #### [PC Travelhow](https://www.travelhow.com)
 > 항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스. Web
 **React**, **Reflux**
@@ -113,11 +116,28 @@ toc: true
 <br/>
 
 ### Study
+
 #### [Simple Memo](https://github.com/ddalpange/simple-memo)
 > Ionic, Angular, Firebase 를 이용하여 만드는 간단한 메모장입니다.
 **Ionic**, **Angular**, **Firebase**
 
 <br/>
+
+### Tech Stack
+
+#### Frontend
+
+* React, Vue, Angular, Angular1, Jquery
+* RxJS, Refulx, Flux, Vuex
+* AmCharts, TUIChart, ChartJS
+* AppSync, Cloudformation, CloudFront
+
+#### Backend
+
+* Node, Lambda, Python, Django2, Bash, etc..
+* React, Vue, Angular, Angular1, Jquery
+* RxJS, Refulx, Flux, Vuex
+* AmCharts, TUIChart, ChartJS
 
 ### Contributions
 
@@ -125,15 +145,6 @@ toc: true
 * [Hexo Minos](https://github.com/ppoffice/hexo-theme-minos)
 
 <br/>
-
-### Skills
-
-* React, Vue, Angular, Angular1, Jquery
-* RxJS, Refulx, Flux, Vuex
-* AmCharts, TUIChart, ChartJS
-* Git, Bash, AppSync, Cloudformation, Cloudfront
-
-
 
 ### Links
 

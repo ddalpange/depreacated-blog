@@ -20,7 +20,7 @@ pinterest 또는 google에 랜딩페이지 예시들을 보면 Mac, IOS 디바�
 
 해당 사이트에 스크린샷을 업로드하면 손쉽게 목업 이미지를 얻을 수 있다.
 
-![Knowu Limited MockUp](https://www.knowrulimited.com/assets/images/knowru-dashboard.pngscontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/43007714_178359666390726_8807423532481904640_o.jpg?_nc_cat=111&_nc_ht=scontent-hkg3-1.xx&oh=2a412d038a2d20619561695114983f6c&oe=5C69604F)
+![Knowu Limited MockUp](/images/knowru-dashboard.png)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNTQ5MTAzMTU3LDEzODE1MjQ2LDE4Nzk4ND
 A1MDJdfQ==
