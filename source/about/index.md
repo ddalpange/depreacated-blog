@@ -105,7 +105,7 @@ toc: true
 
 #### [Knowru Limited](https://www.knowrulimited.com)
 > Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 대한 정보를 제공하는 서비스.
-**Angular**, **Material2**
+**React**, **Gatsby**, **Bulma**
 
 <br/>
 
