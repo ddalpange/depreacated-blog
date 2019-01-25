@@ -147,7 +147,7 @@ export class BlueButton extends React.component {
 
 ```jsx
 let { className, ...props } = this.props;
-```` 
+```
 
 여기선 this.props에서 클래스네임을 따로 정의하고, 남은걸 props로 모았기 때문에 rest라 할 수 있습니다.
 
