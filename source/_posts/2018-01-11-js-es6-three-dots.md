@@ -136,14 +136,14 @@ export class BlueButton extends React.component {
 	}
 	
 	render() {
-		conslet { className, ...props } = this.props;
+		const { className, ...props } = this.props;
 		
 		return <button className={`btn btn-blueinfo ${className}`} {...props} />		
 	}
 	
 }
 ```
-위 코드는 **Spread Operator**일까요 **Rest Operator**스프레드일까요 레스트일까요? 
+위 코드는 **Spread Operator**일까요 **Rest Operator**일까요? 
 
 ```jsx
 let { className, ...props } = this.props;
