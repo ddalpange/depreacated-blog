@@ -5,18 +5,10 @@ toc: true
 
 ### Who Am I?
 
-<div style="display: flex;">
-    <div style="width: 200px; padding-right: 30px;">
-        <img src="https://avatars2.githubusercontent.com/u/20659160?s=460&v=4"
-             style="border-radius:100px;"
-        >
-    </div>
-    <div style="flex: 1;">
-        **DDALPANGE** (Yohan Kim) <small>[Email](mailto:ddalpange@gmail.com) [Github](https://github.com/ddalpange)</small>
-        <p>
-            깔끔한 코드와 탄탄한 설계, 원활한 협업 등 다양한 생각에 잠겨있습니다. 적당한 유머감각을 보유했으며 심도 깊은 개발 얘기를 좋아합니다.
-        </p>
-    </div>
+<div style="padding: 0 32px;">
+    <img src="/images/profile.jpg" style="display:block; margin: 0 auto; border-radius: 300px;" class="not-gallery-item">
+    <div style="text-align: center;">**Yohan Kim**<br/><small>[Email](mailto:ddalpange@gmail.com) [Github](https://github.com/ddalpange)</small></div>
+    <p>프론트엔드 3년차 개발자 김요한입니다. 심도깊은 개발얘기를 좋아하며 깔끔한 코드와 단단한 설계에 관심을 두고 있습니다. 현재 구직중이니 많은 연락 부탁드립니다.</p>
 </div>
 
 
@@ -138,6 +130,9 @@ toc: true
 * React, Vue, Angular, Angular1, Jquery
 * RxJS, Refulx, Flux, Vuex
 * AmCharts, TUIChart, ChartJS
+
+<br/>
+
 
 ### Contributions
 
