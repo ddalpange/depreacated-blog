@@ -24,12 +24,6 @@ toc: true
 
 <br/>
 
-### Educations
-
-#### [세명컴퓨터고등학교](http://www.smc.hs.kr/index.do) (2014.03 ~ 2017.04) 
-
-<br/>
-
 ### Projects
 
 #### [PC Travelhow](https://www.travelhow.com)
@@ -97,13 +91,13 @@ toc: true
 
 #### [Knowru Limited](https://www.knowrulimited.com)
 > Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 대한 정보를 제공하는 서비스.
-**React**, **Gatsby**, **Bulma**
+**React**, **Gatsby**, **Bulma**, **GA**
 
 <br/>
 
-#### AI Interview
+#### [AI Interview](https://www.ai-interview.com)
 > 인터뷰 및 비디오 레코딩. 지원자를 머신러닝으로 분석하여 채용 코스트를 줄여주는 서비스.
-**Vue**, **Vuex**, **Vuetify**
+**Vue**, **Vuex**, **Vuetify**, **WebRTC**
 
 <br/>
 
