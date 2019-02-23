@@ -133,17 +133,11 @@ toc: true
 
 #### Frontend
 
-- React, Vue, Angular, Angular1, Jquery
-- RxJS, Refulx, Flux, Vuex
-- AmCharts, TUIChart, ChartJS
-- AppSync, Cloudformation, CloudFront
+`React`, `Vue`, `Angular`, `Angular2`, `Jquery`, `ES2015`, `RxJS`, `Redux`, `Reflux`, `Vuex`, `Flux`, `Async & Await`, `Webpack`, `Data Visualization`, `AmCharts`, `ChartJS`, `TUIChart`, `AppSync`, `Cloudformation`, `CloudFront`, `Typescript`
 
 #### Backend
 
-- Node, Lambda, Python, Django2, Bash, etc..
-- React, Vue, Angular, Angular1, Jquery
-- RxJS, Refulx, Flux, Vuex
-- AmCharts, TUIChart, ChartJS
+`Node`, `Lambda`, `Bash`, `Django`, `Koa`
 
 <br/>
 
