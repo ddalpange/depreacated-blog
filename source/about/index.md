@@ -133,7 +133,7 @@ toc: true
 
 #### Frontend
 
-`React`, `Vue`, `Angular`, `Angular2`, `Jquery`, `ES2015`, `RxJS`, `Redux`, `Reflux`, `Vuex`, `Flux`, `Async & Await`, `Webpack`, `Data Visualization`, `AmCharts`, `ChartJS`, `TUIChart`, `AppSync`, `Cloudformation`, `CloudFront`, `Typescript`
+    `React`, `Vue`, `Angular`, `Angular2`, `Jquery`, `ES2015`, `RxJS`, `Redux`, `Reflux`, `Vuex`, `Flux`, `Async & Await`, `Webpack`, `Data Visualization`, `AmCharts`, `ChartJS`, `TUIChart`, `AppSync`, `Cloudformation`, `CloudFront`, `Typescript`
 
 #### Backend
 
