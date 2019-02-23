@@ -99,9 +99,9 @@ toc: true
 > **React**, **Gatsby**, **Bulma**, **GA**
 
 <div class="justified-gallery">
-![1](https://ddalpange.github.io/images/portfolio/knowru-limited/1.png)
-![2](https://ddalpange.github.io/images/portfolio/knowru-limited/2.png)
-![3](https://ddalpange.github.io/images/portfolio/knowru-limited/3.png)
+![1](https://ddalpange.github.io/images/portfolio/knowrulimited/1.png)
+![2](https://ddalpange.github.io/images/portfolio/knowrulimited/2.png)
+![3](https://ddalpange.github.io/images/portfolio/knowrulimited/3.png)
 </div>
 
 <br/>
