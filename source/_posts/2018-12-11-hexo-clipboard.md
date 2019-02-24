@@ -11,7 +11,7 @@ categories: [블로그]
 <!-- more -->
 
 
-![Pull Request](https://ddalpange.github.io/images/minos-contribute.png)
+![Pull Request](/images/minos-contribute.png)
 
 ## 사용법
 

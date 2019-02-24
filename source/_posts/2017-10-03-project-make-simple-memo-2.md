@@ -224,7 +224,7 @@ export class SignInPage {
 ```html src/pages/sign-in/sign-in.html
 <ion-content padding>
   <div class="image-wrap">
-    <img src="https://ddalpange.github.io/images/gyul.png" 
+    <img src="/images/gyul.png" 
       (click)="onClickDDalpange()"/>
     <p>달팽이의 메모 앱</p>
     <ion-list>
@@ -302,7 +302,7 @@ export class SignUpPage {
 ```html src/pages/sign-up/sign-up.html
 <ion-content padding>
    <div class="image-wrap">
-    <img src="https://ddalpange.github.io/images/gyul.png" 
+    <img src="/images/gyul.png" 
       (click)="onClickDDalpange()"/>
     <p>달팽이의 메모 앱</p>
     <ion-list>
@@ -580,11 +580,11 @@ page-memo-create {
 ```
 
 
-![로그인 페이지](https://ddalpange.github.io/images/memo/sign-in-page.png)
-![회원가입 페이지](https://ddalpange.github.io/images/memo/sign-up-page.png)
-![메모 리스트 페이지](https://ddalpange.github.io/images/memo/memo-list-page.png)
-![메모 상세 페이지](https://ddalpange.github.io/images/memo/memo-detail-page.png)
-![메모 만들기 페이지](https://ddalpange.github.io/images/memo/memo-create-page.png)
+![로그인 페이지](/images/memo/sign-in-page.png)
+![회원가입 페이지](/images/memo/sign-up-page.png)
+![메모 리스트 페이지](/images/memo/memo-list-page.png)
+![메모 상세 페이지](/images/memo/memo-detail-page.png)
+![메모 만들기 페이지](/images/memo/memo-create-page.png)
 
 ---
 

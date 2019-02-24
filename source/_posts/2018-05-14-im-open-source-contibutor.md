@@ -8,7 +8,7 @@ tags: [OpenSource]
 
 <!-- more -->
 
-![나도 오픈소스 기여자다!](https://ddalpange.github.io/images/tui-chart-contribute.png)
+![나도 오픈소스 기여자다!](/images/tui-chart-contribute.png)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNTcxNzE5ODg3LC02MjMyNDM2MzEsLTE0Nz
 g5NTAzNDBdfQ==

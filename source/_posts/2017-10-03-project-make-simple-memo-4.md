@@ -334,7 +334,7 @@ export class SignUpPage {
 ```html
 <ion-content padding>
    <div class="image-wrap">
-    <img src="https://ddalpange.github.io/images/gyul.png" 
+    <img src="/images/gyul.png" 
       (click)="onClickDDalpange()"/>
     <p>달팽이의 메모 앱</p>
     <ion-list>
@@ -458,7 +458,7 @@ export class SignInPage {
 ```html
 <ion-content padding>
   <div class="image-wrap">
-    <img src="https://ddalpange.github.io/images/gyul.png" 
+    <img src="/images/gyul.png" 
       (click)="onClickDDalpange()"/>
     <p>달팽이의 메모 앱</p>
     <ion-list>
