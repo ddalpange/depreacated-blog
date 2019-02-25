@@ -59,7 +59,7 @@ toc: true
 
 ### [Knowru](https://www.knowru.com)
 **Angular7**, **Material2**, **RxJS**
-머신러닝 모델을 호스팅하여 API로 활용할 수 있게 해주고 그에 대한 값들을 테스팅 및 시각화 할 수 있는 서비스.
+머신러닝 모델을 API로 호스팅해주는 서비스. 데이터 시각화 및 머신러닝 모델 소스코드 관리 (Diff, Version, Adjust Weight 등)
 > 처음부터 끝까지 저 혼자의 힘으로 완성한 프로젝트라 의미가 큽니다. 또한 미숙했던 만큼 아쉬움도 큽니다. 첫 프로젝트를 하면서 느꼈던 점을 [이 포스트](/2018/07/21/my-first-project/)에 정리해 두었습니다.
 <div class="justified-gallery">
 ![1](/images/portfolio/knowru/1.jpg)
@@ -79,7 +79,7 @@ toc: true
 
 ### [Oowa](https://oowa.io)
 **Angular7**, **Material2**, **RxJS**, **Amplify**, **Tui Chart**
-오프라인 광고 집행 시 CCTV로 녹화하여 광고를 시청한 사람들을 분석해 데이터로 시각화해주는 서비스.
+머신러닝 기반 피플 카운팅 서비스. Aws의 IOT 서비스로 CCTV를 원격으로 제어할 수 있는 대쉬보드를 개발
 > CCTV와 머신러닝을 접목한 피플카운팅 서비스였습니다. 랜딩 페이지 및 데이터 시각화와 CCTV를 관리해주는 대쉬보드를 개발하였습니다. 개발 도중 서비스를 개발 도중 개인정보 관련 보호법이 바뀌어서 프로젝트 방향이 바뀌었으나 우선순위가 밀려 중단되었습니다. 프로젝트를 시작하기 전 프로토타입 개발을 빠르게 하는 것과 관련 시장 및 법안 사례 등을 찾아보는 사전조사가 중요하단 것을 알려주었습니다.
 <div class="justified-gallery">
 ![1](/images/portfolio/oowa/1.png)
@@ -104,7 +104,7 @@ Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 �
 
 ### [AI Interview](https://www.ai-interview.com)
 **Vue**, **Vuex**, **Vuetify**, **WebRTC**
-인터뷰 및 비디오 레코딩. 지원자를 머신러닝으로 분석하여 채용 코스트를 줄여주는 서비스.
+인터뷰 및 비디오 레코딩. 지원자를 머신러닝으로 분석하여 채용 코스트를 줄여주는 서비스. Vue를 이용한 빠른 프로토타이핑과 AppSync, CloudFormation을 이용한 Serverless 아키텍쳐
 
 > Angular의 피쳐들은 혼자 개발하기에는 다소 과분하다는 느낌이 있어 Vue로 개발했습니다. Vue의 빠른 개발속도로 기본적인 인터뷰 플랫폼을 만들었고 현재 WebRTC를 이용해 사용자의 답안을 녹화하는 피쳐를 만들고 있습니다. 빠른 개발을 위해 JS와 CSR을 선택하였는데 하다보니 TS와 SSR은 처음부터 기본으로 선택해야 편하단걸 깨달았습니다.
 
