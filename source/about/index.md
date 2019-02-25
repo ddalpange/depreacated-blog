@@ -46,13 +46,13 @@ toc: true
 > `Flux` 패턴을 전혀 이해하지 못한 `Reflux` 코드와 가변과 불변의 차이를 전혀 이해하지 못한 `ImmutableJS`의 남용으로 왜 리덕스가 유행하는지, 왜 설계가 이리도 중요한지, 왜 `Lint`와 `Prettier`같은 코드 포메터가 필요한지 절실하게 깨달을 수 있었습니다. **SPA**의 장점과 불변 데이터를 통해 가져가는 최적화, 탄탄한 설계를 가져가는 개념을 자연스레 깨우쳤습니다. 호텔 유지보수와 액티비티 서비스 신규개발을 하던 도중 기존 코드가 너무 엉망이여서 유지보수가 불가능하다고 판단하였고 신규 서비스부터 `Angular`로 가져간 후 차례차례 마이그레이션 하는것으로 프로젝트의 진행방향이 결정되었으나 무리한 일정산정으로 결국에는 완벽하게 바꾸지 못했습니다. 앱 속도가 느려져서 사용자가 떨어져나갔고 유지보수는 점점 늘어갔습니다. 해당 프로젝트를 진행하면서 잘못된 개발이 얼마나 서비스를 망칠수 있는지 깨닫게 되었습니다.
 
 <div class="justified-gallery">
-![1](/images/portfolio/travelhow-mobile/1.png)
-![2](/images/portfolio/travelhow-mobile/2.png)
-![3](/images/portfolio/travelhow-mobile/3.png)
-![4](/images/portfolio/travelhow-mobile/4.png)
-![5](/images/portfolio/travelhow-mobile/5.png)
-![6](/images/portfolio/travelhow-web/1.png)
-![7](/images/portfolio/travelhow-web/2.png)
+![1](/images/portfolio/travelhow-mobile/1.jpg)
+![2](/images/portfolio/travelhow-mobile/2.jpg)
+![3](/images/portfolio/travelhow-mobile/3.jpg)
+![4](/images/portfolio/travelhow-mobile/4.jpg)
+![5](/images/portfolio/travelhow-mobile/5.jpg)
+![6](/images/portfolio/travelhow-web/1.jpg)
+![7](/images/portfolio/travelhow-web/2.jpg)
 </div>
 
 <br/>
@@ -64,15 +64,15 @@ toc: true
 <div class="justified-gallery">
 ![1](/images/portfolio/knowru/1.jpg)
 ![2](/images/portfolio/knowru/2.jpg)
-![3](/images/portfolio/knowru/3.png)
-![4](/images/portfolio/knowru/4.png)
-![5](/images/portfolio/knowru/6.png)
+![3](/images/portfolio/knowru/3.jpg)
+![4](/images/portfolio/knowru/4.jpg)
+![5](/images/portfolio/knowru/6.jpg)
 ![6](/images/portfolio/knowru/7.jpg)
-![7](/images/portfolio/knowru/8.png)
-![8](/images/portfolio/knowru/9.png)
-![9](/images/portfolio/knowru/10.png)
-![10](/images/portfolio/knowru/11.png)
-![11](/images/portfolio/knowru/12.png)
+![7](/images/portfolio/knowru/8.jpg)
+![8](/images/portfolio/knowru/9.jpg)
+![9](/images/portfolio/knowru/10.jpg)
+![10](/images/portfolio/knowru/11.jpg)
+![11](/images/portfolio/knowru/12.jpg)
 </div>
 
 <br/>
@@ -82,10 +82,10 @@ toc: true
 머신러닝 기반 피플 카운팅 서비스. Aws의 IOT 서비스로 CCTV를 원격으로 제어할 수 있는 대쉬보드를 개발
 > 랜딩 페이지 및 데이터 시각화와 CCTV를 관리해주는 대쉬보드를 개발하였습니다. 개발 도중 서비스를 개발 도중 개인정보 관련 보호법이 바뀌어서 프로젝트 방향이 바뀌었으나 우선순위가 밀려 중단되었습니다. 프로젝트를 시작하기 전 프로토타입 개발을 빠르게 하는 것과 관련 시장 및 법안 사례 등을 찾아보는 사전조사가 중요하단 것을 알려주었습니다.
 <div class="justified-gallery">
-![1](/images/portfolio/oowa/1.png)
-![2](/images/portfolio/oowa/2.png)
-![3](/images/portfolio/oowa/3.png)
-![4](/images/portfolio/oowa/4.png)
+![1](/images/portfolio/oowa/1.jpg)
+![2](/images/portfolio/oowa/2.jpg)
+![3](/images/portfolio/oowa/3.jpg)
+![4](/images/portfolio/oowa/4.jpg)
 </div>
 
 <br/>
@@ -95,9 +95,11 @@ toc: true
 Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 대한 정보를 제공하는 서비스.
 > Angular와 Material2를 이용해 제작하였지만 SPA의 문제로 SEO 렌더링이 되지 않는 문제가 있었습니다. 개선 방안으로 SSR과 Prerender 그리고 정적 사이트 생성기를 사용하는 방안이 있었는데 블로그 하나로 서버를 올리긴 싫어서 핫한 기술로 떠오른 Gatsby를 선택하였습니다.
 <div class="justified-gallery">
-![1](/images/portfolio/knowrulimited/1.png)
-![2](/images/portfolio/knowrulimited/2.png)
-![3](/images/portfolio/knowrulimited/3.png)
+![1](/images/portfolio/knowrulimited/1.jpg)
+![2](/images/portfolio/knowrulimited/2.jpg)
+![3](/images/portfolio/knowrulimited/3.jpg)
+![3](/images/portfolio/knowrulimited/4.jpg)
+![3](/images/portfolio/knowrulimited/5.jpg)
 </div>
 
 <br/>
@@ -110,10 +112,12 @@ Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 �
 
 
 <div class="justified-gallery">
-![1](/images/portfolio/ai-interview/1.png)
-![2](/images/portfolio/ai-interview/2.png)
-![3](/images/portfolio/ai-interview/3.png)
-![4](/images/portfolio/ai-interview/4.png)
+![1](/images/portfolio/ai-interview/1.jpg)
+![2](/images/portfolio/ai-interview/2.jpg)
+![3](/images/portfolio/ai-interview/3.jpg)
+![4](/images/portfolio/ai-interview/4.jpg)
+![4](/images/portfolio/ai-interview/5.jpg)
+![4](/images/portfolio/ai-interview/6.jpg)
 </div>
 
 <br/>
