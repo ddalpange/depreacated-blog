@@ -7,7 +7,7 @@ toc: true
 ## Who Am I?
 
 <div style="padding: 0 32px;">
-    <img src="/images/profile.jpg" style="display:block; margin: 0 auto; border-radius: 300px;" class="not-gallery-item">
+    <img src="/images/profile.jpeg" style="display:block; margin: 0 auto; border-radius: 300px;" class="not-gallery-item">
     <div style="text-align: center;">**Yohan Kim**</div>
 </div>
 
