@@ -3,8 +3,8 @@ title: 아이오닉 postCss 에러
 date: 2017-10-03 22:46:29
 thumbnail: https://ionicframework.com/img/ionic-meta.jpg
 banner: https://ionicframework.com/img/ionic-meta.jpg
-categories: [Javascript, Angular, Ionic]
-tags: [Ionic]
+categories: [Javascript]
+tags: [Ionic, Javascript, Angular, Ionic]
 toc: true
 ---
 
