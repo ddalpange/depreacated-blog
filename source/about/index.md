@@ -130,7 +130,7 @@ Ionic, Angular, Firebase 를 이용하여 만드는 간단한 메모장입니다
 
 ## Work Experience
 
-### [클래스101](https://class101.net) (2018.03 ~ 재직 중)
+### [클래스101](https://class101.net) (2019.03 ~ 재직 중)
 **풀스택 프로그래머**
 
 ### [노루](http://knowru.com) (2018.03 ~ 2019.03)
