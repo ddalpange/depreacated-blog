@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 딸팽이 배움일지
-subtitle: 갈길이 멀다
+title: 달팽이 개발일지
+subtitle: 달팽이는 자기 집이 있습니다.
 description: Full-Stack Developer
 author: ddalpange
 language: ko
@@ -41,17 +41,17 @@ highlight:
   enable: true
   line_number: true
   auto_detect: true
-  tab_replace: '  '
- 
+  tab_replace: "  "
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 5
   order_by: -date
-  
+
 # Category & Tag
 default_category: javascript
 default_thumbnail: http://cfile2.uf.tistory.com/image/215FD64D56BD8AAD21359E
@@ -73,8 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
-
+theme: hexo-icarus
 
 deploy:
   type: git
@@ -83,12 +82,12 @@ deploy:
   message: "travis"
 
 nofollow:
-    enable: true
-    exclude:
+  enable: true
+  exclude:
 
 # sitemap auto generator
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
 
 # rss feed auto generator
 feed:
@@ -98,7 +97,3 @@ feed:
   path: rss2.xml
   # 최신 포스트의 갯수 설정. (0 또는 false 입력시 전체 포스트)
   limit: false
-
-
-
-

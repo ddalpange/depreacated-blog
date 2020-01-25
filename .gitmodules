@@ -1,0 +1,3 @@
+[submodule "themes/hexo-icarus"]
+	path = themes/hexo-icarus
+	url = https://github.com/ddalpange/hexo-theme-icarus.git
