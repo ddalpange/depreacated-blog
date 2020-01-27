@@ -11,28 +11,29 @@ toc: true
     <div style="text-align: center;">**Yohan Kim**</div>
 </div>
 
-프론트엔드 개발자 김요한입니다. `React`, `Angular`, `Vue` 등 프레임워크나 툴을 가리지 않고 준수한 디자인 감각과 퍼블리싱 능력을 지니고 있습니다. 오픈소스에 관심이 많으며 자바스크립트 신기술을 좋아합니다. 요즘에는 SSR, TDD, 대규모 앱 설계 등 프론트엔드에서 접하지 못한 영역에 관심이 많습니다. 프론트엔드에만 국한되지 않고 자바스크립트를 통해 풀스택 개발자로 성장하고픈 욕심이 있습니다.
+프론트엔드 개발자 김요한입니다. 눈 뜨고 봐줄만한 디자인 감각과 퍼블리싱 능력을 지니고 있습니다. 오픈소스에 관심이 많으며 변해가는 기술 동향을 파악하고 그 근본 지식을 휘어잡으려 노력합니다. CSR 프로젝트를 한땀한땀 SSR로 바꾼 경험이 있고 좋은 프론트엔드 아키텍쳐를 항상 생각합니다.
+
+자면서 돈버는게 꿈입니다. 달팽이를 좋아합니다. 달팽이는 자기 집이 있어서 부럽습니다.
 
 **"코드는 그 자체로 개발자의 가치라고 생각합니다."**
-항상 읽기 쉽고 성능 좋은 코드를 짜려 노력합니다. 클린코드에 관심이 많습니다.
+항상 읽기 쉽고 성능 좋은 코드를 짜려 노력합니다.
 **"왜 그래야만 하는지가 제일 중요합니다."**
 항상 자신이 하는 방법이 최선이며 왜 이럴수밖에 없는지 생각하며 의심합니다.
 **"블로그를 운영합니다."**
-실력 증진과 지식 공유를 위해 블로그를 운영합니다. 부족한 글솜씨를 발전시키고 있습니다.
+개발 지식 공유를 위해 블로그를 운영합니다. 부족한 글솜씨를 발전시키고 있습니다.
 
 <br/>
 
 ## 🖥 Tech Stack
 
-| Category               | Content                                                                         |
-| ---------------------- | ------------------------------------------------------------------------------- |
-| **Language**           | `Node(ES2015)`, `Typescript`, Python                                            |
-| **Framework**          | `Angular`, `Vue`, `React`, AngularJS, Express, Koa                              |
-| **Library**            | `RxJS`, `Async & Await`, Redux, Reflux, `Vuex`, Webpack, Moment, Gatsby, WebRTC |
-| **Publishing**         | Scss, Sass, Bootstrap, Bulma, Material Design                                   |
-| **Data Visualization** | TuiChart, `ChartJS`, AmCharts                                                   |
-| **Native**             | Ionic, Cordova                                                                  |
-| **AWS**                | Lambda, S3, Route53, Cloudformation, Cloudfront, Cognito, Amplify               |
+| Category               | Content                                                                              |
+| ---------------------- | ------------------------------------------------------------------------------------ |
+| **Language**           | `Javascript`, `Typescript`                                                           |
+| **Framework**          | `Angular`, `Vue`, `React`, AngularJS, Express, Koa                                   |
+| **Library**            | `RxJS`, `Async & Await`, Flux, `Webpack`, Moment, Gatsby, WebRTC                     |
+| **Publishing**         | `Css in JS`, Scss, Sass, Bootstrap, Bulma, Material Design                           |
+| **Data Visualization** | TuiChart, `ChartJS`, AmCharts                                                        |
+| **Devops**             | Lambda, S3, Route53, Cloudformation, Cloudfront, Cognito, Amplify, Elastic Beanstalk |
 
 <br/>
 
