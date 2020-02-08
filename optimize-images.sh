@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # absolute path to image folder
-FOLDER="`pwd`/source/images/portfolio/travelhow-web"
+FOLDER="`pwd`/source/images"
 
 # max height
 WIDTH=1280
