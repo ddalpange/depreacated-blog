@@ -4,165 +4,79 @@ date: 2019-01-26 15:33:54
 toc: true
 ---
 
-## 👨🏻‍💻 Intro
+# 👨🏻‍💻 Yohan Kim
 
-<div style="padding: 0 32px;">
-    <img src="/images/profile.jpeg" style="display:block; margin: 0 auto; border-radius: 300px; max-width: 250px;" class="not-gallery-item">
-    <div style="text-align: center;">**Yohan Kim**</div>
-</div>
+달리는 차 안에서 엔진을 바꾸는게 무엇인지 깨닫고 있습니다.  
+지속적으로 이력서를 업데이트하고 있습니다.
 
-프론트엔드 개발자 김요한입니다. 눈 뜨고 봐줄만한 디자인 감각과 퍼블리싱 능력을 지니고 있습니다. 오픈소스에 관심이 많으며 변해가는 기술 동향을 파악하고 그 근본 지식을 휘어잡으려 노력합니다. CSR 프로젝트를 한땀한땀 SSR로 바꾼 경험이 있고 좋은 프론트엔드 아키텍쳐를 항상 생각합니다.
+## 🕹 Teck Stack
 
-자면서 돈버는게 꿈입니다. 달팽이를 좋아합니다. 달팽이는 자기 집이 있어서 부럽습니다.
+React, Redux, Mobx, Context, React Hooks, CSS in JS, SSR, Angular, RxJS, NgRX, Vue, Vuex, AngularJS, Jquery, Vanila Javascript, Apollo, Graphql
 
-**"코드는 그 자체로 개발자의 가치라고 생각합니다."**
-항상 읽기 쉽고 성능 좋은 코드를 짜려 노력합니다.
-**"왜 그래야만 하는지가 제일 중요합니다."**
-항상 자신이 하는 방법이 최선이며 왜 이럴수밖에 없는지 생각하며 의심합니다.
-**"블로그를 운영합니다."**
-개발 지식 공유를 위해 블로그를 운영합니다. 부족한 글솜씨를 발전시키고 있습니다.
-
-<br/>
-
-## 🖥 Tech Stack
-
-| Category               | Content                                                                              |
-| ---------------------- | ------------------------------------------------------------------------------------ |
-| **Language**           | `Javascript`, `Typescript`                                                           |
-| **Framework**          | `Angular`, `Vue`, `React`, AngularJS, Express, Koa                                   |
-| **Library**            | `RxJS`, `Async & Await`, Flux, `Webpack`, Moment, Gatsby, WebRTC                     |
-| **Publishing**         | `Css in JS`, Scss, Sass, Bootstrap, Bulma, Material Design                           |
-| **Data Visualization** | TuiChart, `ChartJS`, AmCharts                                                        |
-| **Devops**             | Lambda, S3, Route53, Cloudformation, Cloudfront, Cognito, Amplify, Elastic Beanstalk |
-
-<br/>
-
-## 🚀 Projects
-
-### 트래블하우 [PC](https://www.travelhow.com), [Mobile](https://m.travelhow.com), [Biz](https://biz.travelhow.biz)
-
-**React**, **Reflux**, **PostCSS**, **Cordova Webview**, **Ionic**, **Angular2+**, **RxJS**
-항공, 호텔 및 보험 등 여행에 필요한 모든 카테고리를 한번에 제공하는 서비스.
-
-> `Flux` 패턴을 전혀 이해하지 못한 `Reflux` 코드와 가변과 불변의 차이를 전혀 이해하지 못한 `ImmutableJS`의 남용으로 왜 리덕스가 유행하는지, 왜 설계가 이리도 중요한지, 왜 `Lint`와 `Prettier`같은 코드 포메터가 필요한지 절실하게 깨달을 수 있었습니다. **SPA**의 장점과 불변 데이터를 통해 가져가는 최적화, 탄탄한 설계를 가져가는 개념을 자연스레 깨우쳤습니다. 호텔 유지보수와 액티비티 서비스 신규개발을 하던 도중 기존 코드가 너무 엉망이여서 유지보수가 불가능하다고 판단하였고 신규 서비스부터 `Angular`로 가져간 후 차례차례 마이그레이션 하는것으로 프로젝트의 진행방향이 결정되었으나 무리한 일정산정으로 결국에는 완벽하게 바꾸지 못했습니다. 앱 속도가 느려져서 사용자가 떨어져나갔고 유지보수는 점점 늘어갔습니다. 해당 프로젝트를 진행하면서 잘못된 개발이 얼마나 서비스를 망칠수 있는지 깨닫게 되었습니다.
-
-<div class="justified-gallery">
-![1](/images/portfolio/travelhow-mobile/1.jpg)
-![2](/images/portfolio/travelhow-mobile/2.jpg)
-![3](/images/portfolio/travelhow-mobile/3.jpg)
-![4](/images/portfolio/travelhow-mobile/4.jpg)
-![5](/images/portfolio/travelhow-mobile/5.jpg)
-![6](/images/portfolio/travelhow-web/1.jpg)
-![7](/images/portfolio/travelhow-web/2.jpg)
-</div>
-
-<br/>
-
-### [Knowru](https://www.knowru.com)
-
-**Angular7**, **Material2**, **RxJS**
-머신러닝 모델을 API로 호스팅해주는 서비스. 데이터 시각화 및 머신러닝 모델 소스코드 관리 (Diff, Version, Adjust Weight 등)
-
-> 처음부터 끝까지 저 혼자의 힘으로 완성한 프로젝트라 의미가 큽니다. 또한 미숙했던 만큼 아쉬움도 큽니다. 첫 프로젝트를 하면서 느꼈던 점을 [이 포스트](/2018/07/21/my-first-project/)에 정리해 두었습니다.
-
-<div class="justified-gallery">
-![1](/images/portfolio/knowru/1.jpg)
-![2](/images/portfolio/knowru/2.jpg)
-![3](/images/portfolio/knowru/3.jpg)
-![4](/images/portfolio/knowru/4.jpg)
-![5](/images/portfolio/knowru/6.jpg)
-![6](/images/portfolio/knowru/7.jpg)
-![7](/images/portfolio/knowru/8.jpg)
-![8](/images/portfolio/knowru/9.jpg)
-![9](/images/portfolio/knowru/10.jpg)
-![10](/images/portfolio/knowru/11.jpg)
-![11](/images/portfolio/knowru/12.jpg)
-</div>
-
-<br/>
-
-### [Oowa](https://oowa.io)
-
-**Angular7**, **Material2**, **RxJS**, **Amplify**, **Tui Chart**
-머신러닝 기반 피플 카운팅 서비스. Aws의 IOT 서비스로 CCTV를 원격으로 제어할 수 있는 대쉬보드를 개발
-
-> 랜딩 페이지 및 데이터 시각화와 CCTV를 관리해주는 대쉬보드를 개발하였습니다. 개발 도중 서비스를 개발 도중 개인정보 관련 보호법이 바뀌어서 프로젝트 방향이 바뀌었으나 우선순위가 밀려 중단되었습니다. 프로젝트를 시작하기 전 프로토타입 개발을 빠르게 하는 것과 관련 시장 및 법안 사례 등을 찾아보는 사전조사가 중요하단 것을 알려주었습니다.
-
-<div class="justified-gallery">
-![1](/images/portfolio/oowa/1.jpg)
-![2](/images/portfolio/oowa/2.jpg)
-![3](/images/portfolio/oowa/3.jpg)
-![4](/images/portfolio/oowa/4.jpg)
-</div>
-
-<br/>
-
-### [Knowru Limited](https://www.knowrulimited.com)
-
-**React**, **Gatsby**, **Bulma**, **GA**
-Knowru, Sniffer, ML Consulting 등 노루의 제품을 소개하고 제품에 대한 정보를 제공하는 서비스.
-
-> Angular와 Material2를 이용해 제작하였지만 SPA의 문제로 SEO 렌더링이 되지 않는 문제가 있었습니다. 개선 방안으로 SSR과 Prerender 그리고 정적 사이트 생성기를 사용하는 방안이 있었는데 블로그 하나로 서버를 올리긴 싫어서 핫한 기술로 떠오른 Gatsby를 선택하였습니다.
-
-<div class="justified-gallery">
-![1](/images/portfolio/knowrulimited/1.jpg)
-![2](/images/portfolio/knowrulimited/2.jpg)
-![3](/images/portfolio/knowrulimited/3.jpg)
-![3](/images/portfolio/knowrulimited/4.jpg)
-![3](/images/portfolio/knowrulimited/5.jpg)
-</div>
-
-<br/>
-
-### [AI Interview](https://www.ai-interview.com)
-
-**Vue**, **Vuex**, **Vuetify**, **WebRTC**
-인터뷰 및 비디오 레코딩. 지원자를 머신러닝으로 분석하여 채용 코스트를 줄여주는 서비스. Vue를 이용한 빠른 프로토타이핑과 AppSync, CloudFormation을 이용한 Serverless 아키텍쳐
-
-> Angular의 피쳐들은 혼자 개발하기에는 다소 과분하다는 느낌이 있어 Vue로 개발했습니다. Vue의 빠른 개발속도로 기본적인 인터뷰 플랫폼을 만들었고 현재 WebRTC를 이용해 사용자의 답안을 녹화하는 피쳐를 만들고 있습니다. 빠른 개발을 위해 JS와 CSR을 선택하였는데 하다보니 TS와 SSR은 처음부터 기본으로 선택해야 편하단걸 깨달았습니다.
-
-<div class="justified-gallery">
-![1](/images/portfolio/ai-interview/1.jpg)
-![2](/images/portfolio/ai-interview/2.jpg)
-![3](/images/portfolio/ai-interview/3.jpg)
-![4](/images/portfolio/ai-interview/4.jpg)
-![4](/images/portfolio/ai-interview/5.jpg)
-![4](/images/portfolio/ai-interview/6.jpg)
-</div>
-
-<br/>
-
-## 📖 Studies
-
-### [Simple Memo](https://github.com/ddalpange/simple-memo)
-
-**Ionic**, **Angular**, **Firebase**
-Ionic, Angular, Firebase 를 이용하여 만드는 간단한 메모장입니다.
-
-<br/>
+- 컴포넌트란 무엇인가에 대해 고민하고 개발합니다.
+- 함수형 프로그래밍에 대해 이해하고 커링을 알고 있습니다.
+- Git-Flow, Trunk Base Development를 이해하고 있습니다.
+- 브라우저의 Critical Rendering Path와 Event Loop를 알고 있습니다.
+- 호이스팅, 클로저와 같은 옛 개념을 이해하고 있습니다.
+- 3년된 create-react-app(ejected) 프로젝트를 한땀한땀 SSR로 바꾼 적이 있습니다. 
+- 사이트맵, 메타태그 등으로 SEO 최적화를 진행한 적이 있습니다.
+- webpack을 익숙하게 다루며 번들러를 이해하고 있습니다.
+- Performance 탭을 통해 어디서 병목이 생기는지 측정할 수 있습니다.
+- Audit 탭을 통해 개선해야할 지표를 정확하게 설정할 수 있습니다.
+- 객관적인 웹 지표(TTI 등)를 지속적으로 관찰합니다.
+- 고정넓이와 브라우저 스크린의 가로폭을 고려하여 이미지를 극한으로 경량시킨 경험이 있습니다.
+- TTI를 단축시키기 위해 번들을 50~100mb 단위로 쪼갠 경험이 있습니다.
+- 극한의 성능 최적화를 좋아합니다.
+- 타입스크립트를 통해 정적 타이핑을 할 수 있습니다.
+- 리액트의 재조정과 Diffing 알고리즘에 대해 이해하고 있습니다.
+- CSS in JS의 내부 동작원리를 알고 있습니다.
+- Angular, Vue를 잘 다루고 양방향 바인딩을 구현한 원리를 알고 있습니다.
+- RxJS의 스트림과 핫/콜드 옵저버블에 대해 이해하고 있습니다.
+- 자바스크립트의 역사를 알고있고 미래에 대해 고민하고 있습니다.
+- 센트리, 슬랙을 통해 에러 모니터링을 세팅하고 지속적으로 관찰합니다.
+- 모노레포를 셋업하고 관리할 수 있습니다.
+- Graphql (Apollo)를 프로덕션에서 사용해 본 경험이 있습니다.
+- 개발문화 개선에 힘을 쏟습니다. (기술블로그 개설, 면접 랜딩문서 제작)
 
 ## 📌 Work Experience
 
-### [클래스101](https://class101.net) (2019.03 ~ ing)
+### [클래스101](https://class101.net) (2019.03 ~ 2020.06)
 
 **소프트웨어 엔지니어**
 
-- CSR 프로젝트를 SSR로 마이그레이션 성공
-- SEO 최적화를 위해 메타태그, 사이트맵, 스키마 등을 세팅
-- 리소스 최적화를 통해 사이드 총 번들을 25.8mb에서 11.4mb로 55% 절감
-- 스크롤 UX 최적화. 무한 스크롤 사용성 개선 및 관성 스크롤 적용
-- 기술 블로그 개발 및 공유 문화 전파
-- 알림 서버 개선 (분당 최대 전송 횟수 40개 -> 20000개)
-- JS, 브라우저단 렌더링 개선을 통해 노트8 기준 TTI를 158초 -> 21초로 개선
-- 센트리, 슬랙을 통한 에러 모니터링 세팅
+- 커머스 셀
+  - 퍼널 줄이기 A/B 테스트를 통한 결제 컨버전 400% 개선
+  - 쿠폰 및 구성품 선택 UX 개선 
+  - 배송 추적 UX 개선
+  - 커머스 도메인 레거시 대응
+  - 각종 결제, 배송 에러 트러블 슈팅
+  
 - 프론트엔드 챕터 DRI
+  - Class101 CSR 프로젝트를 SSR을 지원하도록 변경
+  - SEO 최적화를 위해 메타태그, 사이트맵, 스키마 등을 세팅
+  - 서버리스 이미지 압축 서비스에서 다양한 포멧(webp, png, jpg)을 지원하도록 변경 
+  - 스크린 크기에 따른 반응형 이미지 최적화로 이미지 리소스 용량을 82% 절감 
+  - 50mb ~ 100mb 단위로 JS 청크 스플리팅 적용 
+  - 사이트 총 리소스를 25.8mb에서 11.4mb로 55% 절감
+  - 브라우저, 자바스크립트 렌더링 최적화로 노트8 기준 TTI를 158초 -> 21초로 절감
+  - 인피니티 스크롤 개선 및 관성 스크롤 적용해 스크롤 UX 최적화
+  - 센트리, 슬랙을 통한 에러 모니터링 셋업
+  - 어드민 공통 필터, 테이블 추상화
+  - 알림 서버 개선 (분당 최대 전송 횟수 40개 -> 20,000개)
+  - 프론트엔드 개발자 채용 가이드 문서 제작
+  - 기술 블로그 개발 및 공유 문화 전파
+  - 리액트 모노레포 프로젝트 에러 핸들링 
+  - Graphql Apollo 구조 설계 및 트러블 슈팅 
 
 ### [노루](http://knowru.com) (2018.03 ~ 2019.03)
 
 **프론트엔드 프로그래머**
 
-- 데이터 시각화 및 ML 모델 소스 코드 관리자 설계
-- 반응형 프로그래밍
+- 다양한 차트라이브러리를 활용해 데이터 시각화 작업 (오픈소스 컨트리뷰션)
+- 심플한 소스코드 관리자 설계 (Diff, Versioning 등)
+- RxJS의 스트림과 반응형 프로그래밍에 대해 고민하였음.
+- WebRTC를 이용한 양방향 영상 통신 구현
+- Gatsby + Bulma 를 통해 회사 소개 사이트 구축, 개자이너가 되었음.
 
 ### [트래포트](https://m.travelhow.com) (2016.07 ~ 2017.08)
 
@@ -171,14 +85,25 @@ Ionic, Angular, Firebase 를 이용하여 만드는 간단한 메모장입니다
 - 호텔, 액티비티 서비스 아키텍쳐 설계
 - 여행 올인원 커머스 개발
 
-<br/>
+## 🚀 Projects
+
+- [클래스101](https://class101.net)
+- [클래스101 UI](https://ui.class101.dev/)
+- [클래스101 기술 블로그](https://class101.dev/)
+- [Knowru](https://www.knowru.com)
+- [Oowa](https://oowa.io)
+- [Knowru Limited](https://www.knowrulimited.com)
+- [AI Interview](https://www.ai-interview.com)
+- 트래블하우 [PC](https://www.travelhow.com), [Mobile](https://m.travelhow.com), [Biz](https://biz.travelhow.biz)
 
 ## 🎨 Contributions
 
 - [Tui Chart](https://github.com/nhnent/tui.chart)
 - [Hexo Minos](https://github.com/ppoffice/hexo-theme-minos)
 
-<br/>
+## 📖 Studies
+
+- [Simple Memo](https://github.com/ddalpange/simple-memo)
 
 ## 🔗 Links
 
