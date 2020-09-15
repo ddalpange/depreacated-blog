@@ -8,7 +8,7 @@ toc: true
 
 1998.08.09 (병역 면제)
 
-달리는 차 안에서 엔진을 바꾸는게 무엇인지 조금은 알 것 같습니다.
+달리는 차 안에서 엔진을 바꾸는게 무엇인지 조금은 알 것 같습니다.  
 오직 일에만 집중할 수 있는 회사를 찾고 있습니다.
 
 
@@ -61,8 +61,7 @@ toc: true
 
 ## 🕹 Teck Stack
 
-React, Redux, Mobx, Context, React Hooks, CSS in JS, SSR, Angular, RxJS, NgRX, Vue, Vuex, AngularJS, Jquery, Vanila Javascript, Apollo, Graphql
-
+React(hooks), Angular, Vue, RxJS, Graphql, CSS(bem, css in js)
 
 - 컴포넌트란 무엇인가에 대해 고민하고 개발합니다.
 - Critical Rendering Path와 Event Loop를 알고 그에 대한 최적화를 진행합니다.
