@@ -6,37 +6,11 @@ toc: true
 
 # 👨🏻‍💻 Yohan Kim
 
-달리는 차 안에서 엔진을 바꾸는게 무엇인지 깨닫고 있습니다.  
-지속적으로 이력서를 업데이트하고 있습니다.
+1998.08.09 (병역 면제)
 
-## 🕹 Teck Stack
+달리는 차 안에서 엔진을 바꾸는게 무엇인지 조금은 알 것 같습니다.
+오직 일에만 집중할 수 있는 회사를 찾고 있습니다.
 
-React, Redux, Mobx, Context, React Hooks, CSS in JS, SSR, Angular, RxJS, NgRX, Vue, Vuex, AngularJS, Jquery, Vanila Javascript, Apollo, Graphql
-
-- 컴포넌트란 무엇인가에 대해 고민하고 개발합니다.
-- 함수형 프로그래밍에 대해 이해하고 커링을 알고 있습니다.
-- Git-Flow, Trunk Base Development를 이해하고 있습니다.
-- 브라우저의 Critical Rendering Path와 Event Loop를 알고 있습니다.
-- 호이스팅, 클로저와 같은 옛 개념을 이해하고 있습니다.
-- 3년된 create-react-app(ejected) 프로젝트를 한땀한땀 SSR로 바꾼 적이 있습니다. 
-- 사이트맵, 메타태그 등으로 SEO 최적화를 진행한 적이 있습니다.
-- webpack을 익숙하게 다루며 번들러를 이해하고 있습니다.
-- Performance 탭을 통해 어디서 병목이 생기는지 측정할 수 있습니다.
-- Audit 탭을 통해 개선해야할 지표를 정확하게 설정할 수 있습니다.
-- 객관적인 웹 지표(TTI 등)를 지속적으로 관찰합니다.
-- 고정넓이와 브라우저 스크린의 가로폭을 고려하여 이미지를 극한으로 경량시킨 경험이 있습니다.
-- TTI를 단축시키기 위해 번들을 50~100mb 단위로 쪼갠 경험이 있습니다.
-- 극한의 성능 최적화를 좋아합니다.
-- 타입스크립트를 통해 정적 타이핑을 할 수 있습니다.
-- 리액트의 재조정과 Diffing 알고리즘에 대해 이해하고 있습니다.
-- CSS in JS의 내부 동작원리를 알고 있습니다.
-- Angular, Vue를 잘 다루고 양방향 바인딩을 구현한 원리를 알고 있습니다.
-- RxJS의 스트림과 핫/콜드 옵저버블에 대해 이해하고 있습니다.
-- 자바스크립트의 역사를 알고있고 미래에 대해 고민하고 있습니다.
-- 센트리, 슬랙을 통해 에러 모니터링을 세팅하고 지속적으로 관찰합니다.
-- 모노레포를 셋업하고 관리할 수 있습니다.
-- Graphql (Apollo)를 프로덕션에서 사용해 본 경험이 있습니다.
-- 개발문화 개선에 힘을 쏟습니다. (기술블로그 개설, 면접 랜딩문서 제작)
 
 ## 📌 Work Experience
 
@@ -84,6 +58,27 @@ React, Redux, Mobx, Context, React Hooks, CSS in JS, SSR, Angular, RxJS, NgRX, V
 
 - 호텔, 액티비티 서비스 아키텍쳐 설계
 - 여행 올인원 커머스 개발
+
+## 🕹 Teck Stack
+
+React, Redux, Mobx, Context, React Hooks, CSS in JS, SSR, Angular, RxJS, NgRX, Vue, Vuex, AngularJS, Jquery, Vanila Javascript, Apollo, Graphql
+
+
+- 컴포넌트란 무엇인가에 대해 고민하고 개발합니다.
+- Critical Rendering Path와 Event Loop를 알고 그에 대한 최적화를 진행합니다.
+- 호이스팅, 클로저와 같은 옛 개념을 이해하고 있습니다.
+- 3년된 create-react-app(ejected) 프로젝트를 한땀한땀 SSR로 바꾼 적이 있습니다. 
+- 사이트맵, 메타태그, 스키마 등 검색엔진 최적화를 진행한 적이 있습니다.
+- webpack을 익숙하게 다루며 번들러를 이해하고 있습니다.
+- Performance 탭을 통해 어디서 병목이 생기는지 측정할 수 있습니다.
+- Audit 탭을 통해 개선해야할 지표를 정확하게 설정할 수 있습니다.
+- 고정넓이와 브라우저 스크린의 가로폭을 고려하여 이미지를 극한으로 경량시킨 경험이 있습니다.
+- TTI를 단축시키기 위해 번들을 50~100mb 단위로 쪼갠 경험이 있습니다.
+- RxJS의 스트림과 핫/콜드 옵저버블에 대해 이해하고 있습니다.
+- 센트리, 슬랙을 통해 에러 모니터링을 세팅하고 지속적으로 관찰합니다.
+- 모노레포를 셋업하고 관리할 수 있습니다.
+- Graphql (Apollo)를 프로덕션에서 사용해 본 경험이 있습니다.
+- 개발문화 개선에 힘을 쏟습니다. (기술블로그 개설, 면접 랜딩문서 제작)
 
 ## 🚀 Projects
 
